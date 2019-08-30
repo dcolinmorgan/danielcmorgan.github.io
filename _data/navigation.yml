@@ -1,5 +1,8 @@
 # main links links
 main:
+  - tile: "Home"
+    url: /about/  
+  
   - title: "Publications"
     url: /publications/
 
@@ -12,12 +15,11 @@ main:
   - title: "Teaching"
     url: /teaching/    
 
-#  - title: "Talks"
-#    url: /talks/    
-
   - title: "Contact"
     url: /contact/
 
+#  - title: "Talks"
+#    url: /talks/    
     
   #- title: "CV"
   #  url: /cv/

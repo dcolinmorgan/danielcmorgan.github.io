@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Beppe's Machine Learning Teardrops"
 title_separator          : "-"
 name                     : &name "Giuseppe Manco"
-description              : &description "personal description"
+description              : &description "Data science/machine learning passionate. Classic Rock maniac. Technology enthusiast. Left-handed and democrat. Against all kinds of discrimination."
 url                      : https://gmanco.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gmanco/gmanco.github.io"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Giuseppe Manco"
-  avatar           : "manco.jpg"
+  avatar           : "files/manco.jpg"
   bio              : "Data science/machine learning passionate. Classic Rock maniac. Technology enthusiast. Left-handed and democrat. Against all kinds of discrimination."
   location         : "Italy"
   employer         : "http://www.icar.cnr.it"

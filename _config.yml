@@ -84,7 +84,7 @@ author:
   avatar           : "manco.jpg"
   bio              : "Data science/machine learning passionate.<br>Classic Rock maniac. Technology enthusiast.<br>Left-handed and democrat.<br>Against all kinds of discrimination."
   location         : "Rende, Italy"
-  employer         : "http://www.icar.cnr.it"
+  employer         : #"http://www.icar.cnr.it"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.it/citations?user=r_uVB9oAAAAJ&hl=it&authuser=1"
   email            :

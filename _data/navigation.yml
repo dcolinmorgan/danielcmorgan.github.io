@@ -16,7 +16,7 @@ main:
 #    url: /talks/    
 
   - title: "Contact"
-    url: contact.md    
+    url: /contact.md    
 
     
   #- title: "CV"

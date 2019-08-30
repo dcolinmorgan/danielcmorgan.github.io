@@ -3,17 +3,21 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Posts"
+    url: /year-archive/
     
-  - title: "Portfolio"
+  - title: "Projects"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Teaching"
+    url: /teaching/    
+
+#  - title: "Talks"
+#    url: /talks/    
+
+  - title: "Contact"
+    url: contact.md    
+
     
   #- title: "CV"
   #  url: /cv/

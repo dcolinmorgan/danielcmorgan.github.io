@@ -13,3 +13,7 @@ redirect_from:
 * He is the scientific coordinator of the ICAR research lab [ADALab: Laboratory of Advanced Analytics on Complex Data](https://www.cnr.it/it/focus/018-5/il-laboratorio-di-analitica-avanzata-su-dati-complessi-ada-lab).
 * Expert on data science, data analytics and enabling technologies for data analytics. Interested in new frontiers of Computer Science and Technology aimed at analyzing Complex Big Data. 
 
+---
+
+# Recent News
+

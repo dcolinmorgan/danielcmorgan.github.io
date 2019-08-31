@@ -17,3 +17,4 @@ redirect_from:
 
 # Recent News
 
+* 31+08.2019: I finally made it to restructure my website. 

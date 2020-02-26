@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gianni Costa | Giuseppe Manco</title>
+    <link>https://gmanco.github.io/authors/gianni-costa/</link>
+      <atom:link href="https://gmanco.github.io/authors/gianni-costa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gianni Costa</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gmanco.github.io/img/icon-192.png</url>
+      <title>Gianni Costa</title>
+      <link>https://gmanco.github.io/authors/gianni-costa/</link>
+    </image>
+    
+    <item>
+      <title>A Generative Bayesian Model for Item and User Recommendation in Social Rating Networks with Trust Relationships</title>
+      <link>https://gmanco.github.io/publication/costa-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/costa-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dealing with trajectory streams by clustering and mathematical transforms</title>
+      <link>https://gmanco.github.io/publication/costa-2013-a/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/costa-2013-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical clustering of XML documents focused on structural components</title>
+      <link>https://gmanco.github.io/publication/costa-2013/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/costa-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From global to local and viceversa: uses of associative rule learning for classification in imprecise environments</title>
+      <link>https://gmanco.github.io/publication/costa-2011/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/costa-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling item selection and relevance for accurate recommendations</title>
+      <link>https://gmanco.github.io/publication/barbieri-2011-b/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2011-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An incremental clustering scheme for data de-duplication</title>
+      <link>https://gmanco.github.io/publication/costa-2009/</link>
+      <pubDate>Thu, 01 Oct 2009 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/costa-2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

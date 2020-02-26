@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anomaly Detection | Giuseppe Manco</title>
+    <link>https://gmanco.github.io/tags/anomaly-detection/</link>
+      <atom:link href="https://gmanco.github.io/tags/anomaly-detection/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anomaly Detection</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gmanco.github.io/img/icon-192.png</url>
+      <title>Anomaly Detection</title>
+      <link>https://gmanco.github.io/tags/anomaly-detection/</link>
+    </image>
+    
+    <item>
+      <title>Fault detection and explanation through big data analysis on sensor streams</title>
+      <link>https://gmanco.github.io/publication/manco-2017/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outlying property detection with numerical attributes</title>
+      <link>https://gmanco.github.io/publication/angiulli-2016/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/angiulli-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

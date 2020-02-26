@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses | Giuseppe Manco</title>
+    <link>https://gmanco.github.io/courses/</link>
+      <atom:link href="https://gmanco.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright>
+    <image>
+      <url>https://gmanco.github.io/img/icon-192.png</url>
+      <title>Courses</title>
+      <link>https://gmanco.github.io/courses/</link>
+    </image>
+    
+    <item>
+      <title>Panoramica</title>
+      <link>https://gmanco.github.io/courses/computervision/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/</guid>
+      <description>
+
+&lt;h2 id=&#34;breve-descrizione-del-corso&#34;&gt;Breve descrizione del corso&lt;/h2&gt;
+
+&lt;p&gt;menu:
+  example:
+    name: Panoramica
+    weight: 1&lt;/p&gt;
+
+&lt;p&gt;Il corso è finalizzato ad acquisire e sperimentare le tecniche di base per l’analisi di immagini e video. Verranno illustrati i concetti fondamentali per l’analisi delle immagini e verranno illustrate le principali tecniche di object detection, object tracking e action detection. Durante il corso saranno presentati modelli di reti neurali CNN e RNN, tecniche di transfer learning, Residual and Attention network ed una introduzione ai modelli generativi e alle Adversarial networks. Gli esempi applicativi faranno uso del linguaggio Python e dei framework di Deep Learning Pytorch/Tensorflow.&lt;/p&gt;
+
+&lt;p&gt;Competenze specifiche:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;comprensione dei concetti legati all’image e al video processing&lt;/li&gt;
+&lt;li&gt;conoscenza degli aspetti caratterizzanti di machine learning e deep learning&lt;/li&gt;
+&lt;li&gt;comprensione delle principali tecniche per l’analisi di immagini e video&lt;/li&gt;
+&lt;li&gt;abilità di utilizzare algoritmi di image analysis per la risoluzione di problemi specifici&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;docenti&#34;&gt;Docenti&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Giuseppe Manco. Ricevimento: mercoledì’ 14:30-16:30.&lt;/li&gt;
+&lt;li&gt;Francesco Pisani.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;programma&#34;&gt;Programma&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Introduzione alla computer vision&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Concetti fondamentali su Image processing e analysis: Image Basics, Python per Image Processing, Manipolazione di immagini.&lt;/li&gt;
+&lt;li&gt;Trasformazioni: Normalizzazione, filtri, Edge detection, morfologia, thresholding e segmentazione.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classificazione di immagini e video&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introduzione alla classificazione: applicazioni; approcci classici; scikit-Learn per la classificazione; limitazioni.&lt;/li&gt;
+&lt;li&gt;Deep Learning: Review su Neural Networks per l&amp;rsquo;analisi di immagini e video. Convolutional Neural Networks. Reti ricorrenti. R-CNN. Gestione dell&amp;rsquo;overfitting.&lt;/li&gt;
+&lt;li&gt;Concetti avanzati. Principali architetture di rete e loro caratteristiche: VGG, AlexNet, Inception and Residual Networks, Attention Networks. Transfer Learning.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Concetti avanzati&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Object Detection: Sliding windows, boundary boxes e anchors. Region Proposal Networks. Yolo e Darknet. Applicazioni.&lt;/li&gt;
+&lt;li&gt;Object tracking e action recognition. Optical flow; Single/multiple objects tracking; Action classification and localization.&lt;/li&gt;
+&lt;li&gt;Image segmentation e synthesis. UNet. Neural style transfer.&lt;/li&gt;
+&lt;li&gt;Modelli Generativi: Probabilistic Modeling, Autoencoders. Generative Adversarial Networks. Applicazioni: Colorization, Reconstruction, Super-Resolution, Synthesis, Text-to-image.&lt;/li&gt;
+&lt;li&gt;Adversarial Machine Learning. Principali attacchi e contromisure. Adversarial-free deep networks.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;materiale-didattico&#34;&gt;Materiale didattico&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lucidi delle lezioni&lt;/li&gt;
+&lt;li&gt;Notebooks e lucidi delle esercitazioni&lt;/li&gt;
+&lt;li&gt;Libri:
+
+&lt;ul&gt;
+&lt;li&gt;E.R. Davies, Computer Vision: Principles, Algorithms, Applications, Learning. Fifth edition. Elsevier/Academic Press, 2018.&lt;/li&gt;
+&lt;li&gt;Jason Kinser, Image operators: image processing in Python. CRC Press/Taylor &amp;amp; Francis Group, 2019.&lt;/li&gt;
+&lt;li&gt;Mohamed Elgendy, &lt;a href=&#34;https://www.manning.com/books/deep-learning-for-vision-systems&#34; target=&#34;_blank&#34;&gt;Deep Learning for Vision Systems&lt;/a&gt;. Manning, 2020.&lt;/li&gt;
+&lt;li&gt;Rafael C. Gonzalez, Richard E. Woods, Digital image processing. 4th edition. Pearson, 2018.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;syllabo-delle-lezioni&#34;&gt;Syllabo delle lezioni&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Lezione&lt;/th&gt;
+&lt;th&gt;Argomenti&lt;/th&gt;
+&lt;th&gt;Materiale didattico&lt;/th&gt;
+&lt;th&gt;Riferimenti&lt;/th&gt;
+&lt;th&gt;Approfondimenti&lt;/th&gt;
+&lt;th&gt;Data&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Concetti fondamentali su Image processing e analysis&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture1/&#34; target=&#34;_blank&#34;&gt;A relative link from one post to another post&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;03/03/2020&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

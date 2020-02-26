@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Francesco Folino | Giuseppe Manco</title>
+    <link>https://gmanco.github.io/authors/francesco-folino/</link>
+      <atom:link href="https://gmanco.github.io/authors/francesco-folino/index.xml" rel="self" type="application/rss+xml" />
+    <description>Francesco Folino</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Fri, 01 Jun 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gmanco.github.io/img/icon-192.png</url>
+      <title>Francesco Folino</title>
+      <link>https://gmanco.github.io/authors/francesco-folino/</link>
+    </image>
+    
+    <item>
+      <title>Boosting text segmentation via progressive classification</title>
+      <link>https://gmanco.github.io/publication/cesario-2007/</link>
+      <pubDate>Fri, 01 Jun 2007 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/cesario-2007/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

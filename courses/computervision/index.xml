@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Panoramica | Giuseppe Manco</title>
+    <link>https://gmanco.github.io/courses/computervision/</link>
+      <atom:link href="https://gmanco.github.io/courses/computervision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Panoramica</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gmanco.github.io/img/icon-192.png</url>
+      <title>Panoramica</title>
+      <link>https://gmanco.github.io/courses/computervision/</link>
+    </image>
+    
+    <item>
+      <title>Concetti fondamentali su Image processing e analysis</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

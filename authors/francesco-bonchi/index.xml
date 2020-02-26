@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Francesco Bonchi | Giuseppe Manco</title>
+    <link>https://gmanco.github.io/authors/francesco-bonchi/</link>
+      <atom:link href="https://gmanco.github.io/authors/francesco-bonchi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Francesco Bonchi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gmanco.github.io/img/icon-192.png</url>
+      <title>Francesco Bonchi</title>
+      <link>https://gmanco.github.io/authors/francesco-bonchi/</link>
+    </image>
+    
+    <item>
+      <title>Efficient Methods for Influence-Based Network-Oblivious Community Detection</title>
+      <link>https://gmanco.github.io/publication/barbieri-2016/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Who to follow and why</title>
+      <link>https://gmanco.github.io/publication/barbieri-2014-a/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2014-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influence-Based Network-Oblivious Community Detection</title>
+      <link>https://gmanco.github.io/publication/barbieri-2013-a/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2013-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topic-aware social influence propagation models</title>
+      <link>https://gmanco.github.io/publication/barbieri-2013-c/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2013-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cascade-based community detection</title>
+      <link>https://gmanco.github.io/publication/barbieri-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topic-Aware Social Influence Propagation Models</title>
+      <link>https://gmanco.github.io/publication/barbieri-2012-a/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2012-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

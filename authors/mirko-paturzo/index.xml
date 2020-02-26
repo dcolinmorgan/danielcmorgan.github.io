@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mirko Paturzo | Giuseppe Manco</title>
+    <link>https://gmanco.github.io/authors/mirko-paturzo/</link>
+      <atom:link href="https://gmanco.github.io/authors/mirko-paturzo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mirko Paturzo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Sat, 01 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gmanco.github.io/img/icon-192.png</url>
+      <title>Mirko Paturzo</title>
+      <link>https://gmanco.github.io/authors/mirko-paturzo/</link>
+    </image>
+    
+    <item>
+      <title>Rialto: A Knowledge Discovery suite for data analysis</title>
+      <link>https://gmanco.github.io/publication/manco-2016/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

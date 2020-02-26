@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giuseppe Manco</title>
+    <link>https://gmanco.github.io/authors/giuseppe-manco/</link>
+      <atom:link href="https://gmanco.github.io/authors/giuseppe-manco/index.xml" rel="self" type="application/rss+xml" />
+    <description>Giuseppe Manco</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gmanco.github.io/img/icon-192.png</url>
+      <title>Giuseppe Manco</title>
+      <link>https://gmanco.github.io/authors/giuseppe-manco/</link>
+    </image>
+    
+    <item>
+      <title>A Factorization Approach for Survival Analysis on Diffusion Networks</title>
+      <link>https://gmanco.github.io/publication/manco-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequential Variational Autoencoders for Collaborative Filtering</title>
+      <link>https://gmanco.github.io/publication/sachdeva-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/sachdeva-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting Temporal Activation Patterns via Recurrent Neural Networks</title>
+      <link>https://gmanco.github.io/publication/manco-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fault detection and explanation through big data analysis on sensor streams</title>
+      <link>https://gmanco.github.io/publication/manco-2017/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differential Privacy and Neural Networks: A Preliminary Analysis</title>
+      <link>https://gmanco.github.io/publication/manco-2017-a/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2017-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survival Factorization on Diffusion Networks</title>
+      <link>https://gmanco.github.io/publication/barbieri-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Methods for Influence-Based Network-Oblivious Community Detection</title>
+      <link>https://gmanco.github.io/publication/barbieri-2016/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rialto: A Knowledge Discovery suite for data analysis</title>
+      <link>https://gmanco.github.io/publication/manco-2016/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Can SMEs Benefit from Big Data? Challenges and a Path Forward</title>
+      <link>https://gmanco.github.io/publication/coleman-2016/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/coleman-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outlying property detection with numerical attributes</title>
+      <link>https://gmanco.github.io/publication/angiulli-2016/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/angiulli-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Approaches to Recommendations</title>
+      <link>https://gmanco.github.io/publication/barbieri-2014/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Generative Bayesian Model for Item and User Recommendation in Social Rating Networks with Trust Relationships</title>
+      <link>https://gmanco.github.io/publication/costa-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/costa-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Who to follow and why</title>
+      <link>https://gmanco.github.io/publication/barbieri-2014-a/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2014-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influence-Based Network-Oblivious Community Detection</title>
+      <link>https://gmanco.github.io/publication/barbieri-2013-a/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2013-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dealing with trajectory streams by clustering and mathematical transforms</title>
+      <link>https://gmanco.github.io/publication/costa-2013-a/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/costa-2013-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic topic models for sequence data</title>
+      <link>https://gmanco.github.io/publication/barbieri-2013-b/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2013-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topic-aware social influence propagation models</title>
+      <link>https://gmanco.github.io/publication/barbieri-2013-c/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2013-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical clustering of XML documents focused on structural components</title>
+      <link>https://gmanco.github.io/publication/costa-2013/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/costa-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cascade-based community detection</title>
+      <link>https://gmanco.github.io/publication/barbieri-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topic-Aware Social Influence Propagation Models</title>
+      <link>https://gmanco.github.io/publication/barbieri-2012-a/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2012-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Balancing Prediction and Recommendation Accuracy: Hierarchical Latent Factors for Preference Data</title>
+      <link>https://gmanco.github.io/publication/barbieri-2012/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Sequence Modeling for Recommender Systems</title>
+      <link>https://gmanco.github.io/publication/barbieri-bcmr-12/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-bcmr-12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From global to local and viceversa: uses of associative rule learning for classification in imprecise environments</title>
+      <link>https://gmanco.github.io/publication/costa-2011/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/costa-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Probabilistic Hierarchical Approach for Pattern Discovery in Collaborative Filtering Data</title>
+      <link>https://gmanco.github.io/publication/barbieri-2011-a/</link>
+      <pubDate>Fri, 01 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2011-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Analysis of Probabilistic Methods for Top-N Recommendation in Collaborative Filtering</title>
+      <link>https://gmanco.github.io/publication/barbieri-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling item selection and relevance for accurate recommendations</title>
+      <link>https://gmanco.github.io/publication/barbieri-2011-b/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/barbieri-2011-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An incremental clustering scheme for data de-duplication</title>
+      <link>https://gmanco.github.io/publication/costa-2009/</link>
+      <pubDate>Thu, 01 Oct 2009 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/costa-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mining unconnected patterns in workflows</title>
+      <link>https://gmanco.github.io/publication/greco-2007/</link>
+      <pubDate>Sun, 01 Jul 2007 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/greco-2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boosting text segmentation via progressive classification</title>
+      <link>https://gmanco.github.io/publication/cesario-2007/</link>
+      <pubDate>Fri, 01 Jun 2007 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/cesario-2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting structural similarity for effective Web information extraction</title>
+      <link>https://gmanco.github.io/publication/flesca-2007/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/flesca-2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mining categories for emails via clustering and pattern discovery</title>
+      <link>https://gmanco.github.io/publication/manco-2007/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2007/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/computervision/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/talk/isi-feb20/</loc>
+    <lastmod>2020-02-18T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/generative-models/</loc>
+    <lastmod>2020-02-18T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/</loc>
+    <lastmod>2020-02-18T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/point-processes/</loc>
+    <lastmod>2020-02-18T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/talk/</loc>
+    <lastmod>2020-02-18T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/</loc>
+    <lastmod>2020-02-18T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/post/on-semisupervised-vae/</loc>
+    <lastmod>2019-09-10T18:10:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/post/</loc>
+    <lastmod>2019-09-10T18:10:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/semi-supervised-learning/</loc>
+    <lastmod>2019-09-10T18:10:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/variational-autoencoders/</loc>
+    <lastmod>2019-09-10T18:10:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication_types/1/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication_types/2/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/manco-2019/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/collaborative-filtering/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/community-detection/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/deep-learning/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/embedding/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/ettore-ritacco/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/giuseppe-manco/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/information-diffusion/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/nicola-barbieri/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/noveen-sachdeva/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication_types/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/recommender-systems/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/recurrent-networks/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/sequence-modeling/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/sachdeva-2019/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/social-influence/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/social-network-analysis/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/temporal-point-processes/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/vikram-pudi/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication_types/6/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/giuseppe-pirro/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/manco-2018/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/anomaly-detection/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/big-data/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/dianne-kimber/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/fault-detection/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/manco-2017/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/lorenzo-gallucci/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/marco-antonelli/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/outlier-explanation/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/pasquale-rullo/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/predictive-maintenance/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/sensor-data/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/will-astill/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/differential-privacy/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/manco-2017-a/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2017/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2016/</loc>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/francesco-bonchi/</loc>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/business-analytics-platforms/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/data-mining/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/knowledge-discovery-process/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/mirko-paturzo/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/manco-2016/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/antonio-pievatolo/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/coleman-2016/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/marco-seabra-reis/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/rainer-gob/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/shirley-coleman/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/xavier-tort-martorell/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/density-estimation/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/explanation/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/fabio-fassetti/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/fabrizio-angiulli/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/luigi-palopoli/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/angiulli-2016/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/probabilistic-modeling/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication_types/5/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/matrix-factorization/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2014/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/topic-models/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/costa-2014/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/gianni-costa/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/link-prediction/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/riccardo-ortale/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/topic-modeling/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2014-a/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2013-a/</loc>
+    <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/math-transforms/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/antonio-bevacqua/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/clustering/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/costa-2013-a/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/elio-masciari/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/marco-carnuccio/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2013-b/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/spatial-data/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2013-c/</loc>
+    <lastmod>2013-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/costa-2013/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/text-mining/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/xml/xsl/rdf/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2013/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2012-a/</loc>
+    <lastmod>2012-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2012/</loc>
+    <lastmod>2012-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-bcmr-12/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/costa-2011/</loc>
+    <lastmod>2011-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/pattern-discovery/</loc>
+    <lastmod>2011-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/rule-learning/</loc>
+    <lastmod>2011-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/supervised-learning/</loc>
+    <lastmod>2011-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2011-a/</loc>
+    <lastmod>2011-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2011/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/barbieri-2011-b/</loc>
+    <lastmod>2011-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/costa-2009/</loc>
+    <lastmod>2009-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/deduplication/</loc>
+    <lastmod>2009-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/entity-resolution/</loc>
+    <lastmod>2009-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/hashing/</loc>
+    <lastmod>2009-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/indexing/</loc>
+    <lastmod>2009-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/similarity-measures/</loc>
+    <lastmod>2009-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/e.-cesario/</loc>
+    <lastmod>2007-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/g.-manco/</loc>
+    <lastmod>2007-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/information-retrieval/</loc>
+    <lastmod>2007-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/r.-ortale/</loc>
+    <lastmod>2007-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/cesario-2007-a/</loc>
+    <lastmod>2007-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/transactional-data/</loc>
+    <lastmod>2007-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/antonella-guzzo/</loc>
+    <lastmod>2007-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/domenico-sacca/</loc>
+    <lastmod>2007-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/gianluigi-greco/</loc>
+    <lastmod>2007-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/graph-mining/</loc>
+    <lastmod>2007-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/greco-2007/</loc>
+    <lastmod>2007-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/workflow-mining/</loc>
+    <lastmod>2007-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/antonio-locane/</loc>
+    <lastmod>2007-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/cesario-2007/</loc>
+    <lastmod>2007-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/eugenio-cesario/</loc>
+    <lastmod>2007-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/francesco-folino/</loc>
+    <lastmod>2007-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/schema-reconciliation/</loc>
+    <lastmod>2007-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/text-segmentation/</loc>
+    <lastmod>2007-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/andrea-pugliese/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/andrea-tagarelli/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/email-classification/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/flesca-2007/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/luigi-pontieri/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/manco-2007/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/semistructured-data/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/sergio-flesca/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/wrapping/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/www-tools/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/a.-guzzo/</loc>
+    <lastmod>2005-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/d.-sacca/</loc>
+    <lastmod>2005-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/g.-greco/</loc>
+    <lastmod>2005-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/greco-2005/</loc>
+    <lastmod>2005-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/a.-pugliese/</loc>
+    <lastmod>2005-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/e.-masciari/</loc>
+    <lastmod>2005-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/flesca-2005/</loc>
+    <lastmod>2005-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/l.-pontieri/</loc>
+    <lastmod>2005-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/s.-flesca/</loc>
+    <lastmod>2005-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/web-mining/</loc>
+    <lastmod>2005-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/research/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/</loc>
+  </url>
+  
+</urlset>

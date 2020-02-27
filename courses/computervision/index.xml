@@ -7,17 +7,29 @@
     <description>Panoramica</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://gmanco.github.io/img/icon-192.png</url>
+      <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Panoramica</title>
       <link>https://gmanco.github.io/courses/computervision/</link>
     </image>
     
     <item>
-      <title>Concetti fondamentali su Image processing e analysis</title>
+      <title>Introduzione al corso</title>
       <link>https://gmanco.github.io/courses/computervision/lecture1/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0100</pubDate>
       <guid>https://gmanco.github.io/courses/computervision/lecture1/</guid>
-      <description></description>
+      <description>&lt;p&gt;Introduzione al corso. Image Processing, Analysis e Computer Vision.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../lecture1.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Concetti fondamentali su Image processing e analysis</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture2/</guid>
+      <description>&lt;p&gt;Concetti fondamentali su Image processing e analysis: Image Basics, Manipolazione di immagini. Introduzione alle librerie Python per Image Processing.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

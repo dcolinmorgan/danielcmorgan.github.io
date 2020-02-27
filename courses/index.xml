@@ -7,7 +7,7 @@
     <description>Courses</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright>
     <image>
-      <url>https://gmanco.github.io/img/icon-192.png</url>
+      <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Courses</title>
       <link>https://gmanco.github.io/courses/</link>
     </image>
@@ -20,11 +20,6 @@
       <description>
 
 &lt;h2 id=&#34;breve-descrizione-del-corso&#34;&gt;Breve descrizione del corso&lt;/h2&gt;
-
-&lt;p&gt;menu:
-  example:
-    name: Panoramica
-    weight: 1&lt;/p&gt;
 
 &lt;p&gt;Il corso è finalizzato ad acquisire e sperimentare le tecniche di base per l’analisi di immagini e video. Verranno illustrati i concetti fondamentali per l’analisi delle immagini e verranno illustrate le principali tecniche di object detection, object tracking e action detection. Durante il corso saranno presentati modelli di reti neurali CNN e RNN, tecniche di transfer learning, Residual and Attention network ed una introduzione ai modelli generativi e alle Adversarial networks. Gli esempi applicativi faranno uso del linguaggio Python e dei framework di Deep Learning Pytorch/Tensorflow.&lt;/p&gt;
 
@@ -41,7 +36,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Giuseppe Manco. Ricevimento: mercoledì’ 14:30-16:30.&lt;/li&gt;
-&lt;li&gt;Francesco Pisani.&lt;/li&gt;
+&lt;li&gt;Francesco Pisani. Rivevimento lunedì 15-17.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;programma&#34;&gt;Programma&lt;/h2&gt;
@@ -86,7 +81,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;syllabo-delle-lezioni&#34;&gt;Syllabo delle lezioni&lt;/h2&gt;
+&lt;h2 id=&#34;sillabo-delle-lezioni&#34;&gt;Sillabo delle lezioni&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -103,11 +98,20 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Introduzione al corso&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture1/&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;10/03/2020&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
 &lt;td&gt;Concetti fondamentali su Image processing e analysis&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture1/&#34; target=&#34;_blank&#34;&gt;A relative link from one post to another post&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;03/03/2020&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;12/03/2020&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

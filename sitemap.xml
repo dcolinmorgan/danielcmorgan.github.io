@@ -48,17 +48,17 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/post/on-semisupervised-vae/</loc>
-    <lastmod>2019-09-10T18:10:09+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/post/</loc>
     <lastmod>2019-09-10T18:10:09+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://gmanco.github.io/tags/semi-supervised-learning/</loc>
+    <lastmod>2019-09-10T18:10:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/post/on-semisupervised-vae/</loc>
     <lastmod>2019-09-10T18:10:09+02:00</lastmod>
   </url>
   

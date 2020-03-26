@@ -79,13 +79,15 @@
 &lt;ul&gt;
 &lt;li&gt;Lucidi delle lezioni&lt;/li&gt;
 &lt;li&gt;Notebooks e lucidi delle esercitazioni&lt;/li&gt;
-&lt;li&gt;Libri:
+&lt;li&gt;Libri di consultazione:
 
 &lt;ul&gt;
 &lt;li&gt;E.R. Davies, Computer Vision: Principles, Algorithms, Applications, Learning. Fifth edition. Elsevier/Academic Press, 2018 &lt;strong&gt;[Davies18]&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Jan Erik Solem, Programming Computer Vision with Python. O&amp;rsquo;Reilly Media, 2012. &lt;strong&gt;[Solem12]&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Mohamed Elgendy, &lt;a href=&#34;https://www.manning.com/books/deep-learning-for-vision-systems&#34; target=&#34;_blank&#34;&gt;Deep Learning for Vision Systems&lt;/a&gt;. Manning, 2020. &lt;strong&gt;[Elg20]&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Rafael C. Gonzalez, Richard E. Woods, Digital image processing. 4th edition. Pearson, 2018. &lt;strong&gt;[Gon18]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Richard Szeliski, Computer Vision: Algorithms and Applications. Springer, 2011. &lt;strong&gt;[Sze11]&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Jason M.Kinser, Image operators: image processing in Python. CRC Press, 2019. &lt;strong&gt;[Kin19]&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -121,6 +123,13 @@
 &lt;td&gt;Filtri&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture3/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;19/03/2020&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Filtri. Edge detection&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture4/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;24/03/2020&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

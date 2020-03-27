@@ -21,7 +21,7 @@
 
 &lt;p&gt;Introduzione al corso. Image Processing, Analysis e Computer Vision.&lt;/p&gt;
 
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../1.Intro.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/1.Intro.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
@@ -88,7 +88,7 @@ Link utili:
 
 &lt;p&gt;Concetti fondamentali su Image processing e analysis: Image Basics, Manipolazione di immagini. Introduzione alle librerie Python per Image Processing.&lt;/p&gt;
 
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../2.Image_fundamentals.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/2.Image_fundamentals.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/1.Image_fundamentals.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
@@ -125,7 +125,7 @@ Link utili:
 
 &lt;p&gt;Manipolazione spaziale. Filtri. Convoluzione.&lt;/p&gt;
 
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../3.Filters.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/3.Filters.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/2.Filters.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
@@ -160,7 +160,7 @@ Link utili:
 
 &lt;p&gt;Derivate di immagini. Gradient-based filtering.&lt;/p&gt;
 
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../4.4.Edge Detection.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/4.Edge Detection.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
@@ -181,6 +181,46 @@ Link utili:
 &lt;li&gt;&lt;a href=&#34;https://datacarpentry.org/image-processing/08-edge-detection/&#34; target=&#34;_blank&#34;&gt;Introduction to Edge Detection&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm&#34; target=&#34;_blank&#34;&gt;Concept of Image detection&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aDY4aBLFOIg&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Image Gradients&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python &amp; image processing</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab1/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab1/</guid>
+      <description>
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introduzione ai Jupyter notebooks&lt;/li&gt;
+&lt;li&gt;Caricamento di immagini con PIL&lt;/li&gt;
+&lt;li&gt;Panoramica delle librerie e delle principali funzioni per effettuare trasformazioni geometriche, operazioni aritmetiche, edge detection.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/es01_imageloading.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab01&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/master/index.html&#34; target=&#34;_blank&#34;&gt;OpenCV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/api/api.html&#34; target=&#34;_blank&#34;&gt;Scikit Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

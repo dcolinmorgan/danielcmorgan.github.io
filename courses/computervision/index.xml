@@ -152,40 +152,6 @@ Link utili:
     </item>
     
     <item>
-      <title>Derivate. Edge Detection</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture4/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture4/</guid>
-      <description>
-
-&lt;p&gt;Derivate di immagini. Gradient-based filtering.&lt;/p&gt;
-
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/4.Edge Detection.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Andrew Ng on Edge Detection: youtube lectures &lt;a href=&#34;https://www.youtube.com/watch?v=XuD4C8vJzEQ&#34; target=&#34;_blank&#34;&gt;(1)&lt;/a&gt; e &lt;a href=&#34;https://www.youtube.com/watch?v=am36dePheDc&#34; target=&#34;_blank&#34;&gt;(2)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://datacarpentry.org/image-processing/08-edge-detection/&#34; target=&#34;_blank&#34;&gt;Introduction to Edge Detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm&#34; target=&#34;_blank&#34;&gt;Concept of Image detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aDY4aBLFOIg&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Image Gradients&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Python &amp; image processing</title>
       <link>https://gmanco.github.io/courses/computervision/lecture_lab1/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
@@ -222,6 +188,142 @@ Link utili:
 &lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Derivate. Edge Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture4/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture4/</guid>
+      <description>
+
+&lt;p&gt;Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/4a.Edge Detection.pdf&#34;&gt;edge detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/4b.Edge_Detection.pdf&#34;&gt;Fourier Transform&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di due notebook:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb&#34; target=&#34;_blank&#34;&gt;Edge detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/4.Fourier_transform.ipynb&#34; target=&#34;_blank&#34;&gt;Fourier Transform&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3, 4.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 10, 11, 13.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Andrew Ng on Edge Detection: youtube lectures &lt;a href=&#34;https://www.youtube.com/watch?v=XuD4C8vJzEQ&#34; target=&#34;_blank&#34;&gt;(1)&lt;/a&gt; e &lt;a href=&#34;https://www.youtube.com/watch?v=am36dePheDc&#34; target=&#34;_blank&#34;&gt;(2)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://datacarpentry.org/image-processing/08-edge-detection/&#34; target=&#34;_blank&#34;&gt;Introduction to Edge Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm&#34; target=&#34;_blank&#34;&gt;Concept of Image detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aDY4aBLFOIg&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Image Gradients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@hicraigchen/digital-image-processing-using-fourier-transform-in-python-bcb49424fd82&#34; target=&#34;_blank&#34;&gt;Filtraggio con la trasformata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feature descriptors. Classificazione</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture5/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture5/</guid>
+      <description>
+
+&lt;p&gt;Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/5.Classificazione.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Importante&lt;/strong&gt;
+La parte relativa allo studio dei feature descriptors riguarderà anche il primo esonero. I dettagli dell&amp;rsquo;esonero sono pubblicati &lt;a href=&#34;https://gmanco.github.io/courses/computervision/listoffeaturedescriptors/&#34; target=&#34;_blank&#34;&gt;nell&amp;rsquo;apposita pagina&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 6, 13.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 2, 8.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, Ch. 4.1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 17.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9&#34; target=&#34;_blank&#34;&gt;Introduction to Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/&#34; target=&#34;_blank&#34;&gt;Tutorial on Logistic Regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf&#34; target=&#34;_blank&#34;&gt;Course Notes on Optimization for Machine Learning&lt;/a&gt; and &lt;a href=&#34;https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf&#34; target=&#34;_blank&#34;&gt;Mathematical Foundations of Data Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/tutorial/basic/tutorial.html&#34; target=&#34;_blank&#34;&gt;An Introduction to Machine Learning with scikit-learn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/analytics-vidhya/introduction-to-feature-detection-and-matching-65e27179885d&#34; target=&#34;_blank&#34;&gt;Introduction to Feature Detection and Matching&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aishack.in/tutorials/sift-scale-invariant-feature-transform-features/&#34; target=&#34;_blank&#34;&gt;SIFT: Theory and Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_table_of_contents_feature2d/py_table_of_contents_feature2d.html&#34; target=&#34;_blank&#34;&gt;OpenCV Tutorials on Feature Descriptors&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Esonero 1</title>
+      <link>https://gmanco.github.io/courses/computervision/listoffeaturedescriptors/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/listoffeaturedescriptors/</guid>
+      <description>
+
+&lt;h1 id=&#34;feature-descriptors&#34;&gt;Feature descriptors&lt;/h1&gt;
+
+&lt;p&gt;In questo esonero è chiesto agli studenti di sperimentare con un feature descriptr tra quelli elencati in seguito. In particolare si chiede di:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Scegliere un feature descriptor&lt;/li&gt;
+&lt;li&gt;Preparare delle slides dettagliate (max 15) che lo descrivono&lt;/li&gt;
+&lt;li&gt;Preparare un notebook in cui:
+
+&lt;ul&gt;
+&lt;li&gt;si implementa l&amp;rsquo;algoritmo che sta alla slide 62 (istogramma basato sui feature descriptors)&lt;/li&gt;
+&lt;li&gt;si applica la regressione logistica (da scikit-learn) sul set di immagini (MNIST)&lt;/li&gt;
+&lt;li&gt;si valutano i risultati della classificazione confrontandoli con la regressione logistica applicata alla flattenizzazione raw dell&amp;rsquo;immagine (opportunamente preprocessata).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Gli studenti interessati ad effettuare l&amp;rsquo;esonero dovranno mandare una mail al docente indicando, in ordine di priorità, tre scelte dalla lista di cui sotto.
+Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli elaborati è il &lt;strong&gt;16 aprile 2020&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;opencv&#34;&gt;OpenCV&lt;/h2&gt;
+
+&lt;p&gt;Tutorials disponibili &lt;a href=&#34;https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_table_of_contents_feature2d/py_table_of_contents_feature2d.html&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/4.2.0/d5/d3c/classcv_1_1xfeatures2d_1_1SIFT.html&#34; target=&#34;_blank&#34;&gt;SIFT&lt;/a&gt;, Class for extracting keypoints and computing descriptors using the Scale Invariant Feature Transform (&lt;a href=&#34;https://docs.opencv.org/4.2.0/d5/d3c/classcv_1_1xfeatures2d_1_1SIFT.html&#34; target=&#34;_blank&#34;&gt;SIFT&lt;/a&gt;) algorithm by D. Lowe. Riferimenti: David G Lowe. &lt;a href=&#34;https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf&#34; target=&#34;_blank&#34;&gt;Distinctive image features from scale-invariant keypoints&lt;/a&gt;. &lt;em&gt;International journal of computer vision&lt;/em&gt;, 60(2):91–110, 2004.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/4.2.0/d5/df7/classcv_1_1xfeatures2d_1_1SURF.html&#34; target=&#34;_blank&#34;&gt;SURF&lt;/a&gt;, Class for extracting Speeded Up Robust Features from an image. Riferimenti: Herbert Bay, Tinne Tuytelaars, and Luc Van Gool. &lt;a href=&#34;http://scholar.google.it/scholar_url?url=https://lirias.kuleuven.be/retrieve/78517&amp;amp;hl=it&amp;amp;sa=X&amp;amp;scisig=AAGBfm2HNoDAKFbI70IQ22ndV5cBLu7pBw&amp;amp;nossl=1&amp;amp;oi=scholarr&#34; target=&#34;_blank&#34;&gt;Surf: Speeded up robust features&lt;/a&gt;. &lt;em&gt;Computer Vision–ECCV 2006&lt;/em&gt;, pages 404–417, 2006.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/4.2.0/d8/d30/classcv_1_1AKAZE.html&#34; target=&#34;_blank&#34;&gt;AKAZE&lt;/a&gt;, Class implementing the &lt;a href=&#34;https://docs.opencv.org/4.2.0/d8/d30/classcv_1_1AKAZE.html&#34; target=&#34;_blank&#34;&gt;AKAZE&lt;/a&gt; keypoint detector and descriptor extractor. Riferimenti: Pablo F Alcantarilla, Jesús Nuevo, and Adrien Bartoli. &lt;a href=&#34;http://www.bmva.org/bmvc/2013/Papers/paper0013/paper0013.pdf&#34; target=&#34;_blank&#34;&gt;Fast explicit diffusion for accelerated features in nonlinear scale spaces&lt;/a&gt;. &lt;em&gt;Trans. Pattern Anal. Machine Intell&lt;/em&gt;, 34(7):1281–1298, 2011.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/4.2.0/de/dbf/classcv_1_1BRISK.html&#34; target=&#34;_blank&#34;&gt;Brisk&lt;/a&gt;, Class implementing the &lt;a href=&#34;https://docs.opencv.org/4.2.0/de/dbf/classcv_1_1BRISK.html&#34; target=&#34;_blank&#34;&gt;BRISK&lt;/a&gt; keypoint detector and descriptor extractor. [Stefan Leutenegger, Margarita Chli, and Roland Yves Siegwart. &lt;a href=&#34;https://www.researchgate.net/publication/221110715_BRISK_Binary_Robust_invariant_scalable_keypoints&#34; target=&#34;_blank&#34;&gt;Brisk: Binary robust invariant scalable keypoints&lt;/a&gt;. In &lt;em&gt;Computer Vision (ICCV), 2011 IEEE International Conference on&lt;/em&gt;, pages 2548–2555. IEEE, 2011.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/4.2.0/d3/d28/classcv_1_1MSER.html&#34; target=&#34;_blank&#34;&gt;Mser&lt;/a&gt;, Maximally stable extremal region extractor, for grey scale and color image. Riferimenti: David Nistér and Henrik Stewénius. &lt;a href=&#34;https://www.researchgate.net/publication/221304597_Linear_Time_Maximally_Stable_Extremal_Regions&#34; target=&#34;_blank&#34;&gt;Linear time maximally stable extremal regions&lt;/a&gt;. In &lt;em&gt;Computer Vision–ECCV 2008&lt;/em&gt;, pages 183–196. Springer, 2008.; Per-Erik Forssén. Maximally stable colour regions for recognition and matching. In &lt;em&gt;Computer Vision and Pattern Recognition, 2007. CVPR&amp;rsquo;07. IEEE Conference on&lt;/em&gt;, pages 1–8. IEEE, 2007.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/4.2.0/db/d95/classcv_1_1ORB.html&#34; target=&#34;_blank&#34;&gt;ORB&lt;/a&gt;, The algorithm uses FAST in pyramids to detect stable keypoints, selects  the strongest features using FAST or Harris response, finds their  orientation using first-order moments and computes the descriptors using BRIEF (where the coordinates of random point pairs (or k-tuples) are  rotated according to the measured orientation). Riferimenti: Ethan Rublee, Vincent Rabaud, Kurt Konolige, and Gary Bradski. &lt;a href=&#34;http://www.willowgarage.com/sites/default/files/orb_final.pdf&#34; target=&#34;_blank&#34;&gt;Orb: an efficient alternative to sift or surf&lt;/a&gt;. In &lt;em&gt;Computer Vision (ICCV), 2011 IEEE International Conference on&lt;/em&gt;, pages 2564–2571. IEEE, 2011.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;sk-image&#34;&gt;SK-Image&lt;/h2&gt;
+
+&lt;p&gt;Documentation at the home page of the &lt;a href=&#34;https://scikit-image.org/docs/0.16.x/api/skimage.feature.html&#34; target=&#34;_blank&#34;&gt;scikit-image feature description package&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;skimage.feature.daisy&lt;/code&gt;, Extract DAISY feature descriptors densely for the given image. DAISY is a feature descriptor similar to SIFT formulated in a way that allows for fast dense extraction. Typically, this is practical for bag-of-features image representations. Riferimenti: Tola et al. &lt;a href=&#34;https://infoscience.epfl.ch/record/138785/files/tola_daisy_pami_1.pdf&#34; target=&#34;_blank&#34;&gt;Daisy: An efficient dense descriptor applied to wide- baseline stereo&lt;/a&gt;. Pattern Analysis and Machine Intelligence, IEEE Transactions on 32.5 (2010): 815-830.]&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;skimage.feature.hog&lt;/code&gt;, Extract Histogram of Oriented Gradients (HOG) for a given image. Riferimenti: Dalal, N and Triggs, B, &lt;a href=&#34;https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf&#34; target=&#34;_blank&#34;&gt;Histograms of Oriented Gradients for Human Detection&lt;/a&gt;, IEEE Computer Society Conference on Computer Vision and Pattern Recognition 2005 San Diego, CA, USA, DOI:10.1109/CVPR.2005.177]&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;skimage.feature.local_binary_pattern&lt;/code&gt;, Gray scale and rotation invariant LBP (Local Binary Patterns). Riferimenti: Timo Ojala, Matti Pietikainen, Topi Maenpaa. &lt;a href=&#34;http://www.ee.oulu.fi/research/mvmp/mvg/files/pdf/pdf_94.pdf&#34; target=&#34;_blank&#34;&gt;Multiresolution Gray-Scale and Rotation Invariant Texture Classification with Local Binary Patterns&lt;/a&gt;. 2002]&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;skimage.feature.haar_like_feature&lt;/code&gt;, Compute the Haar-like features for a region of interest (ROI) of an integral image. Riferimenti: Messom, Christopher H. and Andre L. C. Barczak. &lt;a href=&#34;https://www.semanticscholar.org/paper/Stream-processing-for-fast-and-efficient-rotated-Messom-Barczak/b55e215acd9bc0496f1f611d6193fea0b10e4212&#34; target=&#34;_blank&#34;&gt;Stream processing for fast and efficient rotated Haar-like features using rotated integral images&lt;/a&gt;. &lt;em&gt;IJISTA&lt;/em&gt; 7 (2006): 40-57.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;skimage.feature.BRIEF&lt;/code&gt;, BRIEF binary descriptor extractor. BRIEF (Binary Robust Independent Elementary Features) is an efficient feature point descriptor. It is highly discriminative even when using relatively few bits and is computed using simple intensity difference tests. Riferimenti: Calonder, Michael &amp;amp; Lepetit, Vincent &amp;amp; Strecha, Christoph &amp;amp; Fua, Pascal. (2010). &lt;a href=&#34;https://www.cs.ubc.ca/~lowe/525/papers/calonder_eccv10.pdf&#34; target=&#34;_blank&#34;&gt;BRIEF: Binary Robust Independent Elementary Features&lt;/a&gt;. Eur. Conf. Comput. Vis.. 6314. 778-792. 10.&lt;sup&gt;1007&lt;/sup&gt;&amp;frasl;&lt;sub&gt;978&lt;/sub&gt;-3-642-15561-1_56.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;skimage.feature.ORB&lt;/code&gt;, Oriented FAST and rotated BRIEF feature detector and binary descriptor extractor. Riferimenti: Ethan Rublee, Vincent Rabaud, Kurt Konolige and Gary Bradski. &lt;a href=&#34;http://www.vision.cs.chubu.ac.jp/CV-R/pdf/Rublee_iccv2011.pdf&#34; target=&#34;_blank&#34;&gt;ORB: An efficient alternative to SIFT and SURF&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     

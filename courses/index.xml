@@ -19,13 +19,12 @@
       <guid>https://gmanco.github.io/courses/computervision/</guid>
       <description>
 
-&lt;h2 id=&#34;importante&#34;&gt;&lt;strong&gt;Importante&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;annunci&#34;&gt;Annunci&lt;/h2&gt;
 
-&lt;p&gt;Si avvisano gli studenti che il corso di Analisi di Immagini e Video – Corso di Laurea Magistrale in Ingegneria Informatica verrà erogato in modalità streaming, utilizzando l’applicativo TEAMS, a partire dal giorno 17/03/2019, alle ore 8:30.&lt;/p&gt;
-
-&lt;p&gt;La richiesta di iscrizione al corso può essere effettuata cliccando sul seguente &lt;a href=&#34;https://teams.microsoft.com/l/channel/19%3ac60bff4a6e874db3b5e0d2034412ed18%40thread.tacv 2/Generale?groupId=b4509060-7b45-4eab-80ce-55182356fb88&amp;amp;tenantId=7519d0cd-2106-47d9- adcb-320023abff57&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Gli studenti già pratici dell’utilizzo di TEAMS e che abbiano già scaricato l’APP, possono iscriversi direttamente al corso (senza approvazione del docente) utilizzando il codice: &lt;strong&gt;khm7h4s&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[02/04/2020]&lt;/strong&gt; E disponibile la lista degli argomenti per il primo esonero. La lista è disponibile &lt;a href=&#34;https://gmanco.github.io/courses/computervision/listoffeaturedescriptors/&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;. Gli studenti che selgono di effettuare l&amp;rsquo;esonero devono comunicare le opzioni (3) al docente. Martedì 7 verrà comunicata l&amp;rsquo;assegnazione dei topic ai vari studenti. La deadline per la consegna degli elaborati è il 16 aprile 2020.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[03/03/2020]&lt;/strong&gt; Si avvisano gli studenti che il corso di Analisi di Immagini e Video – Corso di Laurea Magistrale in Ingegneria Informatica verrà erogato in modalità streaming, utilizzando l’applicativo TEAMS, a partire dal giorno 17/03/2019, alle ore 8:30. La richiesta di iscrizione al corso può essere effettuata cliccando sul seguente &lt;a href=&#34;https://teams.microsoft.com/l/channel/19%3ac60bff4a6e874db3b5e0d2034412ed18%40thread.tacv 2/Generale?groupId=b4509060-7b45-4eab-80ce-55182356fb88&amp;amp;tenantId=7519d0cd-2106-47d9- adcb-320023abff57&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Gli studenti già pratici dell’utilizzo di TEAMS e che abbiano già scaricato l’APP, possono iscriversi direttamente al corso (senza approvazione del docente) utilizzando il codice: &lt;strong&gt;khm7h4s&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;breve-descrizione-del-corso&#34;&gt;Breve descrizione del corso&lt;/h2&gt;
 
@@ -122,21 +121,28 @@
 &lt;td&gt;3&lt;/td&gt;
 &lt;td&gt;Filtri&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture3/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;19/03/2020&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;Filtri. Edge detection&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture4/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;24/03/2020&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
 &lt;td&gt;Laboratorio: Image Processing in Python&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture_lab1/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;26/03/2020&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Edge detection. Fourier Transform.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture4/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;31/03/2020&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Classificazione. Feature detection &amp;amp; Description&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture5/&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;.    &lt;a href=&#34;https://gmanco.github.io/courses/computervision/listoffeaturedescriptors/&#34; target=&#34;_blank&#34;&gt;Esonero&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;31/03/2020&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

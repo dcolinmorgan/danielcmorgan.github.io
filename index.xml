@@ -40,6 +40,7 @@
 &lt;li&gt;&lt;a href=&#34;https://medium.com/readers-writers-digest/beginners-guide-to-computer-vision-23606224b720&#34; target=&#34;_blank&#34;&gt;A Beginner&amp;rsquo;s guide to Computer Vision&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/everything-you-ever-wanted-to-know-about-computer-vision-heres-a-look-why-it-s-so-awesome-e8a58dfb641e&#34; target=&#34;_blank&#34;&gt;Everything you wanted to know about Computer Vision&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.thecvf.com/&#34; target=&#34;_blank&#34;&gt;The Computer Vision Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.forbes.com/sites/forbestechcouncil/2020/04/03/three-ways-computer-vision-is-transforming-marketing/#1d6346d0214b&#34; target=&#34;_blank&#34;&gt;Three ways Computer Vision is transforming Marketing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;approfondimenti-contributi-dagli-studenti-alcune-applicazioni-per-la-computer-vision&#34;&gt;Approfondimenti (contributi dagli studenti): Alcune applicazioni per la computer vision&lt;/h2&gt;
@@ -324,6 +325,25 @@ Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli
 &lt;li&gt;&lt;code&gt;skimage.feature.BRIEF&lt;/code&gt;, BRIEF binary descriptor extractor. BRIEF (Binary Robust Independent Elementary Features) is an efficient feature point descriptor. It is highly discriminative even when using relatively few bits and is computed using simple intensity difference tests. Riferimenti: Calonder, Michael &amp;amp; Lepetit, Vincent &amp;amp; Strecha, Christoph &amp;amp; Fua, Pascal. (2010). &lt;a href=&#34;https://www.cs.ubc.ca/~lowe/525/papers/calonder_eccv10.pdf&#34; target=&#34;_blank&#34;&gt;BRIEF: Binary Robust Independent Elementary Features&lt;/a&gt;. Eur. Conf. Comput. Vis.. 6314. 778-792. 10.&lt;sup&gt;1007&lt;/sup&gt;&amp;frasl;&lt;sub&gt;978&lt;/sub&gt;-3-642-15561-1_56.&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;skimage.feature.ORB&lt;/code&gt;, Oriented FAST and rotated BRIEF feature detector and binary descriptor extractor. Riferimenti: Ethan Rublee, Vincent Rabaud, Kurt Konolige and Gary Bradski. &lt;a href=&#34;http://www.vision.cs.chubu.ac.jp/CV-R/pdf/Rublee_iccv2011.pdf&#34; target=&#34;_blank&#34;&gt;ORB: An efficient alternative to SIFT and SURF&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h1 id=&#34;assegnazioni&#34;&gt;Assegnazioni&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Giulia Katia Galimberti  &lt;strong&gt;SIFT&lt;/strong&gt; (OpenCV)&lt;/li&gt;
+&lt;li&gt;Maria Francesca Alati  &lt;strong&gt;skimage.feature.hog&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Lorenzo Defina  &lt;strong&gt;Mser&lt;/strong&gt; (OpenCV)&lt;/li&gt;
+&lt;li&gt;Emilio Casella  &lt;strong&gt;Surf&lt;/strong&gt; (OpenCV)&lt;/li&gt;
+&lt;li&gt;Simona Nisticò matricola &lt;strong&gt;ORB&lt;/strong&gt; (OpenCV)&lt;/li&gt;
+&lt;li&gt;Domenico Montesanto &lt;strong&gt;AKAZE&lt;/strong&gt; (OpenCV)&lt;/li&gt;
+&lt;li&gt;Caterina Maugeri &lt;strong&gt;skimage.feature.local_binary_pattern&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Giuseppe Surace  &lt;strong&gt;skimage.feature.haar_like_feature&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Antonello Crea &lt;strong&gt;Daisy&lt;/strong&gt; (OpenCV)&lt;/li&gt;
+&lt;li&gt;Anile Anna  &lt;strong&gt;skimage.feature.BRIEF&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Vincenzo Parrilla  &lt;strong&gt;SURF with Harris Corner Detection&lt;/strong&gt;. (OpenCV)&lt;/li&gt;
+&lt;li&gt;Davide Medaglia &lt;strong&gt;SIFT with Harris Corner Detection&lt;/strong&gt; (OpenCV)&lt;/li&gt;
+&lt;li&gt;Antonio Commisso &lt;strong&gt;Brisk&lt;/strong&gt; (OpenCV)&lt;/li&gt;
+&lt;li&gt;Antonio Gagliostro: &lt;strong&gt;skimage.feature.ORB&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

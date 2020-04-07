@@ -275,6 +275,43 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
     </item>
     
     <item>
+      <title>Pytorch, SKlearn and Classification</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab2/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab2/</guid>
+      <description>
+
+&lt;p&gt;Pytorch &amp;amp; SKlearn&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pre-process di un dataset e costruzione dei train/validation/test set&lt;/li&gt;
+&lt;li&gt;SKLearn, regressione lineare e logistica&lt;/li&gt;
+&lt;li&gt;Introduzione a Pytorch&lt;/li&gt;
+&lt;li&gt;Costruzione di un modello di NN&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di due notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab02&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 13.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, ch. 2.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/&#34; target=&#34;_blank&#34;&gt;SKLearn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/docs/stable/index.html&#34; target=&#34;_blank&#34;&gt;Pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.openml.org/d/554/&#34; target=&#34;_blank&#34;&gt;MINIST dataset&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Esonero 1</title>
       <link>https://gmanco.github.io/courses/computervision/listoffeaturedescriptors/</link>
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>

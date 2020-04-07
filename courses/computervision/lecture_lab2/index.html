@@ -28,13 +28,13 @@
   
     
   
-  <meta name="description" content=" Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.
-Slides disponibili:
- edge detection Fourier Transform  La lezione è corredata di due notebook:
- Edge detection Fourier Transform  Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 1. [Sze11], sect. 4.2. [Kin19], Ch. 10, 11, 13.  Link utili  Andrew Ng on Edge Detection: youtube lectures (1) e (2). Introduction to Edge Detection Concept of Image detection OpenCV Python Tutorial: Image Gradients Filtraggio con la trasformata  ">
+  <meta name="description" content=" Pytorch &amp; SKlearn
+Principali argomenti trattati:
+ Pre-process di un dataset e costruzione dei train/validation/test set SKLearn, regressione lineare e logistica Introduzione a Pytorch Costruzione di un modello di NN  La lezione è corredata di due notebook disponibile qui
+Riferimenti bibliografici  [Davies18], ch. 13. [Elg20], ch. 2.  Link utili  SKLearn Pytorch MINIST dataset  ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture4/">
+  <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture_lab2/">
 
   
 
@@ -113,7 +113,7 @@ Slides disponibili:
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://gmanco.github.io/courses/computervision/lecture4/">
+  <link rel="canonical" href="https://gmanco.github.io/courses/computervision/lecture_lab2/">
 
   
   
@@ -128,18 +128,18 @@ Slides disponibili:
   <meta property="twitter:creator" content="@beman">
   
   <meta property="og:site_name" content="Giuseppe Manco">
-  <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture4/">
-  <meta property="og:title" content="Derivate. Edge Detection | Giuseppe Manco">
-  <meta property="og:description" content=" Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.
-Slides disponibili:
- edge detection Fourier Transform  La lezione è corredata di due notebook:
- Edge detection Fourier Transform  Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 1. [Sze11], sect. 4.2. [Kin19], Ch. 10, 11, 13.  Link utili  Andrew Ng on Edge Detection: youtube lectures (1) e (2). Introduction to Edge Detection Concept of Image detection OpenCV Python Tutorial: Image Gradients Filtraggio con la trasformata  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+  <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture_lab2/">
+  <meta property="og:title" content="Pytorch, SKlearn and Classification | Giuseppe Manco">
+  <meta property="og:description" content=" Pytorch &amp; SKlearn
+Principali argomenti trattati:
+ Pre-process di un dataset e costruzione dei train/validation/test set SKLearn, regressione lineare e logistica Introduzione a Pytorch Costruzione di un modello di NN  La lezione è corredata di due notebook disponibile qui
+Riferimenti bibliografici  [Davies18], ch. 13. [Elg20], ch. 2.  Link utili  SKLearn Pytorch MINIST dataset  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-04-02T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2020-04-07T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-04-02T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2020-04-07T00:00:00&#43;01:00">
   
 
   
@@ -151,7 +151,7 @@ Slides disponibili:
 
 
 
-  <title>Derivate. Edge Detection | Giuseppe Manco</title>
+  <title>Pytorch, SKlearn and Classification | Giuseppe Manco</title>
 
 </head>
 
@@ -454,7 +454,7 @@ Slides disponibili:
         <a href="/courses/computervision/lecture_lab1/">Laboratorio 1 - Librerie Python</a>
       </li>
       
-      <li class="active">
+      <li >
         <a href="/courses/computervision/lecture4/">Derivate - Edge Detection</a>
       </li>
       
@@ -462,7 +462,7 @@ Slides disponibili:
         <a href="/courses/computervision/lecture5/">Feature descriptors - Classificazione</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
       </li>
       
@@ -501,45 +501,37 @@ Slides disponibili:
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Derivate. Edge Detection</h1>
+          <h1 itemprop="name">Pytorch, SKlearn and Classification</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<p>Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.</p>
+<p>Pytorch &amp; SKlearn</p>
 
-<p>Slides disponibili:</p>
-
-<ul>
-<li><a href="../pdf/4a.Edge Detection.pdf">edge detection</a></li>
-<li><a href="../pdf/4b.Edge_Detection.pdf">Fourier Transform</a></li>
-</ul>
-
-<p>La lezione è corredata di due notebook:</p>
+<p>Principali argomenti trattati:</p>
 
 <ul>
-<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb" target="_blank">Edge detection</a></li>
-<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/4.Fourier_transform.ipynb" target="_blank">Fourier Transform</a></li>
+<li>Pre-process di un dataset e costruzione dei train/validation/test set</li>
+<li>SKLearn, regressione lineare e logistica</li>
+<li>Introduzione a Pytorch</li>
+<li>Costruzione di un modello di NN</li>
 </ul>
+
+<p>La lezione è corredata di due notebook disponibile <a href="https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab02" target="_blank">qui</a></p>
 
 <h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
 
 <ul>
-<li><strong>[Davies18]</strong>, ch. 5.</li>
-<li><strong>[Gon18]</strong>, Ch. 3, 4.</li>
-<li><strong>[Solem12]</strong>, Ch. 1.</li>
-<li><strong>[Sze11]</strong>, sect. 4.2.</li>
-<li><strong>[Kin19]</strong>, Ch. 10, 11, 13.</li>
+<li><strong>[Davies18]</strong>, ch. 13.</li>
+<li><strong>[Elg20]</strong>, ch. 2.</li>
 </ul>
 
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li>Andrew Ng on Edge Detection: youtube lectures <a href="https://www.youtube.com/watch?v=XuD4C8vJzEQ" target="_blank">(1)</a> e <a href="https://www.youtube.com/watch?v=am36dePheDc" target="_blank">(2)</a>.</li>
-<li><a href="https://datacarpentry.org/image-processing/08-edge-detection/" target="_blank">Introduction to Edge Detection</a></li>
-<li><a href="https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm" target="_blank">Concept of Image detection</a></li>
-<li><a href="https://www.youtube.com/watch?v=aDY4aBLFOIg" target="_blank">OpenCV Python Tutorial: Image Gradients</a></li>
-<li><a href="https://medium.com/@hicraigchen/digital-image-processing-using-fourier-transform-in-python-bcb49424fd82" target="_blank">Filtraggio con la trasformata</a></li>
+<li><a href="https://scikit-learn.org/stable/" target="_blank">SKLearn</a></li>
+<li><a href="https://pytorch.org/docs/stable/index.html" target="_blank">Pytorch</a></li>
+<li><a href="https://www.openml.org/d/554/" target="_blank">MINIST dataset</a></li>
 </ul>
 
           </div>
@@ -557,14 +549,14 @@ Slides disponibili:
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture_lab1/" rel="next">Python &amp; image processing</a>
+    <a href="/courses/computervision/lecture5/" rel="next">Feature descriptors. Classificazione</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture5/" rel="prev">Feature descriptors. Classificazione</a>
+    <a href="/courses/computervision/listoffeaturedescriptors/" rel="prev">Esonero 1</a>
   </div>
   
 </div>
@@ -574,7 +566,7 @@ Slides disponibili:
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Apr 2, 2020</p>
+          <p>Last updated on Apr 7, 2020</p>
 
           
 

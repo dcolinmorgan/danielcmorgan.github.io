@@ -275,45 +275,6 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
     </item>
     
     <item>
-      <title>Neural Networks</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture6/</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture6/</guid>
-      <description>
-
-&lt;p&gt;Grafi di computazione e modelli non lineari. Reti Convoluzionali. LeNet-5.&lt;/p&gt;
-
-&lt;p&gt;Materiale didattico:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Modelli non lineari (&lt;a href=&#34;../pdf/6a.Reti neurali_parte1.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Reti convoluzionali&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/6.Neural_networks.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 15.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 2,3&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9&#34; target=&#34;_blank&#34;&gt;Introduction to Neural Networks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf&#34; target=&#34;_blank&#34;&gt;Course Notes on Optimization for Machine Learning&lt;/a&gt; and &lt;a href=&#34;https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf&#34; target=&#34;_blank&#34;&gt;Mathematical Foundations of Data Science&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.paperspace.com/pytorch-101-understanding-graphs-and-automatic-differentiation/&#34; target=&#34;_blank&#34;&gt;Understanding graphs and automatic differentiation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf&#34; target=&#34;_blank&#34;&gt;Visualizing and understanding convolutional Networks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Vincent Dumoulin, Francesco Visin - &lt;a href=&#34;https://arxiv.org/abs/1603.07285&#34; target=&#34;_blank&#34;&gt;A guide to convolution arithmetic for deep learning&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;Yann LeCun&amp;rsquo;s page on &lt;a href=&#34;http://yann.lecun.com/exdb/lenet/&#34; target=&#34;_blank&#34;&gt;LeNet&lt;/a&gt; (with papers and description).&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/@_init_/an-illustrated-explanation-of-performing-2d-convolutions-using-matrix-multiplications-1e8de8cd2544&#34; target=&#34;_blank&#34;&gt;An illustrated explanation of performing 2D convolution using matrix multiplication&lt;/a&gt;. Un esempio illustrativo anche su &lt;a href=&#34;https://www.slideshare.net/EdwinEfranJimnezLepe/convolution-as-matrix-multiplication?from_action=save&#34; target=&#34;_blank&#34;&gt;slideshare&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Pytorch, SKlearn and Classification</title>
       <link>https://gmanco.github.io/courses/computervision/lecture_lab2/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0100</pubDate>
@@ -346,6 +307,118 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
 &lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/&#34; target=&#34;_blank&#34;&gt;SKLearn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pytorch.org/docs/stable/index.html&#34; target=&#34;_blank&#34;&gt;Pytorch&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.openml.org/d/554/&#34; target=&#34;_blank&#34;&gt;MINIST dataset&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Networks</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture6/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture6/</guid>
+      <description>
+
+&lt;p&gt;Grafi di computazione e modelli non lineari. Reti Convoluzionali. LeNet-5.&lt;/p&gt;
+
+&lt;p&gt;Materiale didattico:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Modelli non lineari (&lt;a href=&#34;../pdf/6a.Reti neurali_parte1.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Reti convoluzionali (&lt;a href=&#34;../pdf/6b.Reti neurali_parte2.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/6.Neural_networks.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 15.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 2,3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9&#34; target=&#34;_blank&#34;&gt;Introduction to Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://d2l.ai/index.html&#34; target=&#34;_blank&#34;&gt;Dive into Deep Learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf&#34; target=&#34;_blank&#34;&gt;Course Notes on Optimization for Machine Learning&lt;/a&gt; and &lt;a href=&#34;https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf&#34; target=&#34;_blank&#34;&gt;Mathematical Foundations of Data Science&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.paperspace.com/pytorch-101-understanding-graphs-and-automatic-differentiation/&#34; target=&#34;_blank&#34;&gt;Understanding graphs and automatic differentiation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b&#34; target=&#34;_blank&#34;&gt;Yes you should understand backpropagation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf&#34; target=&#34;_blank&#34;&gt;Visualizing and understanding convolutional Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Vincent Dumoulin, Francesco Visin - &lt;a href=&#34;https://arxiv.org/abs/1603.07285&#34; target=&#34;_blank&#34;&gt;A guide to convolution arithmetic for deep learning&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@_init_/an-illustrated-explanation-of-performing-2d-convolutions-using-matrix-multiplications-1e8de8cd2544&#34; target=&#34;_blank&#34;&gt;An illustrated explanation of performing 2D convolution using matrix multiplication&lt;/a&gt;. Un esempio illustrativo anche su &lt;a href=&#34;https://www.slideshare.net/EdwinEfranJimnezLepe/convolution-as-matrix-multiplication?from_action=save&#34; target=&#34;_blank&#34;&gt;slideshare&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/datadriveninvestor/visualizing-neural-networks-using-saliency-maps-in-pytorch-289d8e244ab4&#34; target=&#34;_blank&#34;&gt;Visualizing neural networks using saliency maps&lt;/a&gt;. Reference paper su &lt;a href=&#34;https://arxiv.org/abs/1312.6034&#34; target=&#34;_blank&#34;&gt;arxiv&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Saliency maps in &lt;a href=&#34;[https://mc.ai/feature-visualisation-in-pytorch%E2%80%8A-%E2%80%8Asaliency-maps/](https://mc.ai/feature-visualisation-in-pytorch - saliency-maps/)&#34; target=&#34;_blank&#34;&gt;Flashtorch&lt;/a&gt;. Medium &lt;a href=&#34;https://towardsdatascience.com/feature-visualisation-in-pytorch-saliency-maps-a3f99d08f78a&#34; target=&#34;_blank&#34;&gt;description&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A collection of &lt;a href=&#34;https://github.com/utkuozbulak/pytorch-cnn-visualizations&#34; target=&#34;_blank&#34;&gt;Deep network visualization techniques&lt;/a&gt; in Pytorch&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CNN Architectures</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab3/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab3/</guid>
+      <description>
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AlexNet&lt;/li&gt;
+&lt;li&gt;VGG&lt;/li&gt;
+&lt;li&gt;Residual Network&lt;/li&gt;
+&lt;li&gt;Inception Network&lt;/li&gt;
+&lt;li&gt;Data Augmentation&lt;/li&gt;
+&lt;li&gt;Transfer Learning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di &lt;a href=&#34;../pdf/7.Reti neurali_parte3.pdf&#34;&gt;slides&lt;/a&gt; e di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab03&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 15.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, ch. 4.6, 5, 6.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Yann LeCun&amp;rsquo;s page on &lt;a href=&#34;http://yann.lecun.com/exdb/lenet/&#34; target=&#34;_blank&#34;&gt;LeNet&lt;/a&gt; (with papers and description).&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf&#34; target=&#34;_blank&#34;&gt;ImageNet Classification with Deep Convolutional Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/difference-between-local-response-normalization-and-batch-normalization-272308c034ac&#34; target=&#34;_blank&#34;&gt;Local Response Norm vs. Bach Norm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1409.1556v6.pdf&#34; target=&#34;_blank&#34;&gt;Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43022.pdf&#34; target=&#34;_blank&#34;&gt;Going Deeper with Convolutions&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202&#34; target=&#34;_blank&#34;&gt;A simple guide to the versions of Inception Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1502.03167&#34; target=&#34;_blank&#34;&gt;Batch normalization: accelerating deep network training by reducing internal covariate shift&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1512.03385.pdf&#34; target=&#34;_blank&#34;&gt;Residual Learning for image Recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1411.1792.pdf&#34; target=&#34;_blank&#34;&gt;How transferable are features in deep neural networks?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://pytorch.org/docs/stable/torchvision/models.html&#34; target=&#34;_blank&#34;&gt;Torch pretrained models&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://pytorch.org/hub/&#34; target=&#34;_blank&#34;&gt;TorchHUB&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.vision.caltech.edu/Image_Datasets/Caltech101/&#34; target=&#34;_blank&#34;&gt;Caltech101 dataset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://link.springer.com/article/10.1186/s40537-019-0197-0&#34; target=&#34;_blank&#34;&gt;Survey on data augmentation technique&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

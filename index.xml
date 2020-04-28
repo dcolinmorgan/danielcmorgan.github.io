@@ -5,7 +5,7 @@
     <link>https://gmanco.github.io/</link>
       <atom:link href="https://gmanco.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Giuseppe Manco</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Tue, 28 Apr 2020 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Giuseppe Manco</title>
@@ -249,7 +249,7 @@ Link utili:
 &lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/5.Classificazione.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Importante&lt;/strong&gt;
-La parte relativa allo studio dei feature descriptors riguarderà anche il primo esonero. I dettagli dell&amp;rsquo;esonero sono pubblicati &lt;a href=&#34;https://gmanco.github.io/courses/computervision/listoffeaturedescriptors/&#34; target=&#34;_blank&#34;&gt;nell&amp;rsquo;apposita pagina&lt;/a&gt;&lt;/p&gt;
+La parte relativa allo studio dei feature descriptors riguarderà anche il primo esonero. I dettagli dell&amp;rsquo;esonero sono pubblicati &lt;a href=&#34;https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/&#34; target=&#34;_blank&#34;&gt;nell&amp;rsquo;apposita pagina&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
@@ -365,6 +365,62 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
     </item>
     
     <item>
+      <title>Object Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture7/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture7/</guid>
+      <description>
+
+&lt;p&gt;Object detection.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Region Proposal Networks: R-CNN, Fast R-CNN, Faster R-CNN.&lt;/li&gt;
+&lt;li&gt;Single Shot Detectors: SSd, YOLO.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Materiale didattico:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/8.Object_detection.pdf&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 7&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@fractaldle/brief-overview-on-object-detection-algorithms-ec516929be93&#34; target=&#34;_blank&#34;&gt;An overview of Deep-Learning based Object Detection algorithms&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1311.2524.pdf&#34; target=&#34;_blank&#34;&gt;Rich Feature-Based hierarchies for accurate object detection and semantic segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1504.08083.pdf&#34; target=&#34;_blank&#34;&gt;Fast R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1506.01497&#34; target=&#34;_blank&#34;&gt;Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Faster R-CNN tutorials: &lt;a href=&#34;https://medium.com/@fractaldle/guide-to-build-faster-rcnn-in-pytorch-95b10c273439&#34; target=&#34;_blank&#34;&gt;A guide to building Faster R-CNN in Pytorch&lt;/a&gt; e &lt;a href=&#34;https://towardsdatascience.com/fasterrcnn-explained-part-1-with-code-599c16568cff&#34; target=&#34;_blank&#34;&gt;Detecting objects in (almost) Real time&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1512.02325&#34; target=&#34;_blank&#34;&gt;SSD: Single Shot MultiBox Detector&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection&#34; target=&#34;_blank&#34;&gt;SSD Tutorial&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/detectron&#34; target=&#34;_blank&#34;&gt;Detectron&lt;/a&gt; and &lt;a href=&#34;https://github.com/facebookresearch/detectron2&#34; target=&#34;_blank&#34;&gt;Detectron2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You Only Look Once: &lt;a href=&#34;https://arxiv.org/pdf/1506.02640.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/1612.08242.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv2&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/1804.02767.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://christopher5106.github.io/object/detectors/2017/08/10/bounding-box-object-detectors-understanding-yolo.html&#34; target=&#34;_blank&#34;&gt;Understanding YOLO&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b&#34; target=&#34;_blank&#34;&gt;What&amp;rsquo;s new in YOLOv3?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1708.02002&#34; target=&#34;_blank&#34;&gt;Focal Loss for Dense Object Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CNN Architectures</title>
       <link>https://gmanco.github.io/courses/computervision/lecture_lab3/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0100</pubDate>
@@ -383,6 +439,9 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
 &lt;/ul&gt;
 
 &lt;p&gt;La lezione è corredata di &lt;a href=&#34;../pdf/7.Reti neurali_parte3.pdf&#34;&gt;slides&lt;/a&gt; e di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab03&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Importante&lt;/strong&gt;
+Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dettagli dell&amp;rsquo;esonero sono pubblicati &lt;a href=&#34;https://gmanco.github.io/courses/computervision/esoneri/convolution/&#34; target=&#34;_blank&#34;&gt;nell&amp;rsquo;apposita pagina&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
@@ -425,9 +484,9 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
     
     <item>
       <title>Esonero 1</title>
-      <link>https://gmanco.github.io/courses/computervision/listoffeaturedescriptors/</link>
+      <link>https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/</link>
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/listoffeaturedescriptors/</guid>
+      <guid>https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/</guid>
       <description>
 
 &lt;h1 id=&#34;feature-descriptors&#34;&gt;Feature descriptors&lt;/h1&gt;
@@ -492,6 +551,87 @@ Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli
 &lt;li&gt;Davide Medaglia &lt;strong&gt;SIFT with Harris Corner Detection&lt;/strong&gt; (OpenCV)&lt;/li&gt;
 &lt;li&gt;Antonio Commisso &lt;strong&gt;Brisk&lt;/strong&gt; (OpenCV)&lt;/li&gt;
 &lt;li&gt;Antonio Gagliostro: &lt;strong&gt;skimage.feature.ORB&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Esonero 2</title>
+      <link>https://gmanco.github.io/courses/computervision/esoneri/convolution/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/esoneri/convolution/</guid>
+      <description>
+
+&lt;h1 id=&#34;convolutional-neural-networks&#34;&gt;Convolutional Neural Networks&lt;/h1&gt;
+
+&lt;p&gt;In questo esonero è chiesto agli studenti di studiare le reti convoluzionali.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Scegliere un topic&lt;/li&gt;
+&lt;li&gt;Preparare delle slides dettagliate (max 15) che lo descrivono&lt;/li&gt;
+&lt;li&gt;Preparare un notebook in cui:
+
+&lt;ul&gt;
+&lt;li&gt;si implementa quello che è richiesto&lt;/li&gt;
+&lt;li&gt;si illustrano i  risultati e la loro valutazione&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Gli studenti interessati ad effettuare l&amp;rsquo;esonero dovranno mandare una mail al docente indicando, in ordine di priorità, tre scelte dalla lista di cui sotto.
+Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli elaborati è il &lt;strong&gt;10 maggio 2020&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;googlenet&#34;&gt;GoogLeNet&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Scegliere una delle seguenti varianti di GoogLeNet e implementarla, riaddestrando la rete su CIFAR-10 e mostrando i risultati.
+
+&lt;ul&gt;
+&lt;li&gt;Utilizzare i layer di batch normalization [&lt;a href=&#34;https://d2l.ai/chapter_references/zreferences.html#ioffe-szegedy-2015&#34; target=&#34;_blank&#34;&gt;Ioffe &amp;amp; Szegedy, 2015]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Effettuare gli aggiustamenti all&amp;rsquo;inception block suggeriti in [&lt;a href=&#34;https://d2l.ai/chapter_references/zreferences.html#szegedy-vanhoucke-ioffe-ea-2016&#34; target=&#34;_blank&#34;&gt;Szegedy et al., 2016]&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;effettuare gli aggiustamenti alle residual connections suggerite in [&lt;a href=&#34;https://d2l.ai/chapter_references/zreferences.html#szegedy-ioffe-vanhoucke-ea-2017&#34; target=&#34;_blank&#34;&gt;Szegedy et al., 2017]&lt;/a&gt;,&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Qual&amp;rsquo;è la dimensione minima richiesta per l&amp;rsquo;immagine di input in GoogLeNet?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ioffe, S., &amp;amp; Szegedy, C. (2015). Batch normalization: accelerating deep network training by reducing internal covariate shift. &lt;em&gt;arXiv preprint arXiv:1502.03167&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J., &amp;amp; Wojna, Z. (2016). Rethinking the inception architecture for computer vision. &lt;em&gt;Proceedings of the IEEE conference on computer vision and pattern recognition&lt;/em&gt; (pp. 2818–2826).&lt;/li&gt;
+&lt;li&gt;Szegedy, C., Ioffe, S., Vanhoucke, V., &amp;amp; Alemi, A. A. (2017). Inception-v4, inception-resnet and the impact of residual connections on learning. &lt;em&gt;Thirty-First AAAI Conference on Artificial Intelligence&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;resnet&#34;&gt;ResNet&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Nelle versioni successive di ResNet, gli autori hanno cambiato l&amp;rsquo;architettura da “convolution, batch normalization, activation” in “batch normalization, activation, convolution”. Studia gli effetti di questo cambiamento nell&amp;rsquo;implementazione proposta in classe, ristrutturando la rete e riaddestrandola su CIFAR-10. [&lt;a href=&#34;https://arxiv.org/abs/1603.05027&#34; target=&#34;_blank&#34;&gt;He et al., 2016&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Qual&amp;rsquo;è la dimensione minima richiesta per l&amp;rsquo;immagine di input in ResNet ?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;He, K., Zhang, X., Ren, S., &amp;amp; Sun, J. (2016). Identity mappings in deep residual networks. European conference on computer vision (pp. 630–645).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;saliency-maps-using-flashtorch&#34;&gt;Saliency Maps using Flashtorch&lt;/h2&gt;
+
+&lt;p&gt;Studiare l&amp;rsquo;articolo [&lt;a href=&#34;https://arxiv.org/pdf/1312.6034.pdf&#34; target=&#34;_blank&#34;&gt;Simonyan et al, 2014&lt;/a&gt;] e il package &lt;a href=&#34;https://github.com/MisaOgura/flashtorch&#34; target=&#34;_blank&#34;&gt;flashtorch&lt;/a&gt; e usalo su alcune reti preaddestrate (VGG16, GoogLeNet, ResNet).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Karen Simonyan, Andrea Vedaldi, Andrew Zisserman. Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps. ICLR2014&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/MisaOgura/flashtorch/blob/master/examples/visualize_saliency_with_backprop.ipynb&#34; target=&#34;_blank&#34;&gt;Visualize image specific class saliency with backprop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;alternative-alla-batch-normalization&#34;&gt;Alternative alla Batch Normalization&lt;/h2&gt;
+
+&lt;p&gt;Prendere come riferimento la rete VGG16. Si studino gli effetti della normalizzazione riaddestrando la rete su CIFAR-10:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Aggiungendo Batch Normalization&lt;/li&gt;
+&lt;li&gt;Aggiungendo Local Response Normalization&lt;/li&gt;
+&lt;li&gt;Implementando la tecnica di Group Normalization descritta in [&lt;a href=&#34;https://arxiv.org/pdf/1803.08494.pdf&#34; target=&#34;_blank&#34;&gt;Wu et al, 2018&lt;/a&gt;]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Y. Wu, K. He. Group Normalization.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/an-alternative-to-batch-normalization-2cee9051e8bc&#34; target=&#34;_blank&#34;&gt;An alternative to Batch Normalization&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

@@ -375,13 +375,15 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
 
 &lt;ul&gt;
 &lt;li&gt;Region Proposal Networks: R-CNN, Fast R-CNN, Faster R-CNN.&lt;/li&gt;
-&lt;li&gt;Single Shot Detectors: SSd, YOLO.&lt;/li&gt;
+&lt;li&gt;Single Shot Detectors: SSD, RetinaNet, YOLO.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Materiale didattico:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;../pdf/8.Object_detection.pdf&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/8a.Object_Detection.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/8b.YOLO_demo.ipynb&#34; target=&#34;_blank&#34;&gt;Demo YOLO&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
@@ -416,6 +418,10 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b&#34; target=&#34;_blank&#34;&gt;What&amp;rsquo;s new in YOLOv3?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1708.02002&#34; target=&#34;_blank&#34;&gt;Focal Loss for Dense Object Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4&#34; target=&#34;_blank&#34;&gt;Review - RetinaNet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.zenggyu.com/en/post/2018-12-05/retinanet-explained-and-demystified/#fn3&#34; target=&#34;_blank&#34;&gt;RetinaNet explained and demystified&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -632,6 +638,46 @@ Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli
 &lt;ul&gt;
 &lt;li&gt;Y. Wu, K. He. Group Normalization.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/an-alternative-to-batch-normalization-2cee9051e8bc&#34; target=&#34;_blank&#34;&gt;An alternative to Batch Normalization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;assegnazioni&#34;&gt;Assegnazioni&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Costa Davide &lt;strong&gt;Alternative alla Batch Normalization&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Azzato Saverio &lt;strong&gt;GoogleLeNet (aggiustamenti all’inception block)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Sergi Alfredo &lt;strong&gt;GoogLeNet (aggiustamenti alle residual connection)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;De Prete Alessandra &lt;strong&gt;Saliency Maps using Flashtorch&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Prospero Papaleo &lt;strong&gt;ResNet&lt;/strong&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lavecchia Umberto Mattia &lt;strong&gt;GoogLeNet (con studio sulla batch normalization)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Giulia Katia Galimberti  &lt;strong&gt;SIFT&lt;/strong&gt; (OpenCV)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Maria Francesca Alati  &lt;strong&gt;skimage.feature.hog&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lorenzo Defina  &lt;strong&gt;Mser&lt;/strong&gt; (OpenCV)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Emilio Casella  &lt;strong&gt;Surf&lt;/strong&gt; (OpenCV)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Simona Nisticò matricola &lt;strong&gt;ORB&lt;/strong&gt; (OpenCV)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Domenico Montesanto &lt;strong&gt;AKAZE&lt;/strong&gt; (OpenCV)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Caterina Maugeri &lt;strong&gt;skimage.feature.local_binary_pattern&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Giuseppe Surace  &lt;strong&gt;skimage.feature.haar_like_feature&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Antonello Crea &lt;strong&gt;Daisy&lt;/strong&gt; (OpenCV)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Anile Anna  &lt;strong&gt;skimage.feature.BRIEF&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Vincenzo Parrilla  &lt;strong&gt;SURF with Harris Corner Detection&lt;/strong&gt;. (OpenCV)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Davide Medaglia &lt;strong&gt;SIFT with Harris Corner Detection&lt;/strong&gt; (OpenCV)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Antonio Commisso &lt;strong&gt;Brisk&lt;/strong&gt; (OpenCV)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Antonio Gagliostro: &lt;strong&gt;skimage.feature.ORB&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

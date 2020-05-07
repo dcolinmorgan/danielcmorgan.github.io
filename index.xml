@@ -5,7 +5,7 @@
     <link>https://gmanco.github.io/</link>
       <atom:link href="https://gmanco.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Giuseppe Manco</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Tue, 28 Apr 2020 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Thu, 07 May 2020 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Giuseppe Manco</title>
@@ -417,6 +417,14 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b&#34; target=&#34;_blank&#34;&gt;What&amp;rsquo;s new in YOLOv3?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@jonathan_hui/object-detection-speed-and-accuracy-comparison-faster-r-cnn-r-fcn-ssd-and-yolo-5425656ae359&#34; target=&#34;_blank&#34;&gt;Speed and accuracy comparison in object detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.10934&#34; target=&#34;_blank&#34;&gt;YOLOv4&lt;/a&gt; paper (with &lt;a href=&#34;https://github.com/AlexeyAB/darknet&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@riteshkanjee/yolov4-superior-faster-more-accurate-object-detection-7e8194bf1872&#34; target=&#34;_blank&#34;&gt;YOLOv4 -  Superior, faster and more accurate&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@michaelchan_2146/faster-real-time-object-detection-yolov4-in-pytorch-6eef8436ba75&#34; target=&#34;_blank&#34;&gt;YOLOv4 in Pytorch&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1708.02002&#34; target=&#34;_blank&#34;&gt;Focal Loss for Dense Object Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4&#34; target=&#34;_blank&#34;&gt;Review - RetinaNet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -491,6 +499,103 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
     </item>
     
     <item>
+      <title>Object Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab4/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab4/</guid>
+      <description>
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Anchor box&lt;/li&gt;
+&lt;li&gt;SSD&lt;/li&gt;
+&lt;li&gt;YOLOv3&lt;/li&gt;
+&lt;li&gt;RetinaNet&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab04&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, ch. 7.&lt;/li&gt;
+&lt;li&gt;Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.-Y.,  &amp;amp; Berg, A. C. (2016). Ssd: single shot multibox detector. &lt;em&gt;European conference on computer vision&lt;/em&gt; (pp. 21–37).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection&#34; target=&#34;_blank&#34;&gt;SSD tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/andreaazzini/retinanet.pytorch&#34; target=&#34;_blank&#34;&gt;RetinaNet in pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1708.02002&#34; target=&#34;_blank&#34;&gt;Retinanet Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.10934&#34; target=&#34;_blank&#34;&gt;YOLOv4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/retinanet-how-focal-loss-fixes-single-shot-detection-cb320e3bb0de&#34; target=&#34;_blank&#34;&gt;FocalLoss tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/&#34; target=&#34;_blank&#34;&gt;YOLOv3 example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Segmentation</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture8/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture8/</guid>
+      <description>
+
+&lt;p&gt;Segmentation.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Approcci classici (&lt;a href=&#34;../pdf/8.Object_detection.pdf&#34;&gt;slides&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/9.Segmentation.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, Ch. 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch.11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch.10&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.topbots.com/semantic-segmentation-guide/&#34; target=&#34;_blank&#34;&gt;A simple guide to semantic Segmentation&lt;/a&gt; and &lt;a href=&#34;https://heartbeat.fritz.ai/a-2019-guide-to-semantic-segmentation-ca8242f5a7fc&#34; target=&#34;_blank&#34;&gt;A 2019 guide to semantic segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776&#34; target=&#34;_blank&#34;&gt;https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1605.06211&#34; target=&#34;_blank&#34;&gt;Fully Convolutional Networks for Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/review-fcn-semantic-segmentation-eb8c9b50d2d1&#34; target=&#34;_blank&#34;&gt;Review - FCN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/activating-robotic-minds/up-sampling-with-transposed-convolution-9ae4f2df52d0&#34; target=&#34;_blank&#34;&gt;Upsampling with Transposed Convolution&lt;/a&gt;; &lt;a href=&#34;https://towardsdatascience.com/transposed-convolution-demystified-84ca81b4baba&#34; target=&#34;_blank&#34;&gt;Transposed Convolution demystified&lt;/a&gt;; &lt;a href=&#34;https://medium.com/apache-mxnet/transposed-convolutions-explained-with-ms-excel-52d13030c7e8&#34; target=&#34;_blank&#34;&gt;Transposed convolutions explained with Excel&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://distill.pub/2016/deconv-checkerboard/&#34; target=&#34;_blank&#34;&gt;Deconvolution and checkerboard artifacts&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://cvlab.postech.ac.kr/research/deconvnet/&#34; target=&#34;_blank&#34;&gt;Learning Deconvolution Network for Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://arxiv.org/abs/1511.00561&#34; target=&#34;_blank&#34;&gt;SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1505.04597.pdf&#34; target=&#34;_blank&#34;&gt;U-Net: Convolutional Networks for Biomedical Image Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1611.09326&#34; target=&#34;_blank&#34;&gt;The One Hundred Layers Tiramisu&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1612.01105.pdf&#34; target=&#34;_blank&#34;&gt;Pyramid scene parsing Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1606.00915.pdf&#34; target=&#34;_blank&#34;&gt;DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1511.07122&#34; target=&#34;_blank&#34;&gt;Multiscale Context aggregation by dilated convolutions&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1706.05587.pdf&#34; target=&#34;_blank&#34;&gt;Rethinking Atrous Convolution for Semantic Image Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Review: &lt;a href=&#34;https://towardsdatascience.com/review-deeplabv1-deeplabv2-atrous-convolution-semantic-segmentation-b51c5fbde92d&#34; target=&#34;_blank&#34;&gt;DeepLabv2&lt;/a&gt; e &lt;a href=&#34;https://towardsdatascience.com/review-deeplabv3-atrous-convolution-semantic-segmentation-6d818bfd1d74&#34; target=&#34;_blank&#34;&gt;DeepLabv3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Esonero 1</title>
       <link>https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/</link>
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
@@ -560,6 +665,89 @@ Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli
 &lt;li&gt;Antonio Commisso &lt;strong&gt;Brisk&lt;/strong&gt; (OpenCV)&lt;/li&gt;
 &lt;li&gt;Antonio Gagliostro: &lt;strong&gt;skimage.feature.ORB&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h1 id=&#34;risultati&#34;&gt;Risultati&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Studente&lt;/th&gt;
+&lt;th&gt;Voto&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Alati Maria  Francesca&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Anile Anna&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Casella Emilio&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Commisso Antonio&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Crea Antonello&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Defina Lorenzo&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Gagliostro Antonio&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Galimberti Giulia&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Maugeri Caterina&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Medaglia Davide&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Montesanto Domenico&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Nisticò Simona&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Parrilla Vincenzo&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Surace Giuseppe&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     

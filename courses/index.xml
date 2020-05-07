@@ -22,6 +22,7 @@
 &lt;h2 id=&#34;annunci&#34;&gt;Annunci&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[07/05/2020]&lt;/strong&gt; E disponibile la valutazione del primo esonero, nalla rispettiva &lt;a href=&#34;https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/&#34; target=&#34;_blank&#34;&gt;pagina&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[28/04/2020]&lt;/strong&gt; E disponibile la lista degli argomenti per il secondo esonero. La lista è disponibile &lt;a href=&#34;https://gmanco.github.io/courses/computervision/esoneri/convolution/&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;. Gli studenti che selgono di effettuare l&amp;rsquo;esonero devono concordare l&amp;rsquo;opzione con il docente tramite email. La deadline per la consegna degli elaborati è il 10 maggio 2020.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[02/04/2020]&lt;/strong&gt; E disponibile la lista degli argomenti per il primo esonero. La lista è disponibile &lt;a href=&#34;https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;. Gli studenti che selgono di effettuare l&amp;rsquo;esonero devono comunicare le opzioni (3) al docente. Martedì 7 verrà comunicata l&amp;rsquo;assegnazione dei topic ai vari studenti. La deadline per la consegna degli elaborati è il 16 aprile 2020.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[03/03/2020]&lt;/strong&gt; Si avvisano gli studenti che il corso di Analisi di Immagini e Video – Corso di Laurea Magistrale in Ingegneria Informatica verrà erogato in modalità streaming, utilizzando l’applicativo TEAMS, a partire dal giorno 17/03/2019, alle ore 8:30. La richiesta di iscrizione al corso può essere effettuata cliccando sul seguente &lt;a href=&#34;https://teams.microsoft.com/l/channel/19%3ac60bff4a6e874db3b5e0d2034412ed18%40thread.tacv 2/Generale?groupId=b4509060-7b45-4eab-80ce-55182356fb88&amp;amp;tenantId=7519d0cd-2106-47d9- adcb-320023abff57&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Gli studenti già pratici dell’utilizzo di TEAMS e che abbiano già scaricato l’APP, possono iscriversi direttamente al corso (senza approvazione del docente) utilizzando il codice: &lt;strong&gt;khm7h4s&lt;/strong&gt;&lt;/li&gt;
@@ -169,9 +170,23 @@
 
 &lt;tr&gt;
 &lt;td&gt;11&lt;/td&gt;
-&lt;td&gt;Object Detection. Region Proposal Networks&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture7/&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;28/04/2020&lt;/td&gt;
+&lt;td&gt;Object Detection. Region Proposal Networks, Single-Shot Detection. Yolo.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture7/&#34; target=&#34;_blank&#34;&gt;Slides, notebooks&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;28/04/2020, 30/04/2020&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Laboratorio 3: Object Detection&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture_lab4/&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;05/05/2020&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;Segmentazione&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture8/&#34; target=&#34;_blank&#34;&gt;Slides, notebooks&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;07/05/2020&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

@@ -5,7 +5,7 @@
     <link>https://gmanco.github.io/</link>
       <atom:link href="https://gmanco.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Giuseppe Manco</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Thu, 07 May 2020 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Tue, 12 May 2020 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Giuseppe Manco</title>
@@ -539,17 +539,19 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
     <item>
       <title>Segmentation</title>
       <link>https://gmanco.github.io/courses/computervision/lecture8/</link>
-      <pubDate>Thu, 07 May 2020 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0100</pubDate>
       <guid>https://gmanco.github.io/courses/computervision/lecture8/</guid>
       <description>
 
-&lt;p&gt;Segmentation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Segmentation.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Approcci classici (&lt;a href=&#34;../pdf/8.Object_detection.pdf&#34;&gt;slides&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Approcci classici. Conditional Random Fields (&lt;a href=&#34;../pdf/9a.Segmentation_part1.pdf&#34;&gt;slides&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Approcci Neurali. Semantic Segmentation. Instance Segmentation.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/9.Segmentation.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/9.Segmentation.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/p&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
@@ -562,9 +564,19 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.topbots.com/semantic-segmentation-guide/&#34; target=&#34;_blank&#34;&gt;A simple guide to semantic Segmentation&lt;/a&gt; and &lt;a href=&#34;https://heartbeat.fritz.ai/a-2019-guide-to-semantic-segmentation-ca8242f5a7fc&#34; target=&#34;_blank&#34;&gt;A 2019 guide to semantic segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf&#34; target=&#34;_blank&#34;&gt;An Introduction to Conditional Random Fields&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776&#34; target=&#34;_blank&#34;&gt;https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.nowozin.net/sebastian/papers/nowozin2011structured-tutorial.pdf&#34; target=&#34;_blank&#34;&gt;Structured Learning and Prediction in Computer Vision&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.csd.uwo.ca/~yboykov/Papers/pami04.pdf&#34; target=&#34;_blank&#34;&gt;An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1210.5644.pdf&#34; target=&#34;_blank&#34;&gt;Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials&lt;/a&gt; (with &lt;a href=&#34;http://vladlen.info/papers/densecrf-supplementary.pdf&#34; target=&#34;_blank&#34;&gt;Supplemental Material&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776&#34; target=&#34;_blank&#34;&gt;Conditional Random Fields explained&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.echen.me/2012/01/03/introduction-to-conditional-random-fields/&#34; target=&#34;_blank&#34;&gt;Introduction to Conditional Random Fields&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.topbots.com/semantic-segmentation-guide/&#34; target=&#34;_blank&#34;&gt;A simple guide to semantic Segmentation&lt;/a&gt; and &lt;a href=&#34;https://heartbeat.fritz.ai/a-2019-guide-to-semantic-segmentation-ca8242f5a7fc&#34; target=&#34;_blank&#34;&gt;A 2019 guide to semantic segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1605.06211&#34; target=&#34;_blank&#34;&gt;Fully Convolutional Networks for Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
@@ -591,6 +603,18 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1706.05587.pdf&#34; target=&#34;_blank&#34;&gt;Rethinking Atrous Convolution for Semantic Image Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Review: &lt;a href=&#34;https://towardsdatascience.com/review-deeplabv1-deeplabv2-atrous-convolution-semantic-segmentation-b51c5fbde92d&#34; target=&#34;_blank&#34;&gt;DeepLabv2&lt;/a&gt; e &lt;a href=&#34;https://towardsdatascience.com/review-deeplabv3-atrous-convolution-semantic-segmentation-6d818bfd1d74&#34; target=&#34;_blank&#34;&gt;DeepLabv3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://openreview.net/pdf?id=S1uHiFyyg&#34; target=&#34;_blank&#34;&gt;Speeding up Semantic segmentation for autonomous driving&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1703.06870&#34; target=&#34;_blank&#34;&gt;Mask R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@jonathan_hui/image-segmentation-with-mask-r-cnn-ebe6d793272&#34; target=&#34;_blank&#34;&gt;Image Segmentation with Mask R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1611.07709.pdf&#34; target=&#34;_blank&#34;&gt;Fully Convolutional Instance-aware Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1904.02689.pdf&#34; target=&#34;_blank&#34;&gt;YOLACT&lt;/a&gt; and &lt;a href=&#34;https://arxiv.org/abs/1912.06218&#34; target=&#34;_blank&#34;&gt;YOLOACT++&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1801.00868.pdf&#34; target=&#34;_blank&#34;&gt;Pantropic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

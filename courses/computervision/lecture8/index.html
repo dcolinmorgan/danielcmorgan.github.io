@@ -29,14 +29,10 @@
     
   
   <meta name="description" content="Segmentation.
- Approcci classici (slides).  Notebook di accompagnamento
-Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link utili  A simple guide to semantic Segmentation and A 2019 guide to semantic segmentation
- https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776
- Fully Convolutional Networks for Semantic Segmentation
- Review - FCN
- Upsampling with Transposed Convolution; Transposed Convolution demystified; Transposed convolutions explained with Excel
- Deconvolution and checkerboard artifacts
- Learning Deconvolution Network for Semantic Segmentation">
+ Approcci classici. Conditional Random Fields (slides). Approcci Neurali. Semantic Segmentation. Instance Segmentation. Notebook di accompagnamento   Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link utili  An Introduction to Conditional Random Fields
+ Structured Learning and Prediction in Computer Vision
+ An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision
+ Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials (with Supplemental Material)">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture8/">
@@ -136,20 +132,16 @@ Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link
   <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture8/">
   <meta property="og:title" content="Segmentation | Giuseppe Manco">
   <meta property="og:description" content="Segmentation.
- Approcci classici (slides).  Notebook di accompagnamento
-Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link utili  A simple guide to semantic Segmentation and A 2019 guide to semantic segmentation
- https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776
- Fully Convolutional Networks for Semantic Segmentation
- Review - FCN
- Upsampling with Transposed Convolution; Transposed Convolution demystified; Transposed convolutions explained with Excel
- Deconvolution and checkerboard artifacts
- Learning Deconvolution Network for Semantic Segmentation"><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+ Approcci classici. Conditional Random Fields (slides). Approcci Neurali. Semantic Segmentation. Instance Segmentation. Notebook di accompagnamento   Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link utili  An Introduction to Conditional Random Fields
+ Structured Learning and Prediction in Computer Vision
+ An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision
+ Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials (with Supplemental Material)"><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-05-07T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2020-05-12T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-05-07T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2020-05-12T00:00:00&#43;01:00">
   
 
   
@@ -536,13 +528,15 @@ Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link
           <div class="article-style" itemprop="articleBody">
             
 
-<p>Segmentation.</p>
+<ul>
+<li><p>Segmentation.</p>
 
 <ul>
-<li>Approcci classici (<a href="../pdf/8.Object_detection.pdf">slides</a>).</li>
+<li>Approcci classici. Conditional Random Fields (<a href="../pdf/9a.Segmentation_part1.pdf">slides</a>).</li>
+<li>Approcci Neurali. Semantic Segmentation. Instance Segmentation.</li>
+<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/9.Segmentation.ipynb" target="_blank">Notebook</a> di accompagnamento</li>
+</ul></li>
 </ul>
-
-<p><a href="https://github.com/gmanco/cv_notebooks/blob/master/9.Segmentation.ipynb" target="_blank">Notebook</a> di accompagnamento</p>
 
 <h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
 
@@ -555,9 +549,19 @@ Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li><p><a href="https://www.topbots.com/semantic-segmentation-guide/" target="_blank">A simple guide to semantic Segmentation</a> and <a href="https://heartbeat.fritz.ai/a-2019-guide-to-semantic-segmentation-ca8242f5a7fc" target="_blank">A 2019 guide to semantic segmentation</a></p></li>
+<li><p><a href="https://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf" target="_blank">An Introduction to Conditional Random Fields</a></p></li>
 
-<li><p><a href="https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776" target="_blank">https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776</a></p></li>
+<li><p><a href="http://www.nowozin.net/sebastian/papers/nowozin2011structured-tutorial.pdf" target="_blank">Structured Learning and Prediction in Computer Vision</a></p></li>
+
+<li><p><a href="https://www.csd.uwo.ca/~yboykov/Papers/pami04.pdf" target="_blank">An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision</a></p></li>
+
+<li><p><a href="https://arxiv.org/pdf/1210.5644.pdf" target="_blank">Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials</a> (with <a href="http://vladlen.info/papers/densecrf-supplementary.pdf" target="_blank">Supplemental Material</a>)</p></li>
+
+<li><p><a href="https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776" target="_blank">Conditional Random Fields explained</a></p></li>
+
+<li><p><a href="https://blog.echen.me/2012/01/03/introduction-to-conditional-random-fields/" target="_blank">Introduction to Conditional Random Fields</a></p></li>
+
+<li><p><a href="https://www.topbots.com/semantic-segmentation-guide/" target="_blank">A simple guide to semantic Segmentation</a> and <a href="https://heartbeat.fritz.ai/a-2019-guide-to-semantic-segmentation-ca8242f5a7fc" target="_blank">A 2019 guide to semantic segmentation</a></p></li>
 
 <li><p><a href="https://arxiv.org/abs/1605.06211" target="_blank">Fully Convolutional Networks for Semantic Segmentation</a></p></li>
 
@@ -584,6 +588,18 @@ Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link
 <li><p><a href="https://arxiv.org/pdf/1706.05587.pdf" target="_blank">Rethinking Atrous Convolution for Semantic Image Segmentation</a></p></li>
 
 <li><p>Review: <a href="https://towardsdatascience.com/review-deeplabv1-deeplabv2-atrous-convolution-semantic-segmentation-b51c5fbde92d" target="_blank">DeepLabv2</a> e <a href="https://towardsdatascience.com/review-deeplabv3-atrous-convolution-semantic-segmentation-6d818bfd1d74" target="_blank">DeepLabv3</a></p></li>
+
+<li><p><a href="https://openreview.net/pdf?id=S1uHiFyyg" target="_blank">Speeding up Semantic segmentation for autonomous driving</a></p></li>
+
+<li><p><a href="https://arxiv.org/abs/1703.06870" target="_blank">Mask R-CNN</a></p></li>
+
+<li><p><a href="https://medium.com/@jonathan_hui/image-segmentation-with-mask-r-cnn-ebe6d793272" target="_blank">Image Segmentation with Mask R-CNN</a></p></li>
+
+<li><p><a href="https://arxiv.org/pdf/1611.07709.pdf" target="_blank">Fully Convolutional Instance-aware Semantic Segmentation</a></p></li>
+
+<li><p><a href="https://arxiv.org/pdf/1904.02689.pdf" target="_blank">YOLACT</a> and <a href="https://arxiv.org/abs/1912.06218" target="_blank">YOLOACT++</a></p></li>
+
+<li><p><a href="https://arxiv.org/pdf/1801.00868.pdf" target="_blank">Pantropic Segmentation</a></p></li>
 </ul>
 
           </div>
@@ -618,7 +634,7 @@ Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link
         </div>
 
         <div class="body-footer">
-          <p>Last updated on May 7, 2020</p>
+          <p>Last updated on May 12, 2020</p>
 
           
 

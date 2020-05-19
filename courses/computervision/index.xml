@@ -547,9 +547,9 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;li&gt;&lt;p&gt;Segmentation.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Approcci classici. Conditional Random Fields (&lt;a href=&#34;../pdf/9a.Segmentation_part1.pdf&#34;&gt;slides&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;Approcci Neurali. Semantic Segmentation. Instance Segmentation.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/9.Segmentation.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
+&lt;li&gt;Approcci classici. Conditional Random Fields. &lt;a href=&#34;../pdf/9a.Segmentation_part1.pdf&#34;&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Approcci Neurali. Semantic Segmentation. Instance Segmentation. &lt;a href=&#34;../pdf/9a.Segmentation_part2.pdf&#34;&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/9.Segmentation.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -606,6 +606,14 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://openreview.net/pdf?id=S1uHiFyyg&#34; target=&#34;_blank&#34;&gt;Speeding up Semantic segmentation for autonomous driving&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1606.02147.pdf&#34; target=&#34;_blank&#34;&gt;ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;ICNet for Real-Time Semantic Segmentation on High-Resolution Images&#34; target=&#34;_blank&#34;&gt;ICNet for Real-Time Semantic Segmentation on High-Resolution Images&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1902.04502&#34; target=&#34;_blank&#34;&gt;Fast-SCNN: Fast Semantic Segmentation Network&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_CVPR_2019/html/Li_DFANet_Deep_Feature_Aggregation_for_Real-Time_Semantic_Segmentation_CVPR_2019_paper.html&#34; target=&#34;_blank&#34;&gt;DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1703.06870&#34; target=&#34;_blank&#34;&gt;Mask R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@jonathan_hui/image-segmentation-with-mask-r-cnn-ebe6d793272&#34; target=&#34;_blank&#34;&gt;Image Segmentation with Mask R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -615,6 +623,79 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1904.02689.pdf&#34; target=&#34;_blank&#34;&gt;YOLACT&lt;/a&gt; and &lt;a href=&#34;https://arxiv.org/abs/1912.06218&#34; target=&#34;_blank&#34;&gt;YOLOACT++&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1801.00868.pdf&#34; target=&#34;_blank&#34;&gt;Pantropic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Action Recognition</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture9/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture9/</guid>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Action Recognition.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3D Convolution. Recurrent Networks. Optical Flow. &lt;a href=&#34;../pdf/9a.Segmentation_part1.pdf&#34;&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/10.action_recognition.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, Ch. 8&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch.20&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;•https://www.pyimagesearch.com/2019/11/25/human-activity-recognition-with-opencv-and-deep-learning/&#34; target=&#34;_blank&#34;&gt;Deep Learning for Action Recognition: A Review&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/pytorch-step-by-step-implementation-3d-convolution-neural-network-8bf38c70e8b3&#34; target=&#34;_blank&#34;&gt;3D Convolution in Pytorch&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1412.0767.pdf&#34; target=&#34;_blank&#34;&gt;Learning Spatiotemporal Features with 3D Convolutional Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1705.07750&#34; target=&#34;_blank&#34;&gt;Quo vadis, action recognition? a new model and the kinetics dataset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.dbs.ifi.lmu.de/~yu_k/icml2010_3dcnn.pdf&#34; target=&#34;_blank&#34;&gt;3d convolutional neural networks for human action recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://static.googleusercontent.com/media/research.google.com/it//pubs/archive/42455.pdf&#34; target=&#34;_blank&#34;&gt;Large-Scale Video Classification with Convolutional Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1711.10305&#34; target=&#34;_blank&#34;&gt;Learning spatio-temporal representation with pseudo-3d residual networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1712.04851.pdf&#34; target=&#34;_blank&#34;&gt;Rethinking Spatiotemporal Feature Learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://papers.nips.cc/paper/6433-spatiotemporal-residual-networks-for-video-action-recognition.pdf&#34; target=&#34;_blank&#34;&gt;Spatiotemporal residual networks for video action recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1812.05038&#34; target=&#34;_blank&#34;&gt;Long-Term Feature Banks for Detailed Video Understanding&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1705.06950&#34; target=&#34;_blank&#34;&gt;The Kinetics Human Action Recognition Dataset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1411.4389&#34; target=&#34;_blank&#34;&gt;Long-term Recurrent Convolutional Networks for Visual Recognition and Description&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1511.04119.pdf&#34; target=&#34;_blank&#34;&gt;Action Recognition Using Visual Attention&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;Recurrent Tubelet Proposal and Recognition Networks for Action Detection&#34; target=&#34;_blank&#34;&gt;Recurrent Tubelet Proposal and Recognition Networks for Action Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1607.01794.pdf&#34; target=&#34;_blank&#34;&gt;VideoLSTM Convolves, Attends and Flows for Action Recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1503.08909.pdf&#34; target=&#34;_blank&#34;&gt;Beyond Short Snippets: Deep Networks for Video Classification&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://pdfs.semanticscholar.org/51fe/a461cf3724123c888cb9184474e176c12e61.pdf&#34; target=&#34;_blank&#34;&gt;An Iterative Image Registration Technique with an Application to Stero Vision&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.diva-portal.org/smash/get/diva2:273847/FULLTEXT01.pdf&#34; target=&#34;_blank&#34;&gt;Two-Frame Motion Estimation with Polynomial Expansion&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://nanonets.com/blog/optical-flow/&#34; target=&#34;_blank&#34;&gt;Introduction to Motion Estimation with Optical Flow&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1504.06852&#34; target=&#34;_blank&#34;&gt;FlowNet: Learning Optical Flow with Convolutional Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1406.2199.pdf&#34; target=&#34;_blank&#34;&gt;Two-Stream Convolutional Networks for Action Recognition in Videos&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;•https://medium.com/swlh/what-is-optical-flow-and-why-does-it-matter-in-deep-learning-b3278bb205b5&#34; target=&#34;_blank&#34;&gt;What is optical flow and why does it matter in deep learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -758,12 +839,12 @@ Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli
 
 &lt;tr&gt;
 &lt;td&gt;Nisticò Simona&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Parrilla Vincenzo&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;

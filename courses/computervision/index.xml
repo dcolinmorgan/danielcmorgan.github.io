@@ -638,7 +638,7 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;li&gt;&lt;p&gt;Action Recognition.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;3D Convolution. Recurrent Networks. Optical Flow. &lt;a href=&#34;../pdf/9a.Segmentation_part1.pdf&#34;&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;3D Convolution. Recurrent Networks. Optical Flow. &lt;a href=&#34;../pdf/10.Action_recognition.pdf&#34;&gt;slides&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/10.action_recognition.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -653,49 +653,124 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;•https://www.pyimagesearch.com/2019/11/25/human-activity-recognition-with-opencv-and-deep-learning/&#34; target=&#34;_blank&#34;&gt;Deep Learning for Action Recognition: A Review&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;•https://www.pyimagesearch.com/2019/11/25/human-activity-recognition-with-opencv-and-deep-learning/&#34; target=&#34;_blank&#34;&gt;Deep Learning for Action Recognition: A Review&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/pytorch-step-by-step-implementation-3d-convolution-neural-network-8bf38c70e8b3&#34; target=&#34;_blank&#34;&gt;3D Convolution in Pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1412.0767.pdf&#34; target=&#34;_blank&#34;&gt;Learning Spatiotemporal Features with 3D Convolutional Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1705.07750&#34; target=&#34;_blank&#34;&gt;Quo vadis, action recognition? a new model and the kinetics dataset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dbs.ifi.lmu.de/~yu_k/icml2010_3dcnn.pdf&#34; target=&#34;_blank&#34;&gt;3d convolutional neural networks for human action recognition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://static.googleusercontent.com/media/research.google.com/it//pubs/archive/42455.pdf&#34; target=&#34;_blank&#34;&gt;Large-Scale Video Classification with Convolutional Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1711.10305&#34; target=&#34;_blank&#34;&gt;Learning spatio-temporal representation with pseudo-3d residual networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1712.04851.pdf&#34; target=&#34;_blank&#34;&gt;Rethinking Spatiotemporal Feature Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://papers.nips.cc/paper/6433-spatiotemporal-residual-networks-for-video-action-recognition.pdf&#34; target=&#34;_blank&#34;&gt;Spatiotemporal residual networks for video action recognition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1812.05038&#34; target=&#34;_blank&#34;&gt;Long-Term Feature Banks for Detailed Video Understanding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1705.06950&#34; target=&#34;_blank&#34;&gt;The Kinetics Human Action Recognition Dataset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1411.4389&#34; target=&#34;_blank&#34;&gt;Long-term Recurrent Convolutional Networks for Visual Recognition and Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1511.04119.pdf&#34; target=&#34;_blank&#34;&gt;Action Recognition Using Visual Attention&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Recurrent Tubelet Proposal and Recognition Networks for Action Detection&#34; target=&#34;_blank&#34;&gt;Recurrent Tubelet Proposal and Recognition Networks for Action Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1607.01794.pdf&#34; target=&#34;_blank&#34;&gt;VideoLSTM Convolves, Attends and Flows for Action Recognition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1503.08909.pdf&#34; target=&#34;_blank&#34;&gt;Beyond Short Snippets: Deep Networks for Video Classification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pdfs.semanticscholar.org/51fe/a461cf3724123c888cb9184474e176c12e61.pdf&#34; target=&#34;_blank&#34;&gt;An Iterative Image Registration Technique with an Application to Stero Vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.diva-portal.org/smash/get/diva2:273847/FULLTEXT01.pdf&#34; target=&#34;_blank&#34;&gt;Two-Frame Motion Estimation with Polynomial Expansion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nanonets.com/blog/optical-flow/&#34; target=&#34;_blank&#34;&gt;Introduction to Motion Estimation with Optical Flow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cs.toronto.edu/~fleet/research/Papers/flowChapter05.pdf&#34; target=&#34;_blank&#34;&gt;Optical Flow Estimation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1504.06852&#34; target=&#34;_blank&#34;&gt;FlowNet: Learning Optical Flow with Convolutional Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1406.2199.pdf&#34; target=&#34;_blank&#34;&gt;Two-Stream Convolutional Networks for Action Recognition in Videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;•https://medium.com/swlh/what-is-optical-flow-and-why-does-it-matter-in-deep-learning-b3278bb205b5&#34; target=&#34;_blank&#34;&gt;What is optical flow and why does it matter in deep learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=tIwpDuqJqcE&#34; target=&#34;_blank&#34;&gt;Michael Black&amp;rsquo;s lecture on Optical Flow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modelli Generativi</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture10/</link>
+      <pubDate>Thu, 21 May 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture10/</guid>
+      <description>
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/pytorch-step-by-step-implementation-3d-convolution-neural-network-8bf38c70e8b3&#34; target=&#34;_blank&#34;&gt;3D Convolution in Pytorch&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Modelli Generativi: Variational Autoencoders.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/11.Generative_models_VAE.pdf&#34;&gt;Slides&lt;/a&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1412.0767.pdf&#34; target=&#34;_blank&#34;&gt;Learning Spatiotemporal Features with 3D Convolutional Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/11.Generative_models.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1705.07750&#34; target=&#34;_blank&#34;&gt;Quo vadis, action recognition? a new model and the kinetics dataset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.dbs.ifi.lmu.de/~yu_k/icml2010_3dcnn.pdf&#34; target=&#34;_blank&#34;&gt;3d convolutional neural networks for human action recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1312.6114&#34; target=&#34;_blank&#34;&gt;Autoencoding Variational Bayes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1401.4082&#34; target=&#34;_blank&#34;&gt;Stochastic Backpropagation and Approximate Inference in Deep Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jaan.io/what-is-variational-autoencoder-vae-tutorial/&#34; target=&#34;_blank&#34;&gt;What is a Variational Autoencoder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://papers.nips.cc/paper/6528-variational-autoencoder-for-deep-learning-of-images-labels-and-captions.pdf&#34; target=&#34;_blank&#34;&gt;Variational Autoencoder for Deep Learning of Images, Labels and Captions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1911.07389.pdf&#34; target=&#34;_blank&#34;&gt;Towards Visually Explaining Variational Autoencoders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73&#34; target=&#34;_blank&#34;&gt;Understanding VAEs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1606.04934&#34; target=&#34;_blank&#34;&gt;Improved Variational Inference with Inverse Autoregressive Flow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gmanco.github.io/post/on-semisupervised-vae/&#34; target=&#34;_blank&#34;&gt;Semi-supervised Variational Autoencoders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepgenerativemodels.github.io/&#34; target=&#34;_blank&#34;&gt;Deep Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/generative-models/&#34; target=&#34;_blank&#34;&gt;Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openreview.net/pdf?id=Sy2fzU9gl&#34; target=&#34;_blank&#34;&gt;$\beta$-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generative Adversarial Networks</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture11/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture11/</guid>
+      <description>
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://static.googleusercontent.com/media/research.google.com/it//pubs/archive/42455.pdf&#34; target=&#34;_blank&#34;&gt;Large-Scale Video Classification with Convolutional Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Modelli Generativi: Adversarial Learning.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/12.Generative_models_GAN.pdf&#34;&gt;Slides&lt;/a&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1711.10305&#34; target=&#34;_blank&#34;&gt;Learning spatio-temporal representation with pseudo-3d residual networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/12.GAN.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1712.04851.pdf&#34; target=&#34;_blank&#34;&gt;Rethinking Spatiotemporal Feature Learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://papers.nips.cc/paper/6433-spatiotemporal-residual-networks-for-video-action-recognition.pdf&#34; target=&#34;_blank&#34;&gt;Spatiotemporal residual networks for video action recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 8, 9.3.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1812.05038&#34; target=&#34;_blank&#34;&gt;Long-Term Feature Banks for Detailed Video Understanding&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1705.06950&#34; target=&#34;_blank&#34;&gt;The Kinetics Human Action Recognition Dataset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1411.4389&#34; target=&#34;_blank&#34;&gt;Long-term Recurrent Convolutional Networks for Visual Recognition and Description&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1511.04119.pdf&#34; target=&#34;_blank&#34;&gt;Action Recognition Using Visual Attention&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;Recurrent Tubelet Proposal and Recognition Networks for Action Detection&#34; target=&#34;_blank&#34;&gt;Recurrent Tubelet Proposal and Recognition Networks for Action Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1607.01794.pdf&#34; target=&#34;_blank&#34;&gt;VideoLSTM Convolves, Attends and Flows for Action Recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1503.08909.pdf&#34; target=&#34;_blank&#34;&gt;Beyond Short Snippets: Deep Networks for Video Classification&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://pdfs.semanticscholar.org/51fe/a461cf3724123c888cb9184474e176c12e61.pdf&#34; target=&#34;_blank&#34;&gt;An Iterative Image Registration Technique with an Application to Stero Vision&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.diva-portal.org/smash/get/diva2:273847/FULLTEXT01.pdf&#34; target=&#34;_blank&#34;&gt;Two-Frame Motion Estimation with Polynomial Expansion&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://nanonets.com/blog/optical-flow/&#34; target=&#34;_blank&#34;&gt;Introduction to Motion Estimation with Optical Flow&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1504.06852&#34; target=&#34;_blank&#34;&gt;FlowNet: Learning Optical Flow with Convolutional Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1406.2199.pdf&#34; target=&#34;_blank&#34;&gt;Two-Stream Convolutional Networks for Action Recognition in Videos&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;•https://medium.com/swlh/what-is-optical-flow-and-why-does-it-matter-in-deep-learning-b3278bb205b5&#34; target=&#34;_blank&#34;&gt;What is optical flow and why does it matter in deep learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepgenerativemodels.github.io/&#34; target=&#34;_blank&#34;&gt;Deep Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1406.2661&#34; target=&#34;_blank&#34;&gt;Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://danieltakeshi.github.io/2017/03/05/understanding-generative-adversarial-networks/&#34; target=&#34;_blank&#34;&gt;Understanding Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1606.03498.pdf&#34; target=&#34;_blank&#34;&gt;Improved Techniques for training GANs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1511.05101&#34; target=&#34;_blank&#34;&gt;How (not) to train your Generative Model: Scheduled Sampling, Likelihood, Adversary?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://arxiv.org/abs/1706.08500&#34; target=&#34;_blank&#34;&gt;GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1706.08224v2.pdf&#34; target=&#34;_blank&#34;&gt;Do GAN actually Learn the Distribution?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1710.10196.pdf&#34; target=&#34;_blank&#34;&gt;Progressive Growing of GANs for Improved Quality, Stability and Variation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1711.10337&#34; target=&#34;_blank&#34;&gt;Are GANs Created Equal? A Large-Scale Study&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1701.07875.pdf&#34; target=&#34;_blank&#34;&gt;Wasserstein GANs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wasserstein GANs: Blog posts &lt;a href=&#34;https://medium.com/@jonathan_hui/gan-wasserstein-gan-wgan-gp-6a1a2aa1b490&#34; target=&#34;_blank&#34;&gt;1&lt;/a&gt;, &lt;a href=&#34;https://www.depthfirstlearning.com/2019/WassersteinGAN&#34; target=&#34;_blank&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html&#34; target=&#34;_blank&#34;&gt;3&lt;/a&gt;, &lt;a href=&#34;http://lernapparat.de/improved-wasserstein-gan/&#34; target=&#34;_blank&#34;&gt;4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans&#34; target=&#34;_blank&#34;&gt;Improved training fo Wasserstein GANs&lt;/a&gt; (with some &lt;a href=&#34;https://github.com/t-vi/pytorch-tvmisc/blob/master/wasserstein-distance/Semi-Improved_Training_of_Wasserstein_GAN.ipynb&#34; target=&#34;_blank&#34;&gt;tricks&lt;/a&gt; on how to implement it in Pytorch)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/znxlwm/pytorch-generative-model-collections&#34; target=&#34;_blank&#34;&gt;A collection of Generative Models in Pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/soumith/ganhacks&#34; target=&#34;_blank&#34;&gt;How to train a GAN?&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=Qc1F3-Rblbw&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1411.1784&#34; target=&#34;_blank&#34;&gt;Conditional Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1611.07004&#34; target=&#34;_blank&#34;&gt;Image to image translation with Conditional Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/a-gentle-introduction-to-cycle-consistent-adversarial-networks-6731c8424a87&#34; target=&#34;_blank&#34;&gt;A gentle introduction to CycleGAN for Image Translation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1703.10593&#34; target=&#34;_blank&#34;&gt;Unpaired Image-to-image Translation using Cycle-Consistent Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1807.00374.pdf&#34; target=&#34;_blank&#34;&gt;Augmented Cyclic Adversarial Learning for Low Resource Domain Adaptation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hardikbansal.github.io/CycleGANBlog/&#34; target=&#34;_blank&#34;&gt;Understanding and Implementing CycleGAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1610.09585.pdf&#34; target=&#34;_blank&#34;&gt;Conditional Image Synthesis with Auxiliary Classifier GANs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1803.04469.pdf&#34; target=&#34;_blank&#34;&gt;An Introduction to Image Synthesis with Generative Adversarial Nets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1809.11096.pdf&#34; target=&#34;_blank&#34;&gt;Large-Scale GAN Training for High-Fidelity Natural Image Synthesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1809.06222.pdf&#34; target=&#34;_blank&#34;&gt;GANs for Medical Image Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hindupuravinash/the-gan-zoo&#34; target=&#34;_blank&#34;&gt;The GAN Zoo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/c/deepfake-detection-challenge/discussion/121313&#34; target=&#34;_blank&#34;&gt;GAN and Deepfakes resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@jonathan_hui/how-deep-learning-fakes-videos-deepfakes-and-how-to-detect-it-c0b50fbf7cb9&#34; target=&#34;_blank&#34;&gt;How deep learning fakes videos and how to detect it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/deepfakes-the-ugly-and-the-good-49115643d8dd&#34; target=&#34;_blank&#34;&gt;Deepfakes: The ugly, and the good&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://neurohive.io/en/news/deepfake-videos-gan-sythesizes-a-video-from-a-single-photo/&#34; target=&#34;_blank&#34;&gt;Deepfake Videos: GAN synthesizes a Video from a Single Photo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Neural Style Transfer &lt;a href=&#34;[https://towardsdatascience.com/neural-style-transfer-tutorial-part-1-f5cd3315fa7f&#34; target=&#34;_blank&#34;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1508.06576.pdf&#34; target=&#34;_blank&#34;&gt;A Neural algorithm of Artistic Style&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

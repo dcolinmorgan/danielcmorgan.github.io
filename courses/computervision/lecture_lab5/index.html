@@ -28,15 +28,12 @@
   
     
   
-  <meta name="description" content="Object detection.
- Region Proposal Networks: R-CNN, Fast R-CNN, Faster R-CNN. Single Shot Detectors: SSD, RetinaNet, YOLO.  Materiale didattico:
- slides Notebook di accompagnamento Demo YOLO  Riferimenti bibliografici  [Elg20], Ch. 7  Link utili  An overview of Deep-Learning based Object Detection algorithms
- Rich Feature-Based hierarchies for accurate object detection and semantic segmentation
- Fast R-CNN
- Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks">
+  <meta name="description" content=" Principali argomenti trattati:
+ CycleGAN DeepFake  La lezione è corredata di slide disponibili qui
+Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap DeepFake  ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture7/">
+  <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture_lab5/">
 
   
 
@@ -115,7 +112,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://gmanco.github.io/courses/computervision/lecture7/">
+  <link rel="canonical" href="https://gmanco.github.io/courses/computervision/lecture_lab5/">
 
   
   
@@ -130,20 +127,17 @@
   <meta property="twitter:creator" content="@beman">
   
   <meta property="og:site_name" content="Giuseppe Manco">
-  <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture7/">
-  <meta property="og:title" content="Object Detection | Giuseppe Manco">
-  <meta property="og:description" content="Object detection.
- Region Proposal Networks: R-CNN, Fast R-CNN, Faster R-CNN. Single Shot Detectors: SSD, RetinaNet, YOLO.  Materiale didattico:
- slides Notebook di accompagnamento Demo YOLO  Riferimenti bibliografici  [Elg20], Ch. 7  Link utili  An overview of Deep-Learning based Object Detection algorithms
- Rich Feature-Based hierarchies for accurate object detection and semantic segmentation
- Fast R-CNN
- Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+  <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture_lab5/">
+  <meta property="og:title" content="CycleGAN and DeepFake | Giuseppe Manco">
+  <meta property="og:description" content=" Principali argomenti trattati:
+ CycleGAN DeepFake  La lezione è corredata di slide disponibili qui
+Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap DeepFake  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-04-28T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2020-04-23T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-04-28T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2020-04-23T00:00:00&#43;01:00">
   
 
   
@@ -155,7 +149,7 @@
 
 
 
-  <title>Object Detection | Giuseppe Manco</title>
+  <title>CycleGAN and DeepFake | Giuseppe Manco</title>
 
 </head>
 
@@ -454,7 +448,7 @@
         <a href="/courses/computervision/lecture3/">Filtri</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/courses/computervision/lecture_lab5/">Esercitazione 7</a>
       </li>
       
@@ -486,7 +480,7 @@
         <a href="/courses/computervision/lecture_lab3/">Esercitazione 3 - Architetture CNN</a>
       </li>
       
-      <li class="active">
+      <li >
         <a href="/courses/computervision/lecture7/">Object Detection</a>
       </li>
       
@@ -530,7 +524,6 @@
 <ul>
 <li>
 <ul>
-<li><a href="#riferimenti-bibliografici">Riferimenti bibliografici</a></li>
 <li><a href="#link-utili">Link utili</a></li>
 </ul></li>
 </ul>
@@ -545,74 +538,27 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Object Detection</h1>
+          <h1 itemprop="name">CycleGAN and DeepFake</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<p>Object detection.</p>
+<p>Principali argomenti trattati:</p>
 
 <ul>
-<li>Region Proposal Networks: R-CNN, Fast R-CNN, Faster R-CNN.</li>
-<li>Single Shot Detectors: SSD, RetinaNet, YOLO.</li>
+<li>CycleGAN</li>
+<li>DeepFake</li>
 </ul>
 
-<p>Materiale didattico:</p>
-
-<ul>
-<li><a href="../pdf/8.Object_detection.pdf">slides</a></li>
-<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/8a.Object_Detection.ipynb" target="_blank">Notebook</a> di accompagnamento</li>
-<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/8b.YOLO_demo.ipynb" target="_blank">Demo YOLO</a></li>
-</ul>
-
-<h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
-
-<ul>
-<li><strong>[Elg20]</strong>, Ch. 7</li>
-</ul>
+<p>La lezione è corredata di slide disponibili <a href="https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab07" target="_blank">qui</a></p>
 
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li><p><a href="https://medium.com/@fractaldle/brief-overview-on-object-detection-algorithms-ec516929be93" target="_blank">An overview of Deep-Learning based Object Detection algorithms</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1311.2524.pdf" target="_blank">Rich Feature-Based hierarchies for accurate object detection and semantic segmentation</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1504.08083.pdf" target="_blank">Fast R-CNN</a></p></li>
-
-<li><p><a href="https://arxiv.org/abs/1506.01497" target="_blank">Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks</a></p></li>
-
-<li><p>Faster R-CNN tutorials: <a href="https://medium.com/@fractaldle/guide-to-build-faster-rcnn-in-pytorch-95b10c273439" target="_blank">A guide to building Faster R-CNN in Pytorch</a> e <a href="https://towardsdatascience.com/fasterrcnn-explained-part-1-with-code-599c16568cff" target="_blank">Detecting objects in (almost) Real time</a></p></li>
-
-<li><p><a href="https://arxiv.org/abs/1512.02325" target="_blank">SSD: Single Shot MultiBox Detector</a></p></li>
-
-<li><p><a href="https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection" target="_blank">SSD Tutorial</a></p></li>
-
-<li><p><a href="https://github.com/facebookresearch/detectron" target="_blank">Detectron</a> and <a href="https://github.com/facebookresearch/detectron2" target="_blank">Detectron2</a></p></li>
-
-<li><p>You Only Look Once: <a href="https://arxiv.org/pdf/1506.02640.pdf" target="_blank">YOLOv1</a>, <a href="https://arxiv.org/pdf/1612.08242.pdf" target="_blank">YOLOv2</a>, <a href="https://arxiv.org/pdf/1804.02767.pdf" target="_blank">YOLOv3</a></p></li>
-
-<li><p><a href="http://christopher5106.github.io/object/detectors/2017/08/10/bounding-box-object-detectors-understanding-yolo.html" target="_blank">Understanding YOLO</a></p></li>
-
-<li><p><a href="https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b" target="_blank">What&rsquo;s new in YOLOv3?</a></p></li>
-
-<li><p><a href="https://medium.com/@jonathan_hui/object-detection-speed-and-accuracy-comparison-faster-r-cnn-r-fcn-ssd-and-yolo-5425656ae359" target="_blank">Speed and accuracy comparison in object detection</a></p></li>
-
-<li><p><a href="https://arxiv.org/abs/2004.10934" target="_blank">YOLOv4</a> paper (with <a href="https://github.com/AlexeyAB/darknet" target="_blank">code</a>)</p></li>
-
-<li><p><a href="https://medium.com/@riteshkanjee/yolov4-superior-faster-more-accurate-object-detection-7e8194bf1872" target="_blank">YOLOv4 -  Superior, faster and more accurate</a></p></li>
-
-<li><p><a href="https://medium.com/@michaelchan_2146/faster-real-time-object-detection-yolov4-in-pytorch-6eef8436ba75" target="_blank">YOLOv4 in Pytorch</a></p></li>
-
-<li><p><a href="https://arxiv.org/abs/1708.02002" target="_blank">Focal Loss for Dense Object Detection</a></p></li>
-
-<li><p><a href="https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4" target="_blank">Review - RetinaNet</a></p></li>
-
-<li><p><a href="https://blog.zenggyu.com/en/post/2018-12-05/retinanet-explained-and-demystified/#fn3" target="_blank">RetinaNet explained and demystified</a></p></li>
-
-<li><p><a href="https://medium.com/@lekorotkov/5-tools-to-create-a-custom-object-detection-dataset-27ca37f91e05" target="_blank">5 tools to create a custom object detection dataset</a></p></li>
-
-<li><p><strong>NEW</strong> <a href="https://ai.facebook.com/blog/end-to-end-object-detection-with-transformers/" target="_blank">DETR: End-to-end object detection with Transformers</a></p></li>
+<li><a href="https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix" target="_blank">CycleGAN Pytorch implementation</a></li>
+<li><a href="https://towardsdatascience.com/image-to-image-translation-using-cyclegan-model-d58cfff04755" target="_blank">CycleGAN intro</a></li>
+<li><a href="https://github.com/jinfagang/faceswap_pytorch" target="_blank">DeepFake - face swap</a></li>
+<li><a href="https://github.com/OValery16/swap-face" target="_blank">DeepFake</a></li>
 </ul>
 
           </div>
@@ -630,14 +576,14 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture6/" rel="next">Neural Networks</a>
+    <a href="/courses/computervision/lecture3/" rel="next">Filtri</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture_lab3/" rel="prev">CNN Architectures</a>
+    <a href="/courses/computervision/project_spec/" rel="prev">Progetto 1</a>
   </div>
   
 </div>
@@ -647,7 +593,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Apr 28, 2020</p>
+          <p>Last updated on Apr 23, 2020</p>
 
           
 

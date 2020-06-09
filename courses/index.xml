@@ -22,6 +22,8 @@
 &lt;h2 id=&#34;annunci&#34;&gt;Annunci&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[09/06/2020]&lt;/strong&gt; Rilasciate le &lt;a href=&#34;https://gmanco.github.io/courses/computervision/project_spec/&#34; target=&#34;_blank&#34;&gt;specifiche&lt;/a&gt; progetto per esame del 01/07/2020. La consegna degli elaborati deve avvenire il 28/06/2020.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[08/06/2020]&lt;/strong&gt; E disponibile la valutazione del secondo esonero, nalla rispettiva &lt;a href=&#34;https://gmanco.github.io/courses/computervision/esoneri/convolution/&#34; target=&#34;_blank&#34;&gt;pagina&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[07/05/2020]&lt;/strong&gt; E disponibile la valutazione del primo esonero, nalla rispettiva &lt;a href=&#34;https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/&#34; target=&#34;_blank&#34;&gt;pagina&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[28/04/2020]&lt;/strong&gt; E disponibile la lista degli argomenti per il secondo esonero. La lista è disponibile &lt;a href=&#34;https://gmanco.github.io/courses/computervision/esoneri/convolution/&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;. Gli studenti che selgono di effettuare l&amp;rsquo;esonero devono concordare l&amp;rsquo;opzione con il docente tramite email. La deadline per la consegna degli elaborati è il 10 maggio 2020.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[02/04/2020]&lt;/strong&gt; E disponibile la lista degli argomenti per il primo esonero. La lista è disponibile &lt;a href=&#34;https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;. Gli studenti che selgono di effettuare l&amp;rsquo;esonero devono comunicare le opzioni (3) al docente. Martedì 7 verrà comunicata l&amp;rsquo;assegnazione dei topic ai vari studenti. La deadline per la consegna degli elaborati è il 16 aprile 2020.&lt;/li&gt;
@@ -177,7 +179,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;Laboratorio 3: Object Detection&lt;/td&gt;
+&lt;td&gt;Laboratorio 4: Object Detection&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture_lab4/&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;05/05/2020&lt;/td&gt;
 &lt;/tr&gt;
@@ -207,7 +209,14 @@
 &lt;td&gt;16&lt;/td&gt;
 &lt;td&gt;Generative Adversarial Networks. Image translation&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture11/&#34; target=&#34;_blank&#34;&gt;Slides, notebooks&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;26/05/2020&lt;/td&gt;
+&lt;td&gt;26/05/2020, 28/05/2020&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;Laboratorio 5: Generative Adversarial Networks&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture_lab5/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;04/06/2020&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

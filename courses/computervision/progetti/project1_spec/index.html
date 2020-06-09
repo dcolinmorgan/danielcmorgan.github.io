@@ -28,11 +28,14 @@
   
     
   
-  <meta name="description" content="Feature descriptors In questo esonero è chiesto agli studenti di sperimentare con un feature descriptr tra quelli elencati in seguito. In particolare si chiede di:
- Scegliere un feature descriptor Preparare delle slides dettagliate (max 15) che lo descrivono Preparare un notebook in cui:  si implementa l&rsquo;algoritmo che sta alla slide 62 (istogramma basato sui feature descriptors) si applica la regressione logistica (da scikit-learn) sul set di immagini (MNIST) si valutano i risultati della classificazione confrontandoli con la regressione logistica applicata alla flattenizzazione raw dell&rsquo;immagine (opportunamente preprocessata).">
+  <meta name="description" content="Progetto  Action Recognition in ambito sportivo
+ Task: individuare 10 tipologie di azioni di basket
+ Costruire un modello di classificazione
+  Dataset  Il dataset è composto da 32557 clip (MP4, 16 frame RGB) di azioni di basket. Il dataset è suddiviso in train (22779) e test (9778)
+ Il test set è utilizzato per la valutazione, le clip (DA NON UTILIZZARE NEL TRAINING) sono definite in un file allegato a queste slide.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/">
+  <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/progetti/project1_spec/">
 
   
 
@@ -111,7 +114,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/">
+  <link rel="canonical" href="https://gmanco.github.io/courses/computervision/progetti/project1_spec/">
 
   
   
@@ -126,16 +129,17 @@
   <meta property="twitter:creator" content="@beman">
   
   <meta property="og:site_name" content="Giuseppe Manco">
-  <meta property="og:url" content="https://gmanco.github.io/courses/computervision/esoneri/listoffeaturedescriptors/">
-  <meta property="og:title" content="Esonero 1 | Giuseppe Manco">
-  <meta property="og:description" content="Feature descriptors In questo esonero è chiesto agli studenti di sperimentare con un feature descriptr tra quelli elencati in seguito. In particolare si chiede di:
- Scegliere un feature descriptor Preparare delle slides dettagliate (max 15) che lo descrivono Preparare un notebook in cui:  si implementa l&rsquo;algoritmo che sta alla slide 62 (istogramma basato sui feature descriptors) si applica la regressione logistica (da scikit-learn) sul set di immagini (MNIST) si valutano i risultati della classificazione confrontandoli con la regressione logistica applicata alla flattenizzazione raw dell&rsquo;immagine (opportunamente preprocessata)."><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+  <meta property="og:url" content="https://gmanco.github.io/courses/computervision/progetti/project1_spec/">
+  <meta property="og:title" content="Progetto 1 | Giuseppe Manco">
+  <meta property="og:description" content="Progetto  Action Recognition in ambito sportivo
+ Task: individuare 10 tipologie di azioni di basket
+ Costruire un modello di classificazione
+  Dataset  Il dataset è composto da 32557 clip (MP4, 16 frame RGB) di azioni di basket. Il dataset è suddiviso in train (22779) e test (9778)
+ Il test set è utilizzato per la valutazione, le clip (DA NON UTILIZZARE NEL TRAINING) sono definite in un file allegato a queste slide."><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-04-02T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-04-02T00:00:00&#43;01:00">
   
 
   
@@ -147,7 +151,7 @@
 
 
 
-  <title>Esonero 1 | Giuseppe Manco</title>
+  <title>Progetto 1 | Giuseppe Manco</title>
 
 </head>
 
@@ -498,7 +502,7 @@
         <a href="/courses/computervision/lecture_lab5/">Esercitazione 5 - Generative Adversarial Networks</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/courses/computervision/progetti/project1_spec/">Progetto 1</a>
       </li>
       
@@ -519,157 +523,77 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Esonero 1</h1>
+          <h1 itemprop="name">Progetto 1</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<h1 id="feature-descriptors">Feature descriptors</h1>
-
-<p>In questo esonero è chiesto agli studenti di sperimentare con un feature descriptr tra quelli elencati in seguito. In particolare si chiede di:</p>
+<h1 id="progetto">Progetto</h1>
 
 <ul>
-<li>Scegliere un feature descriptor</li>
-<li>Preparare delle slides dettagliate (max 15) che lo descrivono</li>
-<li>Preparare un notebook in cui:
+<li><p>Action Recognition in ambito sportivo</p></li>
+
+<li><p>Task: individuare 10 tipologie di azioni di basket</p></li>
+
+<li><p>Costruire un modello di classificazione</p></li>
+</ul>
+
+<h3 id="dataset">Dataset</h3>
 
 <ul>
-<li>si implementa l&rsquo;algoritmo che sta alla slide 62 (istogramma basato sui feature descriptors)</li>
-<li>si applica la regressione logistica (da scikit-learn) sul set di immagini (MNIST)</li>
-<li>si valutano i risultati della classificazione confrontandoli con la regressione logistica applicata alla flattenizzazione raw dell&rsquo;immagine (opportunamente preprocessata).</li>
+<li><p>Il dataset è composto da 32557 clip (MP4, 16 frame RGB) di azioni di basket. Il dataset è suddiviso in train (22779) e test (9778)</p></li>
+
+<li><p>Il test set è utilizzato per la valutazione, le clip (DA NON UTILIZZARE NEL TRAINING) sono definite in un file allegato a queste slide.</p></li>
+
+<li><p>Tipologia di azioni possibili (10 classi)</p></li>
+
+<li><p>Download: <a href="https://drive.google.com/open?id=1hLpbLmLFK2-GIvsmpJelGlEx94yQM2Ts" target="_blank">https://drive.google.com/open?id=1hLpbLmLFK2-GIvsmpJelGlEx94yQM2Ts</a></p></li>
+</ul>
+
+<h3 id="requisiti">Requisiti</h3>
+
+<ul>
+<li>Definire e addestrare un modello di classificazione</li>
+<li>Descrivere in una relazione/presentazione le scelte progettuali e tutti i parametri utilizzati nella sperimentazione.</li>
+<li>Consegnare notebook (e/o file sorgente), relazione e dump del modello</li>
+</ul>
+
+<h3 id="protocollo-di-valutazione">Protocollo di valutazione</h3>
+
+<ul>
+<li><p>Valutazione generale del progetto</p></li>
+
+<li><p>Loading del modello e calcolo delle precisione media sul test set</p></li>
+</ul>
+
+<p>Baseline-1 - 8 pt – Valore 0.40 Baseline-2 - 7 pt – Valore 0.60</p>
+
+<p>Per accedere all’orale sono necessari almeno 8 pt.</p>
+
+<h3 id="assegnazione-dei-punteggi">Assegnazione dei punteggi:</h3>
+
+<ul>
+<li>Se il modello supera la Baseline-1: 8 pt</li>
+<li>Se il modello non supera la Baseline-2: (p – Baseline-1)/(Baseline-2 - Baseline-1) * 7 pt</li>
+<li>Se il modello supera la Baseline-2: 7 pt + bonus</li>
+<li>Bonus (p – Baseline-2)/(BESTMODEL - Baseline-2) * 5 pt</li>
+</ul>
+
+<h2 id="appelli">Appelli</h2>
+
+<ul>
+<li><p>1 – luglio – Progetto attuale</p></li>
+
+<li><p>Consegna entro domenica 28 giugno</p></li>
+
+<li><p>31 – luglio – Nuovo Progetto (stesse modalità)</p>
+
+<ul>
+<li>Rilascio indicativo fine giugno</li>
 </ul></li>
 </ul>
 
-<p>Gli studenti interessati ad effettuare l&rsquo;esonero dovranno mandare una mail al docente indicando, in ordine di priorità, tre scelte dalla lista di cui sotto.
-Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli elaborati è il <strong>16 aprile 2020</strong>.</p>
-
-<h2 id="opencv">OpenCV</h2>
-
-<p>Tutorials disponibili <a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_table_of_contents_feature2d/py_table_of_contents_feature2d.html" target="_blank">qui</a>.</p>
-
-<ol>
-<li><a href="https://docs.opencv.org/4.2.0/d5/d3c/classcv_1_1xfeatures2d_1_1SIFT.html" target="_blank">SIFT</a>, Class for extracting keypoints and computing descriptors using the Scale Invariant Feature Transform (<a href="https://docs.opencv.org/4.2.0/d5/d3c/classcv_1_1xfeatures2d_1_1SIFT.html" target="_blank">SIFT</a>) algorithm by D. Lowe. Riferimenti: David G Lowe. <a href="https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf" target="_blank">Distinctive image features from scale-invariant keypoints</a>. <em>International journal of computer vision</em>, 60(2):91–110, 2004.</li>
-<li><a href="https://docs.opencv.org/4.2.0/d5/df7/classcv_1_1xfeatures2d_1_1SURF.html" target="_blank">SURF</a>, Class for extracting Speeded Up Robust Features from an image. Riferimenti: Herbert Bay, Tinne Tuytelaars, and Luc Van Gool. <a href="http://scholar.google.it/scholar_url?url=https://lirias.kuleuven.be/retrieve/78517&amp;hl=it&amp;sa=X&amp;scisig=AAGBfm2HNoDAKFbI70IQ22ndV5cBLu7pBw&amp;nossl=1&amp;oi=scholarr" target="_blank">Surf: Speeded up robust features</a>. <em>Computer Vision–ECCV 2006</em>, pages 404–417, 2006.</li>
-<li><a href="https://docs.opencv.org/4.2.0/d8/d30/classcv_1_1AKAZE.html" target="_blank">AKAZE</a>, Class implementing the <a href="https://docs.opencv.org/4.2.0/d8/d30/classcv_1_1AKAZE.html" target="_blank">AKAZE</a> keypoint detector and descriptor extractor. Riferimenti: Pablo F Alcantarilla, Jesús Nuevo, and Adrien Bartoli. <a href="http://www.bmva.org/bmvc/2013/Papers/paper0013/paper0013.pdf" target="_blank">Fast explicit diffusion for accelerated features in nonlinear scale spaces</a>. <em>Trans. Pattern Anal. Machine Intell</em>, 34(7):1281–1298, 2011.</li>
-<li><a href="https://docs.opencv.org/4.2.0/de/dbf/classcv_1_1BRISK.html" target="_blank">Brisk</a>, Class implementing the <a href="https://docs.opencv.org/4.2.0/de/dbf/classcv_1_1BRISK.html" target="_blank">BRISK</a> keypoint detector and descriptor extractor. [Stefan Leutenegger, Margarita Chli, and Roland Yves Siegwart. <a href="https://www.researchgate.net/publication/221110715_BRISK_Binary_Robust_invariant_scalable_keypoints" target="_blank">Brisk: Binary robust invariant scalable keypoints</a>. In <em>Computer Vision (ICCV), 2011 IEEE International Conference on</em>, pages 2548–2555. IEEE, 2011.</li>
-<li><a href="https://docs.opencv.org/4.2.0/d3/d28/classcv_1_1MSER.html" target="_blank">Mser</a>, Maximally stable extremal region extractor, for grey scale and color image. Riferimenti: David Nistér and Henrik Stewénius. <a href="https://www.researchgate.net/publication/221304597_Linear_Time_Maximally_Stable_Extremal_Regions" target="_blank">Linear time maximally stable extremal regions</a>. In <em>Computer Vision–ECCV 2008</em>, pages 183–196. Springer, 2008.; Per-Erik Forssén. Maximally stable colour regions for recognition and matching. In <em>Computer Vision and Pattern Recognition, 2007. CVPR&rsquo;07. IEEE Conference on</em>, pages 1–8. IEEE, 2007.</li>
-<li><a href="https://docs.opencv.org/4.2.0/db/d95/classcv_1_1ORB.html" target="_blank">ORB</a>, The algorithm uses FAST in pyramids to detect stable keypoints, selects  the strongest features using FAST or Harris response, finds their  orientation using first-order moments and computes the descriptors using BRIEF (where the coordinates of random point pairs (or k-tuples) are  rotated according to the measured orientation). Riferimenti: Ethan Rublee, Vincent Rabaud, Kurt Konolige, and Gary Bradski. <a href="http://www.willowgarage.com/sites/default/files/orb_final.pdf" target="_blank">Orb: an efficient alternative to sift or surf</a>. In <em>Computer Vision (ICCV), 2011 IEEE International Conference on</em>, pages 2564–2571. IEEE, 2011.</li>
-</ol>
-
-<h2 id="sk-image">SK-Image</h2>
-
-<p>Documentation at the home page of the <a href="https://scikit-image.org/docs/0.16.x/api/skimage.feature.html" target="_blank">scikit-image feature description package</a>.</p>
-
-<ol>
-<li><code>skimage.feature.daisy</code>, Extract DAISY feature descriptors densely for the given image. DAISY is a feature descriptor similar to SIFT formulated in a way that allows for fast dense extraction. Typically, this is practical for bag-of-features image representations. Riferimenti: Tola et al. <a href="https://infoscience.epfl.ch/record/138785/files/tola_daisy_pami_1.pdf" target="_blank">Daisy: An efficient dense descriptor applied to wide- baseline stereo</a>. Pattern Analysis and Machine Intelligence, IEEE Transactions on 32.5 (2010): 815-830.]</li>
-<li><code>skimage.feature.hog</code>, Extract Histogram of Oriented Gradients (HOG) for a given image. Riferimenti: Dalal, N and Triggs, B, <a href="https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf" target="_blank">Histograms of Oriented Gradients for Human Detection</a>, IEEE Computer Society Conference on Computer Vision and Pattern Recognition 2005 San Diego, CA, USA, DOI:10.1109/CVPR.2005.177]</li>
-<li><code>skimage.feature.local_binary_pattern</code>, Gray scale and rotation invariant LBP (Local Binary Patterns). Riferimenti: Timo Ojala, Matti Pietikainen, Topi Maenpaa. <a href="http://www.ee.oulu.fi/research/mvmp/mvg/files/pdf/pdf_94.pdf" target="_blank">Multiresolution Gray-Scale and Rotation Invariant Texture Classification with Local Binary Patterns</a>. 2002]</li>
-<li><code>skimage.feature.haar_like_feature</code>, Compute the Haar-like features for a region of interest (ROI) of an integral image. Riferimenti: Messom, Christopher H. and Andre L. C. Barczak. <a href="https://www.semanticscholar.org/paper/Stream-processing-for-fast-and-efficient-rotated-Messom-Barczak/b55e215acd9bc0496f1f611d6193fea0b10e4212" target="_blank">Stream processing for fast and efficient rotated Haar-like features using rotated integral images</a>. <em>IJISTA</em> 7 (2006): 40-57.</li>
-<li><code>skimage.feature.BRIEF</code>, BRIEF binary descriptor extractor. BRIEF (Binary Robust Independent Elementary Features) is an efficient feature point descriptor. It is highly discriminative even when using relatively few bits and is computed using simple intensity difference tests. Riferimenti: Calonder, Michael &amp; Lepetit, Vincent &amp; Strecha, Christoph &amp; Fua, Pascal. (2010). <a href="https://www.cs.ubc.ca/~lowe/525/papers/calonder_eccv10.pdf" target="_blank">BRIEF: Binary Robust Independent Elementary Features</a>. Eur. Conf. Comput. Vis.. 6314. 778-792. 10.<sup>1007</sup>&frasl;<sub>978</sub>-3-642-15561-1_56.<br /></li>
-<li><code>skimage.feature.ORB</code>, Oriented FAST and rotated BRIEF feature detector and binary descriptor extractor. Riferimenti: Ethan Rublee, Vincent Rabaud, Kurt Konolige and Gary Bradski. <a href="http://www.vision.cs.chubu.ac.jp/CV-R/pdf/Rublee_iccv2011.pdf" target="_blank">ORB: An efficient alternative to SIFT and SURF</a>.</li>
-</ol>
-
-<h1 id="assegnazioni">Assegnazioni</h1>
-
-<ul>
-<li>Giulia Katia Galimberti  <strong>SIFT</strong> (OpenCV)</li>
-<li>Maria Francesca Alati  <strong>skimage.feature.hog</strong></li>
-<li>Lorenzo Defina  <strong>Mser</strong> (OpenCV)</li>
-<li>Emilio Casella  <strong>Surf</strong> (OpenCV)</li>
-<li>Simona Nisticò matricola <strong>ORB</strong> (OpenCV)</li>
-<li>Domenico Montesanto <strong>AKAZE</strong> (OpenCV)</li>
-<li>Caterina Maugeri <strong>skimage.feature.local_binary_pattern</strong></li>
-<li>Giuseppe Surace  <strong>skimage.feature.haar_like_feature</strong></li>
-<li>Antonello Crea <strong>Daisy</strong> (OpenCV)</li>
-<li>Anile Anna  <strong>skimage.feature.BRIEF</strong></li>
-<li>Vincenzo Parrilla  <strong>SURF with Harris Corner Detection</strong>. (OpenCV)</li>
-<li>Davide Medaglia <strong>SIFT with Harris Corner Detection</strong> (OpenCV)</li>
-<li>Antonio Commisso <strong>Brisk</strong> (OpenCV)</li>
-<li>Antonio Gagliostro: <strong>skimage.feature.ORB</strong></li>
-</ul>
-
-<h1 id="risultati">Risultati</h1>
-
-<table>
-<thead>
-<tr>
-<th>Studente</th>
-<th>Voto</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Alati Maria  Francesca</td>
-<td>8</td>
-</tr>
-
-<tr>
-<td>Anile Anna</td>
-<td>8</td>
-</tr>
-
-<tr>
-<td>Casella Emilio</td>
-<td>7</td>
-</tr>
-
-<tr>
-<td>Commisso Antonio</td>
-<td>7</td>
-</tr>
-
-<tr>
-<td>Crea Antonello</td>
-<td>10</td>
-</tr>
-
-<tr>
-<td>Defina Lorenzo</td>
-<td>6</td>
-</tr>
-
-<tr>
-<td>Gagliostro Antonio</td>
-<td>9</td>
-</tr>
-
-<tr>
-<td>Galimberti Giulia</td>
-<td>5</td>
-</tr>
-
-<tr>
-<td>Maugeri Caterina</td>
-<td>8</td>
-</tr>
-
-<tr>
-<td>Medaglia Davide</td>
-<td>8</td>
-</tr>
-
-<tr>
-<td>Montesanto Domenico</td>
-<td>7</td>
-</tr>
-
-<tr>
-<td>Nisticò Simona</td>
-<td>9</td>
-</tr>
-
-<tr>
-<td>Parrilla Vincenzo</td>
-<td>7</td>
-</tr>
-
-<tr>
-<td>Surace Giuseppe</td>
-<td>4</td>
-</tr>
-</tbody>
-</table>
+<p>Per ulteriori info vedere <a href="https://github.com/gmanco/cv_notebooks/tree/master/project_1" target="_blank">qui</a></p>
 
           </div>
 
@@ -686,15 +610,9 @@ Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture_lab5/" rel="next">CycleGAN and DeepFake</a>
+    <a href="/courses/computervision/esoneri/convolution/" rel="next">Esonero 2</a>
   </div>
   
-  
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/esoneri/convolution/" rel="prev">Esonero 2</a>
-  </div>
   
 </div>
 
@@ -703,7 +621,7 @@ Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Apr 2, 2020</p>
+          <p>Last updated on Jan 1, 0001</p>
 
           
 

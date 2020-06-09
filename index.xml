@@ -153,82 +153,6 @@ Link utili:
     </item>
     
     <item>
-      <title>Progetto 1</title>
-      <link>https://gmanco.github.io/courses/computervision/project_spec/</link>
-      <pubDate>Thu, 23 Apr 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/project_spec/</guid>
-      <description>
-
-&lt;h1 id=&#34;progetto&#34;&gt;Progetto&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Action Recognition in ambito sportivo&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Task: individuare 10 tipologie di azioni di basket&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Costruire un modello di classificazione&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;dataset&#34;&gt;Dataset&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Il dataset è composto da 32557 clip (MP4, 16 frame RGB) di azioni di basket. Il dataset è suddiviso in train (22779) e test (9778)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Il test set è utilizzato per la valutazione, le clip (DA NON UTILIZZARE NEL TRAINING) sono definite in un file allegato a queste slide.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tipologia di azioni possibili (10 classi)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Download: &lt;a href=&#34;https://drive.google.com/open?id=1hLpbLmLFK2-GIvsmpJelGlEx94yQM2Ts&#34; target=&#34;_blank&#34;&gt;https://drive.google.com/open?id=1hLpbLmLFK2-GIvsmpJelGlEx94yQM2Ts&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;requisiti&#34;&gt;Requisiti&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Definire e addestrare un modello di classificazione&lt;/li&gt;
-&lt;li&gt;Descrivere in una relazione/presentazione le scelte progettuali e tutti i parametri utilizzati nella sperimentazione.&lt;/li&gt;
-&lt;li&gt;Consegnare notebook (e/o file sorgente), relazione e dump del modello&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;protocollo-di-valutazione&#34;&gt;Protocollo di valutazione&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Valutazione generale del progetto&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Loading del modello e calcolo delle precisione media sul test set&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Baseline-1 - 8 pt – Valore 0.40 Baseline-2 - 7 pt – Valore 0.60&lt;/p&gt;
-
-&lt;p&gt;Per accedere all’orale sono necessari almeno 8 pt.&lt;/p&gt;
-
-&lt;h3 id=&#34;assegnazione-dei-punteggi&#34;&gt;Assegnazione dei punteggi:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Se il modello supera la Baseline-1: 8 pt&lt;/li&gt;
-&lt;li&gt;Se il modello non supera la Baseline-2: (p – Baseline-1)/(Baseline-2 - Baseline-1) * 7 pt&lt;/li&gt;
-&lt;li&gt;Se il modello supera la Baseline-2: 7 pt + bonus&lt;/li&gt;
-&lt;li&gt;Bonus (p – Baseline-2)/(BESTMODEL - Baseline-2) * 5 pt&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;appelli&#34;&gt;Appelli&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;1 – luglio – Progetto attuale&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Consegna entro domenica 28 giugno&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;31 – luglio – Nuovo Progetto (stesse modalità)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Rilascio indicativo fine giugno&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Per ulteriori info vedere &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/tree/master/project_1&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Python &amp; image processing</title>
       <link>https://gmanco.github.io/courses/computervision/lecture_lab1/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
@@ -1169,6 +1093,82 @@ Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Progetto 1</title>
+      <link>https://gmanco.github.io/courses/computervision/progetti/project1_spec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/progetti/project1_spec/</guid>
+      <description>
+
+&lt;h1 id=&#34;progetto&#34;&gt;Progetto&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Action Recognition in ambito sportivo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Task: individuare 10 tipologie di azioni di basket&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Costruire un modello di classificazione&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;dataset&#34;&gt;Dataset&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Il dataset è composto da 32557 clip (MP4, 16 frame RGB) di azioni di basket. Il dataset è suddiviso in train (22779) e test (9778)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Il test set è utilizzato per la valutazione, le clip (DA NON UTILIZZARE NEL TRAINING) sono definite in un file allegato a queste slide.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Tipologia di azioni possibili (10 classi)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Download: &lt;a href=&#34;https://drive.google.com/open?id=1hLpbLmLFK2-GIvsmpJelGlEx94yQM2Ts&#34; target=&#34;_blank&#34;&gt;https://drive.google.com/open?id=1hLpbLmLFK2-GIvsmpJelGlEx94yQM2Ts&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;requisiti&#34;&gt;Requisiti&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Definire e addestrare un modello di classificazione&lt;/li&gt;
+&lt;li&gt;Descrivere in una relazione/presentazione le scelte progettuali e tutti i parametri utilizzati nella sperimentazione.&lt;/li&gt;
+&lt;li&gt;Consegnare notebook (e/o file sorgente), relazione e dump del modello&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;protocollo-di-valutazione&#34;&gt;Protocollo di valutazione&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Valutazione generale del progetto&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Loading del modello e calcolo delle precisione media sul test set&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Baseline-1 - 8 pt – Valore 0.40 Baseline-2 - 7 pt – Valore 0.60&lt;/p&gt;
+
+&lt;p&gt;Per accedere all’orale sono necessari almeno 8 pt.&lt;/p&gt;
+
+&lt;h3 id=&#34;assegnazione-dei-punteggi&#34;&gt;Assegnazione dei punteggi:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Se il modello supera la Baseline-1: 8 pt&lt;/li&gt;
+&lt;li&gt;Se il modello non supera la Baseline-2: (p – Baseline-1)/(Baseline-2 - Baseline-1) * 7 pt&lt;/li&gt;
+&lt;li&gt;Se il modello supera la Baseline-2: 7 pt + bonus&lt;/li&gt;
+&lt;li&gt;Bonus (p – Baseline-2)/(BESTMODEL - Baseline-2) * 5 pt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;appelli&#34;&gt;Appelli&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1 – luglio – Progetto attuale&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Consegna entro domenica 28 giugno&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;31 – luglio – Nuovo Progetto (stesse modalità)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rilascio indicativo fine giugno&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Per ulteriori info vedere &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/tree/master/project_1&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -5,7 +5,7 @@
     <link>https://gmanco.github.io/authors/</link>
       <atom:link href="https://gmanco.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Authors</title>
@@ -13,18 +13,42 @@
     </image>
     
     <item>
+      <title>Antonio L. Alfeo</title>
+      <link>https://gmanco.github.io/authors/antonio-l.-alfeo/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/antonio-l.-alfeo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ettore Ritacco</title>
       <link>https://gmanco.github.io/authors/ettore-ritacco/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/authors/ettore-ritacco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gigliola Vaglini</title>
+      <link>https://gmanco.github.io/authors/gigliola-vaglini/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/gigliola-vaglini/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Giuseppe Manco</title>
       <link>https://gmanco.github.io/authors/giuseppe-manco/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/authors/giuseppe-manco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mario G.C.A. Cimino</title>
+      <link>https://gmanco.github.io/authors/mario-g.c.a.-cimino/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/mario-g.c.a.-cimino/</guid>
       <description></description>
     </item>
     

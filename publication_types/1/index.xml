@@ -5,12 +5,20 @@
     <link>https://gmanco.github.io/publication_types/1/</link>
       <atom:link href="https://gmanco.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>1</title>
       <link>https://gmanco.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Using an autoencoder in the design of an anomaly detector for smart manufacturing</title>
+      <link>https://gmanco.github.io/publication/alfeo-2020/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/alfeo-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sequential Variational Autoencoders for Collaborative Filtering</title>

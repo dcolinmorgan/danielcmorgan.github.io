@@ -5,7 +5,7 @@
     <link>https://gmanco.github.io/</link>
       <atom:link href="https://gmanco.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Giuseppe Manco</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Mon, 25 May 2020 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Giuseppe Manco</title>
@@ -756,6 +756,7 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;li&gt;&lt;a href=&#34;http://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans&#34; target=&#34;_blank&#34;&gt;Improved training fo Wasserstein GANs&lt;/a&gt; (with some &lt;a href=&#34;https://github.com/t-vi/pytorch-tvmisc/blob/master/wasserstein-distance/Semi-Improved_Training_of_Wasserstein_GAN.ipynb&#34; target=&#34;_blank&#34;&gt;tricks&lt;/a&gt; on how to implement it in Pytorch)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/znxlwm/pytorch-generative-model-collections&#34; target=&#34;_blank&#34;&gt;A collection of Generative Models in Pytorch&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/soumith/ganhacks&#34; target=&#34;_blank&#34;&gt;How to train a GAN?&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=Qc1F3-Rblbw&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1903.06048.pdf&#34; target=&#34;_blank&#34;&gt;MSG-GAN: Multi-Scale Gradients for Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1411.1784&#34; target=&#34;_blank&#34;&gt;Conditional Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1611.07004&#34; target=&#34;_blank&#34;&gt;Image to image translation with Conditional Adversarial Networks&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/a-gentle-introduction-to-cycle-consistent-adversarial-networks-6731c8424a87&#34; target=&#34;_blank&#34;&gt;A gentle introduction to CycleGAN for Image Translation&lt;/a&gt;&lt;/li&gt;
@@ -1170,6 +1171,14 @@ Le assegnazioni verranno comunicate a lezione. La deadline per la consegna degli
 
 &lt;p&gt;Per ulteriori info vedere &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/tree/master/project_1&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Using an autoencoder in the design of an anomaly detector for smart manufacturing</title>
+      <link>https://gmanco.github.io/publication/alfeo-2020/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/alfeo-2020/</guid>
+      <description></description>
     </item>
     
     <item>

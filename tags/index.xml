@@ -5,7 +5,7 @@
     <link>https://gmanco.github.io/tags/</link>
       <atom:link href="https://gmanco.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Giuseppe Manco</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Giuseppe Manco</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Tags</title>
@@ -365,7 +365,7 @@
     </item>
     
     <item>
-      <title>Supervised Learning&#34;</title>
+      <title>Supervised Learning</title>
       <link>https://gmanco.github.io/tags/supervised-learning/</link>
       <pubDate>Thu, 01 Dec 2011 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/tags/supervised-learning/</guid>

@@ -352,7 +352,7 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 
 &lt;p&gt;Concetti fondamentali su Image processing e analysis: Image Basics, Manipolazione di immagini. Introduzione alle librerie Python per Image Processing.&lt;/p&gt;
 
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/2.Image_fundamentals.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/2.Image_fundamentals.pdf&#34;&gt;qui&lt;/a&gt; (con &lt;a href=&#34;https://web.microsoftstream.com/video/d6f46094-e54b-49e8-b86b-996caf39058a?list=studio&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt; della lezione e &lt;a href=&#34;../pdf/l2_appunti.pdf&#34;&gt;appunti&lt;/a&gt; allegati).&lt;/p&gt;
 
 &lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/1.Image_fundamentals.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
@@ -390,6 +390,41 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 &lt;p&gt;Manipolazione spaziale. Filtri. Convoluzione.&lt;/p&gt;
 
 &lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/3.Filters.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/2.Filters.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 3.2, 3.3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 2, 10-12.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/7075360&#34; target=&#34;_blank&#34;&gt;Adaptive filters for color image processing: A survey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/image-filters-in-python-26ee938e57d2&#34; target=&#34;_blank&#34;&gt;Image filters in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scipy-lectures.org/advanced/image_processing/&#34; target=&#34;_blank&#34;&gt;Image manipulation using Numpy and SciPy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@enzoftware/how-to-build-amazing-images-filters-with-python-median-filter-sobel-filter-%EF%B8%8F-%EF%B8%8F-22aeb8e2f540&#34; target=&#34;_blank&#34;&gt;How to build an image filter in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=otLGDpBglEA&amp;amp;feature=player_embedded&#34; target=&#34;_blank&#34;&gt;Instagram filters in 15 lines of code&lt;/a&gt;. Il codice è disponibile &lt;a href=&#34;https://github.com/lukexyz/CV-Instagram-Filters/blob/master/gotham.py&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Filtri</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture3/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture3/</guid>
+      <description>
+
+&lt;p&gt;Manipolazione spaziale. Filtri. Convoluzione.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/3.Filters.pdf&#34;&gt;qui&lt;/a&gt; con &lt;a href=&#34;https://web.microsoftstream.com/video/93ece5f0-126e-4cca-922d-551ba5e74998&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt; di riferimento e &lt;a href=&#34;../pdf/l3_appunti.pdf&#34;&gt;appunti&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/2.Filters.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 

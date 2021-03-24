@@ -28,10 +28,9 @@
   
     
   
-  <meta name="description" content=" Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.
-Slides disponibili qui
-Importante La parte relativa allo studio dei feature descriptors riguarderà anche il primo esonero. I dettagli dell&rsquo;esonero sono pubblicati nell&rsquo;apposita pagina
-Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze11], Ch. 4.1. [Kin19], Ch. 17.  Link utili  Introduction to Neural Networks Tutorial on Logistic Regression Course Notes on Optimization for Machine Learning and Mathematical Foundations of Data Science An Introduction to Machine Learning with scikit-learn Introduction to Feature Detection and Matching SIFT: Theory and Practice OpenCV Tutorials on Feature Descriptors  ">
+  <meta name="description" content=" Edge Detection. Canny Edge Detection. Hough Transform.
+Slides disponibili qui. La lezione è corredata di un notebook.
+Riferimenti bibliografici  [Davies18], ch. 5, 10, 11. [Gon18], Sect. 10.2. [Sze11], sect. 4.2. [Kin19], Ch. 13,14.  Link utili  Canny Edge Detection step by step OpenCV Python Tutorial: Canny Edge Detection Introduction to Hough Transform Generalizing the Hough Transform to detect arbitrary shapes A survey on Hough Transform  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture5/">
@@ -129,11 +128,10 @@ Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze11], 
   
   <meta property="og:site_name" content="Giuseppe Manco">
   <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture5/">
-  <meta property="og:title" content="Feature descriptors. Classificazione | Giuseppe Manco">
-  <meta property="og:description" content=" Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.
-Slides disponibili qui
-Importante La parte relativa allo studio dei feature descriptors riguarderà anche il primo esonero. I dettagli dell&rsquo;esonero sono pubblicati nell&rsquo;apposita pagina
-Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze11], Ch. 4.1. [Kin19], Ch. 17.  Link utili  Introduction to Neural Networks Tutorial on Logistic Regression Course Notes on Optimization for Machine Learning and Mathematical Foundations of Data Science An Introduction to Machine Learning with scikit-learn Introduction to Feature Detection and Matching SIFT: Theory and Practice OpenCV Tutorials on Feature Descriptors  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+  <meta property="og:title" content="Edges, Lines, Shapes | Giuseppe Manco">
+  <meta property="og:description" content=" Edge Detection. Canny Edge Detection. Hough Transform.
+Slides disponibili qui. La lezione è corredata di un notebook.
+Riferimenti bibliografici  [Davies18], ch. 5, 10, 11. [Gon18], Sect. 10.2. [Sze11], sect. 4.2. [Kin19], Ch. 13,14.  Link utili  Canny Edge Detection step by step OpenCV Python Tutorial: Canny Edge Detection Introduction to Hough Transform Generalizing the Hough Transform to detect arbitrary shapes A survey on Hough Transform  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -151,7 +149,7 @@ Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze11], 
 
 
 
-  <title>Feature descriptors. Classificazione | Giuseppe Manco</title>
+  <title>Edges, Lines, Shapes | Giuseppe Manco</title>
 
 </head>
 
@@ -443,6 +441,10 @@ Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze11], 
       </li>
       
       <li >
+        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
+      </li>
+      
+      <li >
         <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
       </li>
       
@@ -451,7 +453,7 @@ Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze11], 
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab1/">Laboratorio 1 - Librerie Python</a>
+        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
       </li>
       
       <li >
@@ -459,47 +461,7 @@ Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze11], 
       </li>
       
       <li class="active">
-        <a href="/courses/computervision/lecture5/">Feature descriptors - Classificazione</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab2/">Laboratorio 2 - SKlearn, Pytorch</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture6/">Modelli non lineari. CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3 - Architetture CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture7/">Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4 - Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture8/">Segmentation</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture9/">Action Recognition</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture10/">Modelli Generativi</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture11/">Generative Adversarial Networks</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 5 - Generative Adversarial Networks</a>
+        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
       </li>
       
     </ul>
@@ -537,37 +499,32 @@ Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze11], 
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Feature descriptors. Classificazione</h1>
+          <h1 itemprop="name">Edges, Lines, Shapes</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<p>Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.</p>
+<p>Edge Detection. Canny Edge Detection. Hough Transform.</p>
 
-<p>Slides disponibili <a href="../pdf/5.Classificazione.pdf">qui</a></p>
-
-<p><strong>Importante</strong>
-La parte relativa allo studio dei feature descriptors riguarderà anche il primo esonero. I dettagli dell&rsquo;esonero sono pubblicati <a href="/courses/computervision/esoneri/listoffeaturedescriptors/" target="_blank">nell&rsquo;apposita pagina</a></p>
+<p>Slides disponibili <a href="../pdf/5.Edges_lines_shapes.pdf">qui</a>. La lezione è corredata di un <a href="https://github.com/gmanco/cv_notebooks/blob/master/5.Edges_lines_circles.ipynb" target="_blank">notebook</a>.</p>
 
 <h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
 
 <ul>
-<li><strong>[Davies18]</strong>, Ch. 6, 13.</li>
-<li><strong>[Solem12]</strong>, Ch. 2, 8.</li>
-<li><strong>[Sze11]</strong>, Ch. 4.1.</li>
-<li><strong>[Kin19]</strong>, Ch. 17.</li>
+<li><strong>[Davies18]</strong>, ch. 5, 10, 11.</li>
+<li><strong>[Gon18]</strong>, Sect. 10.2.</li>
+<li><strong>[Sze11]</strong>, sect. 4.2.</li>
+<li><strong>[Kin19]</strong>, Ch. 13,14.</li>
 </ul>
 
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li><a href="https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9" target="_blank">Introduction to Neural Networks</a></li>
-<li><a href="https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/" target="_blank">Tutorial on Logistic Regression</a></li>
-<li><a href="https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf" target="_blank">Course Notes on Optimization for Machine Learning</a> and <a href="https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf" target="_blank">Mathematical Foundations of Data Science</a></li>
-<li><a href="https://scikit-learn.org/stable/tutorial/basic/tutorial.html" target="_blank">An Introduction to Machine Learning with scikit-learn</a></li>
-<li><a href="https://medium.com/analytics-vidhya/introduction-to-feature-detection-and-matching-65e27179885d" target="_blank">Introduction to Feature Detection and Matching</a></li>
-<li><a href="https://aishack.in/tutorials/sift-scale-invariant-feature-transform-features/" target="_blank">SIFT: Theory and Practice</a></li>
-<li><a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_table_of_contents_feature2d/py_table_of_contents_feature2d.html" target="_blank">OpenCV Tutorials on Feature Descriptors</a></li>
+<li><a href="https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123" target="_blank">Canny Edge Detection step by step</a></li>
+<li><a href="https://docs.opencv.org/master/da/d22/tutorial_py_canny.html" target="_blank">OpenCV Python Tutorial: Canny Edge Detection</a></li>
+<li><a href="https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549" target="_blank">Introduction to Hough Transform</a></li>
+<li><a href="http://www.sci.utah.edu/~gerig/CS7960-S2010/handouts/Ballard-Generalized-HoughT.pdf" target="_blank">Generalizing the Hough Transform to detect arbitrary shapes</a></li>
+<li><a href="https://arxiv.org/pdf/1502.02160.pdf" target="_blank">A survey on Hough Transform</a></li>
 </ul>
 
           </div>
@@ -588,12 +545,6 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
     <a href="/courses/computervision/lecture4/" rel="next">Derivate. Edge Detection</a>
   </div>
   
-  
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture_lab2/" rel="prev">Pytorch, SKlearn and Classification</a>
-  </div>
   
 </div>
 
@@ -617,7 +568,7 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
   
 
   <p class="powered-by">
-    &copy; 2020 Giuseppe Manco &middot; 
+    &copy; 2021 Giuseppe Manco &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

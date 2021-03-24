@@ -524,6 +524,77 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
     </item>
     
     <item>
+      <title>Python and image processing</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab2/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab2/</guid>
+      <description>
+
+&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Operazioni di base
+
+&lt;ul&gt;
+&lt;li&gt;Traslazioni&lt;/li&gt;
+&lt;li&gt;Rotazioni&lt;/li&gt;
+&lt;li&gt;Resizing&lt;/li&gt;
+&lt;li&gt;Scaling&lt;/li&gt;
+&lt;li&gt;Cropping&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Trasformazioni
+
+&lt;ul&gt;
+&lt;li&gt;Slicing&lt;/li&gt;
+&lt;li&gt;Masking&lt;/li&gt;
+&lt;li&gt;Blurring&lt;/li&gt;
+&lt;li&gt;Sharpening&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;OpenCV
+
+&lt;ul&gt;
+&lt;li&gt;Operazioni di base&lt;/li&gt;
+&lt;li&gt;Linee e punti&lt;/li&gt;
+&lt;li&gt;ROI&lt;/li&gt;
+&lt;li&gt;Trasformazioni geometriche&lt;/li&gt;
+&lt;li&gt;Prospettiva&lt;/li&gt;
+&lt;li&gt;Operazioni aritmetiche e booleane&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;SKimage
+
+&lt;ul&gt;
+&lt;li&gt;Operazioni di base&lt;/li&gt;
+&lt;li&gt;Trasformazioni geometriche&lt;/li&gt;
+&lt;li&gt;Edge detection&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab02&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/master/index.html&#34; target=&#34;_blank&#34;&gt;OpenCV&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/api/api.html&#34; target=&#34;_blank&#34;&gt;Scikit Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Derivate. Edge Detection</title>
       <link>https://gmanco.github.io/courses/computervision/lecture4/</link>
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
@@ -564,6 +635,38 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 &lt;li&gt;&lt;a href=&#34;https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm&#34; target=&#34;_blank&#34;&gt;Concept of Image detection&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aDY4aBLFOIg&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Image Gradients&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@hicraigchen/digital-image-processing-using-fourier-transform-in-python-bcb49424fd82&#34; target=&#34;_blank&#34;&gt;Filtraggio con la trasformata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Edges, Lines, Shapes</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture5/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture5/</guid>
+      <description>
+
+&lt;p&gt;Edge Detection. Canny Edge Detection. Hough Transform.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/5.Edges_lines_shapes.pdf&#34;&gt;qui&lt;/a&gt;. La lezione è corredata di un &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/5.Edges_lines_circles.ipynb&#34; target=&#34;_blank&#34;&gt;notebook&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5, 10, 11.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Sect. 10.2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13,14.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123&#34; target=&#34;_blank&#34;&gt;Canny Edge Detection step by step&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/master/da/d22/tutorial_py_canny.html&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Canny Edge Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549&#34; target=&#34;_blank&#34;&gt;Introduction to Hough Transform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sci.utah.edu/~gerig/CS7960-S2010/handouts/Ballard-Generalized-HoughT.pdf&#34; target=&#34;_blank&#34;&gt;Generalizing the Hough Transform to detect arbitrary shapes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1502.02160.pdf&#34; target=&#34;_blank&#34;&gt;A survey on Hough Transform&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

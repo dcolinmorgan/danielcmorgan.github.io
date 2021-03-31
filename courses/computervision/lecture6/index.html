@@ -28,12 +28,9 @@
   
     
   
-  <meta name="description" content="Grafi di computazione e modelli non lineari. Reti Convoluzionali. LeNet-5.
-Materiale didattico:
- Modelli non lineari (slides) Reti convoluzionali (slides) Notebook di accompagnamento  Riferimenti bibliografici  [Davies18], Ch. 15. [Gon18], Ch. 13. [Elg20], Ch. 2,3  Link utili  Introduction to Neural Networks
- Dive into Deep Learning
- Course Notes on Optimization for Machine Learning and Mathematical Foundations of Data Science
- Understanding graphs and automatic differentiation">
+  <meta name="description" content=" Introduzione al supervised learning. Regressione logistica. Feature descriptors. Harris Corner Detection. SIFT.
+Slides disponibili:
+ Introduzione alla classificatione. Video della lezione, con appunti allegati.  Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze11], Ch. 4.1. [Kin19], Ch. 17.  Link utili  Introduction to Neural Networks Tutorial on Logistic Regression Course Notes on Optimization for Machine Learning and Mathematical Foundations of Data Science An Introduction to Machine Learning with scikit-learn Introduction to Feature Detection and Matching Harris Corner Detection SIFT: Theory and Practice OpenCV Tutorials on Feature Descriptors  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture6/">
@@ -131,19 +128,16 @@ Materiale didattico:
   
   <meta property="og:site_name" content="Giuseppe Manco">
   <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture6/">
-  <meta property="og:title" content="Neural Networks | Giuseppe Manco">
-  <meta property="og:description" content="Grafi di computazione e modelli non lineari. Reti Convoluzionali. LeNet-5.
-Materiale didattico:
- Modelli non lineari (slides) Reti convoluzionali (slides) Notebook di accompagnamento  Riferimenti bibliografici  [Davies18], Ch. 15. [Gon18], Ch. 13. [Elg20], Ch. 2,3  Link utili  Introduction to Neural Networks
- Dive into Deep Learning
- Course Notes on Optimization for Machine Learning and Mathematical Foundations of Data Science
- Understanding graphs and automatic differentiation"><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+  <meta property="og:title" content="Feature descriptors. Classificazione | Giuseppe Manco">
+  <meta property="og:description" content=" Introduzione al supervised learning. Regressione logistica. Feature descriptors. Harris Corner Detection. SIFT.
+Slides disponibili:
+ Introduzione alla classificatione. Video della lezione, con appunti allegati.  Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze11], Ch. 4.1. [Kin19], Ch. 17.  Link utili  Introduction to Neural Networks Tutorial on Logistic Regression Course Notes on Optimization for Machine Learning and Mathematical Foundations of Data Science An Introduction to Machine Learning with scikit-learn Introduction to Feature Detection and Matching Harris Corner Detection SIFT: Theory and Practice OpenCV Tutorials on Feature Descriptors  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-04-18T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2020-04-02T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-04-18T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2020-04-02T00:00:00&#43;01:00">
   
 
   
@@ -155,7 +149,7 @@ Materiale didattico:
 
 
 
-  <title>Neural Networks | Giuseppe Manco</title>
+  <title>Feature descriptors. Classificazione | Giuseppe Manco</title>
 
 </head>
 
@@ -447,6 +441,10 @@ Materiale didattico:
       </li>
       
       <li >
+        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
+      </li>
+      
+      <li >
         <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
       </li>
       
@@ -455,7 +453,7 @@ Materiale didattico:
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab1/">Laboratorio 1 - Librerie Python</a>
+        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
       </li>
       
       <li >
@@ -463,47 +461,15 @@ Materiale didattico:
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture5/">Feature descriptors - Classificazione</a>
+        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab2/">Laboratorio 2 - SKlearn, Pytorch</a>
+        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3</a>
       </li>
       
       <li class="active">
-        <a href="/courses/computervision/lecture6/">Modelli non lineari. CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3 - Architetture CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture7/">Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4 - Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture8/">Segmentation</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture9/">Action Recognition</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture10/">Modelli Generativi</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture11/">Generative Adversarial Networks</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 5 - Generative Adversarial Networks</a>
+        <a href="/courses/computervision/lecture6/">Feature descriptors - Classificazione</a>
       </li>
       
     </ul>
@@ -541,53 +507,39 @@ Materiale didattico:
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Neural Networks</h1>
+          <h1 itemprop="name">Feature descriptors. Classificazione</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<p>Grafi di computazione e modelli non lineari. Reti Convoluzionali. LeNet-5.</p>
+<p>Introduzione al supervised learning. Regressione logistica. Feature descriptors. Harris Corner Detection. SIFT.</p>
 
-<p>Materiale didattico:</p>
+<p>Slides disponibili:</p>
 
 <ul>
-<li>Modelli non lineari (<a href="../pdf/6a.Reti neurali_parte1.pdf">slides</a>)</li>
-<li>Reti convoluzionali (<a href="../pdf/6b.Reti neurali_parte2.pdf">slides</a>)</li>
-<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/6.Neural_networks.ipynb" target="_blank">Notebook</a> di accompagnamento</li>
+<li><a href="../pdf/6a.Classificazione.pdf">Introduzione alla classificatione</a>. <a href="https://web.microsoftstream.com/video/3709906f-41a8-4557-9e53-118a2b453b6a" target="_blank">Video</a> della lezione, con appunti <a href="../pdf/l6_appunti.pdf">allegati</a>.</li>
 </ul>
 
 <h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
 
 <ul>
-<li><strong>[Davies18]</strong>, Ch. 15.</li>
-<li><strong>[Gon18]</strong>, Ch. 13.</li>
-<li><strong>[Elg20]</strong>, Ch. 2,3</li>
+<li><strong>[Davies18]</strong>, Ch. 6, 13.</li>
+<li><strong>[Solem12]</strong>, Ch. 2, 8.</li>
+<li><strong>[Sze11]</strong>, Ch. 4.1.</li>
+<li><strong>[Kin19]</strong>, Ch. 17.</li>
 </ul>
 
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li><p><a href="https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9" target="_blank">Introduction to Neural Networks</a></p></li>
-
-<li><p><a href="https://d2l.ai/index.html" target="_blank">Dive into Deep Learning</a></p></li>
-
-<li><p><a href="https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf" target="_blank">Course Notes on Optimization for Machine Learning</a> and <a href="https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf" target="_blank">Mathematical Foundations of Data Science</a></p></li>
-
-<li><p><a href="https://blog.paperspace.com/pytorch-101-understanding-graphs-and-automatic-differentiation/" target="_blank">Understanding graphs and automatic differentiation</a></p></li>
-
-<li><p><a href="https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b" target="_blank">Yes you should understand backpropagation</a></p></li>
-
-<li><p><a href="https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf" target="_blank">Visualizing and understanding convolutional Networks</a></p></li>
-
-<li><p>Vincent Dumoulin, Francesco Visin - <a href="https://arxiv.org/abs/1603.07285" target="_blank">A guide to convolution arithmetic for deep learning</a>]</p></li>
-
-<li><p><a href="https://medium.com/@_init_/an-illustrated-explanation-of-performing-2d-convolutions-using-matrix-multiplications-1e8de8cd2544" target="_blank">An illustrated explanation of performing 2D convolution using matrix multiplication</a>. Un esempio illustrativo anche su <a href="https://www.slideshare.net/EdwinEfranJimnezLepe/convolution-as-matrix-multiplication?from_action=save" target="_blank">slideshare</a>.</p></li>
-
-<li><p><a href="https://medium.com/datadriveninvestor/visualizing-neural-networks-using-saliency-maps-in-pytorch-289d8e244ab4" target="_blank">Visualizing neural networks using saliency maps</a>. Reference paper su <a href="https://arxiv.org/abs/1312.6034" target="_blank">arxiv</a>.</p></li>
-
-<li><p>Saliency maps in <a href="[https://mc.ai/feature-visualisation-in-pytorch%E2%80%8A-%E2%80%8Asaliency-maps/](https://mc.ai/feature-visualisation-in-pytorch - saliency-maps/)" target="_blank">Flashtorch</a>. Medium <a href="https://towardsdatascience.com/feature-visualisation-in-pytorch-saliency-maps-a3f99d08f78a" target="_blank">description</a>.</p></li>
-
-<li><p>A collection of <a href="https://github.com/utkuozbulak/pytorch-cnn-visualizations" target="_blank">Deep network visualization techniques</a> in Pytorch</p></li>
+<li><a href="https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9" target="_blank">Introduction to Neural Networks</a></li>
+<li><a href="https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/" target="_blank">Tutorial on Logistic Regression</a></li>
+<li><a href="https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf" target="_blank">Course Notes on Optimization for Machine Learning</a> and <a href="https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf" target="_blank">Mathematical Foundations of Data Science</a></li>
+<li><a href="https://scikit-learn.org/stable/tutorial/basic/tutorial.html" target="_blank">An Introduction to Machine Learning with scikit-learn</a></li>
+<li><a href="https://medium.com/analytics-vidhya/introduction-to-feature-detection-and-matching-65e27179885d" target="_blank">Introduction to Feature Detection and Matching</a></li>
+<li><a href="https://medium.com/data-breach/introduction-to-harris-corner-detector-32a88850b3f6" target="_blank">Harris Corner Detection</a></li>
+<li><a href="https://aishack.in/tutorials/sift-scale-invariant-feature-transform-features/" target="_blank">SIFT: Theory and Practice</a></li>
+<li><a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_table_of_contents_feature2d/py_table_of_contents_feature2d.html" target="_blank">OpenCV Tutorials on Feature Descriptors</a></li>
 </ul>
 
           </div>
@@ -605,15 +557,9 @@ Materiale didattico:
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture_lab2/" rel="next">Pytorch, SKlearn and Classification</a>
+    <a href="/courses/computervision/lecture_lab3/" rel="next">Python and image processing</a>
   </div>
   
-  
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture7/" rel="prev">Object Detection</a>
-  </div>
   
 </div>
 
@@ -622,7 +568,7 @@ Materiale didattico:
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Apr 18, 2020</p>
+          <p>Last updated on Apr 2, 2020</p>
 
           
 
@@ -637,7 +583,7 @@ Materiale didattico:
   
 
   <p class="powered-by">
-    &copy; 2020 Giuseppe Manco &middot; 
+    &copy; 2021 Giuseppe Manco &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

@@ -133,9 +133,37 @@
 
 &lt;tr&gt;
 &lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Laboratorio: image processing in Python&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture_lab2/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;16/03/2021&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
 &lt;td&gt;Filtraggio Spaziale e sulle frequenze. Edge Detection&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture4/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;16/03/2021&lt;/td&gt;
+&lt;td&gt;18/03/2021&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Edges, lines, shapes&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture5/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;23/03/2021&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Laboratorio: Filtri, edge detection&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture_lab3/&#34; target=&#34;_blank&#34;&gt;Slides, notebook&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;25/05/2021&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Introduzione alla Classification. Features&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture6/&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;30/05/2021&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

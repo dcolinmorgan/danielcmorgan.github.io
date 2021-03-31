@@ -629,6 +629,8 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 &lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/4.Fourier_transform.ipynb&#34; target=&#34;_blank&#34;&gt;Fourier Transform&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;Il video di riferimento della lezione è disponibile &lt;a href=&#34;https://web.microsoftstream.com/video/07df3bb6-5d74-47c2-8070-33d6cdacd2b4&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -660,7 +662,7 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 
 &lt;p&gt;Edge Detection. Canny Edge Detection. Hough Transform.&lt;/p&gt;
 
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/5.Edges_lines_shapes.pdf&#34;&gt;qui&lt;/a&gt;. La lezione è corredata di un &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/5.Edges_lines_circles.ipynb&#34; target=&#34;_blank&#34;&gt;notebook&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/5.Edges_lines_shapes.pdf&#34;&gt;qui&lt;/a&gt;. La lezione è corredata di un &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/5.Edges_lines_circles.ipynb&#34; target=&#34;_blank&#34;&gt;notebook&lt;/a&gt;. Il video della lezione è disponibile &lt;a href=&#34;https://web.microsoftstream.com/video/0d774350-bb0b-48fd-a11e-ec33464421fc&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
@@ -721,6 +723,42 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
     </item>
     
     <item>
+      <title>Python and image processing</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab3/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab3/</guid>
+      <description>
+
+&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Trasformata di Hough&lt;/li&gt;
+&lt;li&gt;Trasformata di FFT&lt;/li&gt;
+&lt;li&gt;Presentazione modalità esonero&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab03&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.3.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html&#34; target=&#34;_blank&#34;&gt;Hough with OpenCV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/dev/auto_examples/edges/plot_line_hough_transform.html&#34; target=&#34;_blank&#34;&gt;Straight line Hough transform with skimage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://homepages.inf.ed.ac.uk/rbf/HIPR2/hough.htm&#34; target=&#34;_blank&#34;&gt;Hough introduction and excercise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549&#34; target=&#34;_blank&#34;&gt;Line detection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Pytorch, SKlearn and Classification</title>
       <link>https://gmanco.github.io/courses/computervision/2020/lecture_lab2/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0100</pubDate>
@@ -753,6 +791,45 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
 &lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/&#34; target=&#34;_blank&#34;&gt;SKLearn&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pytorch.org/docs/stable/index.html&#34; target=&#34;_blank&#34;&gt;Pytorch&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.openml.org/d/554/&#34; target=&#34;_blank&#34;&gt;MINIST dataset&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feature descriptors. Classificazione</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture6/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture6/</guid>
+      <description>
+
+&lt;p&gt;Introduzione al supervised learning. Regressione logistica. Feature descriptors. Harris Corner Detection. SIFT.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/6a.Classificazione.pdf&#34;&gt;Introduzione alla classificatione&lt;/a&gt;. &lt;a href=&#34;https://web.microsoftstream.com/video/3709906f-41a8-4557-9e53-118a2b453b6a&#34; target=&#34;_blank&#34;&gt;Video&lt;/a&gt; della lezione, con appunti &lt;a href=&#34;../pdf/l6_appunti.pdf&#34;&gt;allegati&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 6, 13.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 2, 8.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, Ch. 4.1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 17.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9&#34; target=&#34;_blank&#34;&gt;Introduction to Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/&#34; target=&#34;_blank&#34;&gt;Tutorial on Logistic Regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf&#34; target=&#34;_blank&#34;&gt;Course Notes on Optimization for Machine Learning&lt;/a&gt; and &lt;a href=&#34;https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf&#34; target=&#34;_blank&#34;&gt;Mathematical Foundations of Data Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/tutorial/basic/tutorial.html&#34; target=&#34;_blank&#34;&gt;An Introduction to Machine Learning with scikit-learn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/analytics-vidhya/introduction-to-feature-detection-and-matching-65e27179885d&#34; target=&#34;_blank&#34;&gt;Introduction to Feature Detection and Matching&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/data-breach/introduction-to-harris-corner-detector-32a88850b3f6&#34; target=&#34;_blank&#34;&gt;Harris Corner Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aishack.in/tutorials/sift-scale-invariant-feature-transform-features/&#34; target=&#34;_blank&#34;&gt;SIFT: Theory and Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_table_of_contents_feature2d/py_table_of_contents_feature2d.html&#34; target=&#34;_blank&#34;&gt;OpenCV Tutorials on Feature Descriptors&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

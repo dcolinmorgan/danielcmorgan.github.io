@@ -725,6 +725,13 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 &lt;li&gt;&lt;a href=&#34;../pdf/6b.Features.pdf&#34;&gt;Keypoint detection and Descritpors&lt;/a&gt;. &lt;a href=&#34;https://web.microsoftstream.com/video/544b3842-6736-4a41-b7e2-5bd033fd9a80&#34; target=&#34;_blank&#34;&gt;Video&lt;/a&gt; della lezione, con appunti [allegati]((../pdf/l7_appunti.pdf).&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;Notebooks di studio:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/6a.Features_Harris.ipynb&#34; target=&#34;_blank&#34;&gt;Harris corner detector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SIFT&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -745,6 +752,9 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 &lt;li&gt;&lt;a href=&#34;https://medium.com/data-breach/introduction-to-harris-corner-detector-32a88850b3f6&#34; target=&#34;_blank&#34;&gt;Harris Corner Detection&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://aishack.in/tutorials/sift-scale-invariant-feature-transform-features/&#34; target=&#34;_blank&#34;&gt;SIFT: Theory and Practice&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_table_of_contents_feature2d/py_table_of_contents_feature2d.html&#34; target=&#34;_blank&#34;&gt;OpenCV Tutorials on Feature Descriptors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://people.eecs.berkeley.edu/~malik/cs294/lowe-ijcv04.pdf&#34; target=&#34;_blank&#34;&gt;Distinctive image features from scale invariant Keypoints&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://persci.mit.edu/pub_pdfs/pyramid83.pdf&#34; target=&#34;_blank&#34;&gt;The laplacian pyramid as a compact image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/sift-scale-invariant-feature-transform-c7233dc60f37&#34; target=&#34;_blank&#34;&gt;SIFT: a detailed description&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

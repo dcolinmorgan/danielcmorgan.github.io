@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pattern discovery | Giuseppe Manco</title>
+    <title>Pattern Discovery | Giuseppe Manco</title>
     <link>https://gmanco.github.io/tags/pattern-discovery/</link>
       <atom:link href="https://gmanco.github.io/tags/pattern-discovery/index.xml" rel="self" type="application/rss+xml" />
-    <description>Pattern discovery</description>
+    <description>Pattern Discovery</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Giuseppe Manco</copyright><lastBuildDate>Thu, 01 Dec 2011 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
-      <title>Pattern discovery</title>
+      <title>Pattern Discovery</title>
       <link>https://gmanco.github.io/tags/pattern-discovery/</link>
     </image>
     

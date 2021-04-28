@@ -29,8 +29,8 @@
     
   
   <meta name="description" content=" Principali argomenti trattati:
- CycleGAN DeepFake  La lezione è corredata di slide disponibili qui
-Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap DeepFake  ">
+ AlexNet VGG Residual Network Inception Network Data Augmentation Transfer Learning  Il materiale didattico (lucidi e notebooks) è disponibile qui
+Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link utili  Torch pretrained models TorchHUB Caltech101 dataset Survey on data augmentation technique  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture_lab5/">
@@ -128,10 +128,10 @@ Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap 
   
   <meta property="og:site_name" content="Giuseppe Manco">
   <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture_lab5/">
-  <meta property="og:title" content="CycleGAN and DeepFake | Giuseppe Manco">
+  <meta property="og:title" content="Image Classification | Giuseppe Manco">
   <meta property="og:description" content=" Principali argomenti trattati:
- CycleGAN DeepFake  La lezione è corredata di slide disponibili qui
-Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap DeepFake  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+ AlexNet VGG Residual Network Inception Network Data Augmentation Transfer Learning  Il materiale didattico (lucidi e notebooks) è disponibile qui
+Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link utili  Torch pretrained models TorchHUB Caltech101 dataset Survey on data augmentation technique  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -149,7 +149,7 @@ Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap 
 
 
 
-  <title>CycleGAN and DeepFake | Giuseppe Manco</title>
+  <title>Image Classification | Giuseppe Manco</title>
 
 </head>
 
@@ -441,6 +441,10 @@ Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap 
       </li>
       
       <li >
+        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
+      </li>
+      
+      <li >
         <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
       </li>
       
@@ -449,7 +453,7 @@ Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap 
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab1/">Laboratorio 1 - Librerie Python</a>
+        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
       </li>
       
       <li >
@@ -457,47 +461,27 @@ Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap 
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture5/">Feature descriptors - Classificazione</a>
+        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab2/">Laboratorio 2 - SKlearn, Pytorch</a>
+        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture6/">Modelli non lineari. CNN</a>
+        <a href="/courses/computervision/lecture6/">Feature descriptors - Classificazione</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3 - Architetture CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture7/">Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4 - Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture8/">Segmentation</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture9/">Action Recognition</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture10/">Modelli Generativi</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture11/">Generative Adversarial Networks</a>
+        <a href="/courses/computervision/lecture7/">Modelli non lineari. CNN</a>
       </li>
       
       <li class="active">
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 5 - Generative Adversarial Networks</a>
+        <a href="/courses/computervision/lecture_lab5/">Esercitazione 3, Image Classification</a>
+      </li>
+      
+      <li >
+        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4</a>
       </li>
       
     </ul>
@@ -520,6 +504,7 @@ Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap 
 <ul>
 <li>
 <ul>
+<li><a href="#riferimenti-bibliografici">Riferimenti bibliografici</a></li>
 <li><a href="#link-utili">Link utili</a></li>
 </ul></li>
 </ul>
@@ -534,7 +519,7 @@ Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap 
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">CycleGAN and DeepFake</h1>
+          <h1 itemprop="name">Image Classification</h1>
 
           <div class="article-style" itemprop="articleBody">
             
@@ -542,19 +527,30 @@ Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap 
 <p>Principali argomenti trattati:</p>
 
 <ul>
-<li>CycleGAN</li>
-<li>DeepFake</li>
+<li>AlexNet</li>
+<li>VGG</li>
+<li>Residual Network</li>
+<li>Inception Network</li>
+<li>Data Augmentation</li>
+<li>Transfer Learning</li>
 </ul>
 
-<p>La lezione è corredata di slide disponibili <a href="https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab07" target="_blank">qui</a></p>
+<p>Il materiale didattico (lucidi e notebooks) è disponibile <a href="https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab05" target="_blank">qui</a></p>
+
+<h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
+
+<ul>
+<li><strong>[Davies18]</strong>, ch. 15.</li>
+<li><strong>[Elg20]</strong>, ch. 4.6, 5, 6.</li>
+</ul>
 
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li><a href="https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix" target="_blank">CycleGAN Pytorch implementation</a></li>
-<li><a href="https://towardsdatascience.com/image-to-image-translation-using-cyclegan-model-d58cfff04755" target="_blank">CycleGAN intro</a></li>
-<li><a href="https://github.com/jinfagang/faceswap_pytorch" target="_blank">DeepFake - face swap</a></li>
-<li><a href="https://github.com/OValery16/swap-face" target="_blank">DeepFake</a></li>
+<li><a href="https://pytorch.org/docs/stable/torchvision/models.html" target="_blank">Torch pretrained models</a></li>
+<li><a href="https://pytorch.org/hub/" target="_blank">TorchHUB</a></li>
+<li><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/" target="_blank">Caltech101 dataset</a></li>
+<li><a href="https://link.springer.com/article/10.1186/s40537-019-0197-0" target="_blank">Survey on data augmentation technique</a></li>
 </ul>
 
           </div>
@@ -572,14 +568,14 @@ Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap 
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture11/" rel="next">Generative Adversarial Networks</a>
+    <a href="/courses/computervision/lecture7/" rel="next">Neural Networks</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/esoneri/listoffeaturedescriptors/" rel="prev">Esonero 1</a>
+    <a href="/courses/computervision/lecture_lab4/" rel="prev">Introduzione a Pytorch</a>
   </div>
   
 </div>
@@ -604,7 +600,7 @@ Link utili  CycleGAN Pytorch implementation CycleGAN intro DeepFake - face swap 
   
 
   <p class="powered-by">
-    &copy; 2020 Giuseppe Manco &middot; 
+    &copy; 2021 Giuseppe Manco &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

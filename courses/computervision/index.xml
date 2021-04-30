@@ -890,6 +890,84 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
     </item>
     
     <item>
+      <title>Object Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture8/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture8/</guid>
+      <description>
+
+&lt;p&gt;Object detection.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Region Proposal Networks: R-CNN, Fast R-CNN, Faster R-CNN.&lt;/li&gt;
+&lt;li&gt;Single Shot Detectors: SSD, RetinaNet, YOLO.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Materiale didattico:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/8.Object_detection.pdf&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/8a.Object_Detection.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/8b.YOLO_demo.ipynb&#34; target=&#34;_blank&#34;&gt;Demo YOLO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 7&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@fractaldle/brief-overview-on-object-detection-algorithms-ec516929be93&#34; target=&#34;_blank&#34;&gt;An overview of Deep-Learning based Object Detection algorithms&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1807.05511.pdf&#34; target=&#34;_blank&#34;&gt;Object detection with Deep Learning: A review&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1311.2524.pdf&#34; target=&#34;_blank&#34;&gt;Rich Feature-Based hierarchies for accurate object detection and semantic segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1504.08083.pdf&#34; target=&#34;_blank&#34;&gt;Fast R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1506.01497&#34; target=&#34;_blank&#34;&gt;Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Faster R-CNN tutorials: &lt;a href=&#34;https://medium.com/@fractaldle/guide-to-build-faster-rcnn-in-pytorch-95b10c273439&#34; target=&#34;_blank&#34;&gt;A guide to building Faster R-CNN in Pytorch&lt;/a&gt; e &lt;a href=&#34;https://towardsdatascience.com/fasterrcnn-explained-part-1-with-code-599c16568cff&#34; target=&#34;_blank&#34;&gt;Detecting objects in (almost) Real time&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1512.02325&#34; target=&#34;_blank&#34;&gt;SSD: Single Shot MultiBox Detector&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection&#34; target=&#34;_blank&#34;&gt;SSD Tutorial&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/detectron&#34; target=&#34;_blank&#34;&gt;Detectron&lt;/a&gt; and &lt;a href=&#34;https://github.com/facebookresearch/detectron2&#34; target=&#34;_blank&#34;&gt;Detectron2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You Only Look Once: &lt;a href=&#34;https://arxiv.org/pdf/1506.02640.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/1612.08242.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv2&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/1804.02767.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://christopher5106.github.io/object/detectors/2017/08/10/bounding-box-object-detectors-understanding-yolo.html&#34; target=&#34;_blank&#34;&gt;Understanding YOLO&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b&#34; target=&#34;_blank&#34;&gt;What&amp;rsquo;s new in YOLOv3?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@jonathan_hui/object-detection-speed-and-accuracy-comparison-faster-r-cnn-r-fcn-ssd-and-yolo-5425656ae359&#34; target=&#34;_blank&#34;&gt;Speed and accuracy comparison in object detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.10934&#34; target=&#34;_blank&#34;&gt;YOLOv4&lt;/a&gt; paper (with &lt;a href=&#34;https://github.com/AlexeyAB/darknet&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@riteshkanjee/yolov4-superior-faster-more-accurate-object-detection-7e8194bf1872&#34; target=&#34;_blank&#34;&gt;YOLOv4 -  Superior, faster and more accurate&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@michaelchan_2146/faster-real-time-object-detection-yolov4-in-pytorch-6eef8436ba75&#34; target=&#34;_blank&#34;&gt;YOLOv4 in Pytorch&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/axinc-ai/yolov5-the-latest-model-for-object-detection-b13320ec516b&#34; target=&#34;_blank&#34;&gt;YOLOv5: The Latest Model for Object Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1708.02002&#34; target=&#34;_blank&#34;&gt;Focal Loss for Dense Object Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4&#34; target=&#34;_blank&#34;&gt;Review - RetinaNet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.zenggyu.com/en/post/2018-12-05/retinanet-explained-and-demystified/#fn3&#34; target=&#34;_blank&#34;&gt;RetinaNet explained and demystified&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@lekorotkov/5-tools-to-create-a-custom-object-detection-dataset-27ca37f91e05&#34; target=&#34;_blank&#34;&gt;5 tools to create a custom object detection dataset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;NEW&lt;/strong&gt; &lt;a href=&#34;https://ai.facebook.com/blog/end-to-end-object-detection-with-transformers/&#34; target=&#34;_blank&#34;&gt;DETR: End-to-end object detection with Transformers&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Esonero 1</title>
       <link>https://gmanco.github.io/courses/computervision/esoneri/esonero1/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:00 +0100</pubDate>

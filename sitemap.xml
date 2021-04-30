@@ -128,7 +128,17 @@
   </url>
   
   <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture8/</loc>
+    <lastmod>2020-04-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gmanco.github.io/courses/computervision/2020/lecture8/</loc>
+    <lastmod>2020-05-12T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/lecture8/</loc>
     <lastmod>2020-05-12T00:00:00+01:00</lastmod>
   </url>
   
@@ -277,6 +287,11 @@
   <url>
     <loc>https://gmanco.github.io/publication/alfeo-2020/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/</loc>
+    <lastmod>2020-05-12T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -990,10 +1005,6 @@
   
   <url>
     <loc>https://gmanco.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/courses/</loc>
   </url>
   
 </urlset>

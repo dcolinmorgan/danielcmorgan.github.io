@@ -28,10 +28,14 @@
   
     
   
-  <meta name="description" content="Risultati esonero su image processing    Matricola Nome Cognome VOTO     207057 GIUSEPPE SURACE 3,8   214244 PIERPAOLO BELLUSCI 7,5   214254 VITO BARBARA 6,5   214455 SERAFINO SALATINO 5   214503 FRANCESCO RIGANELLO 4   214510 CLAUDIA GRAZIOSO 3,2   214533 GIULIANO STIRPARO 1,5   214555 ADELE PIA ROMANO 8,9   214566 ROSARIA SPADA 5,7   214587 GIOVANNI MIRANTE 5,3   214636 FRANCESCA SENATORE 0,9   214808 SILVIA PLUTINO 1,4   216635 IVAN SCUDERI 4   216640 ANDREA ZOFREA 4,8   216648 FRANCESCO MARIA GRANATA 6,8   216649 MATTIA GATTO 3,3   216652 DOMENICO FRONTERA 4,6   216662 ARIANNA RUSSO 1,9   216694 LUCIA GENTILE 3,9   216701 GAETANO PALMIERI 3,5   216759 LOPEZ SIMONPAOLO 4,7   224431 SALVATORE PETROLO 7,5    Le bozze di soluzione della prova d&rsquo;esonero sono disponibili su GitHub.">
+  <meta name="description" content="Segmentation.
+ Approcci classici. Conditional Random Fields. slides. Approcci Neurali. Semantic Segmentation. Instance Segmentation. slides. Notebook di accompagnamento.   Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link utili  An Introduction to Conditional Random Fields
+ Structured Learning and Prediction in Computer Vision
+ An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision
+ Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials (with Supplemental Material)">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/esoneri/esonero1/">
+  <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/lecture8/">
 
   
 
@@ -110,7 +114,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://gmanco.github.io/courses/computervision/esoneri/esonero1/">
+  <link rel="canonical" href="https://gmanco.github.io/courses/lecture8/">
 
   
   
@@ -125,15 +129,19 @@
   <meta property="twitter:creator" content="@beman">
   
   <meta property="og:site_name" content="Giuseppe Manco">
-  <meta property="og:url" content="https://gmanco.github.io/courses/computervision/esoneri/esonero1/">
-  <meta property="og:title" content="Esonero 1 | Giuseppe Manco">
-  <meta property="og:description" content="Risultati esonero su image processing    Matricola Nome Cognome VOTO     207057 GIUSEPPE SURACE 3,8   214244 PIERPAOLO BELLUSCI 7,5   214254 VITO BARBARA 6,5   214455 SERAFINO SALATINO 5   214503 FRANCESCO RIGANELLO 4   214510 CLAUDIA GRAZIOSO 3,2   214533 GIULIANO STIRPARO 1,5   214555 ADELE PIA ROMANO 8,9   214566 ROSARIA SPADA 5,7   214587 GIOVANNI MIRANTE 5,3   214636 FRANCESCA SENATORE 0,9   214808 SILVIA PLUTINO 1,4   216635 IVAN SCUDERI 4   216640 ANDREA ZOFREA 4,8   216648 FRANCESCO MARIA GRANATA 6,8   216649 MATTIA GATTO 3,3   216652 DOMENICO FRONTERA 4,6   216662 ARIANNA RUSSO 1,9   216694 LUCIA GENTILE 3,9   216701 GAETANO PALMIERI 3,5   216759 LOPEZ SIMONPAOLO 4,7   224431 SALVATORE PETROLO 7,5    Le bozze di soluzione della prova d&rsquo;esonero sono disponibili su GitHub."><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+  <meta property="og:url" content="https://gmanco.github.io/courses/lecture8/">
+  <meta property="og:title" content="Segmentation | Giuseppe Manco">
+  <meta property="og:description" content="Segmentation.
+ Approcci classici. Conditional Random Fields. slides. Approcci Neurali. Semantic Segmentation. Instance Segmentation. slides. Notebook di accompagnamento.   Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link utili  An Introduction to Conditional Random Fields
+ Structured Learning and Prediction in Computer Vision
+ An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision
+ Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials (with Supplemental Material)"><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-04-28T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2020-05-12T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-04-28T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2020-05-12T00:00:00&#43;01:00">
   
 
   
@@ -145,7 +153,7 @@
 
 
 
-  <title>Esonero 1 | Giuseppe Manco</title>
+  <title>Segmentation | Giuseppe Manco</title>
 
 </head>
 
@@ -409,6 +417,8 @@
 
 
 
+  Please define menu items named `menu: courses:` in your courses/lecture8.md front matter or define `[[menu.courses]]` in `config/default/menus.toml`. See https://sourcethemes.com/academic/docs/managing-content/#menus
+
 
 <form class="docs-search d-flex align-items-center">
   <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
@@ -422,78 +432,28 @@
 
 <nav class="collapse docs-links" id="docs-nav">
   
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/computervision/">Panoramica</a>
-
-  </div>
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/computervision/lecture1/">Lezioni</a>
-    <ul class="nav docs-sidenav">
-      
-      <li >
-        <a href="/courses/computervision/lecture1/">Introduzione al corso</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture3/">Filtri</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture4/">Derivate - Edge Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture6/">Feature descriptors - Classificazione</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture7/">Modelli non lineari. CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 3, Image Classification</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture8/">Object Detection</a>
-      </li>
-      
-    </ul>
-    
-
-  </div>
-  
-  
 </nav>
 
     </div>
 
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#riferimenti-bibliografici">Riferimenti bibliografici</a></li>
+<li><a href="#link-utili">Link utili</a></li>
+</ul></li>
+</ul>
+</nav>
+
+      
+    </div>
     
 
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
@@ -501,181 +461,92 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Esonero 1</h1>
+          <h1 itemprop="name">Segmentation</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<h1 id="risultati-esonero-su-image-processing">Risultati esonero su image processing</h1>
+<ul>
+<li><p>Segmentation.</p>
 
-<table>
-<thead>
-<tr>
-<th>Matricola</th>
-<th>Nome</th>
-<th>Cognome</th>
-<th>VOTO</th>
-</tr>
-</thead>
+<ul>
+<li>Approcci classici. Conditional Random Fields. <a href="../pdf/9a.Segmentation_part1.pdf">slides</a>.</li>
+<li>Approcci Neurali. Semantic Segmentation. Instance Segmentation. <a href="../pdf/9b.Segmentation_part2.pdf">slides</a>.</li>
+<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/9.Segmentation.ipynb" target="_blank">Notebook</a> di accompagnamento.</li>
+</ul></li>
+</ul>
 
-<tbody>
-<tr>
-<td>207057</td>
-<td>GIUSEPPE</td>
-<td>SURACE</td>
-<td>3,8</td>
-</tr>
+<h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
 
-<tr>
-<td>214244</td>
-<td>PIERPAOLO</td>
-<td>BELLUSCI</td>
-<td>7,5</td>
-</tr>
+<ul>
+<li><strong>[Sze11]</strong>, Ch. 5</li>
+<li><strong>[Davies18]</strong>, Ch.11</li>
+<li><strong>[Gon18]</strong>, Ch.10</li>
+</ul>
 
-<tr>
-<td>214254</td>
-<td>VITO</td>
-<td>BARBARA</td>
-<td>6,5</td>
-</tr>
+<h2 id="link-utili">Link utili</h2>
 
-<tr>
-<td>214455</td>
-<td>SERAFINO</td>
-<td>SALATINO</td>
-<td>5</td>
-</tr>
+<ul>
+<li><p><a href="https://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf" target="_blank">An Introduction to Conditional Random Fields</a></p></li>
 
-<tr>
-<td>214503</td>
-<td>FRANCESCO</td>
-<td>RIGANELLO</td>
-<td>4</td>
-</tr>
+<li><p><a href="http://www.nowozin.net/sebastian/papers/nowozin2011structured-tutorial.pdf" target="_blank">Structured Learning and Prediction in Computer Vision</a></p></li>
 
-<tr>
-<td>214510</td>
-<td>CLAUDIA</td>
-<td>GRAZIOSO</td>
-<td>3,2</td>
-</tr>
+<li><p><a href="https://www.csd.uwo.ca/~yboykov/Papers/pami04.pdf" target="_blank">An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision</a></p></li>
 
-<tr>
-<td>214533</td>
-<td>GIULIANO</td>
-<td>STIRPARO</td>
-<td>1,5</td>
-</tr>
+<li><p><a href="https://arxiv.org/pdf/1210.5644.pdf" target="_blank">Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials</a> (with <a href="http://vladlen.info/papers/densecrf-supplementary.pdf" target="_blank">Supplemental Material</a>)</p></li>
 
-<tr>
-<td>214555</td>
-<td>ADELE PIA</td>
-<td>ROMANO</td>
-<td>8,9</td>
-</tr>
+<li><p><a href="https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776" target="_blank">Conditional Random Fields explained</a></p></li>
 
-<tr>
-<td>214566</td>
-<td>ROSARIA</td>
-<td>SPADA</td>
-<td>5,7</td>
-</tr>
+<li><p><a href="https://blog.echen.me/2012/01/03/introduction-to-conditional-random-fields/" target="_blank">Introduction to Conditional Random Fields</a></p></li>
 
-<tr>
-<td>214587</td>
-<td>GIOVANNI</td>
-<td>MIRANTE</td>
-<td>5,3</td>
-</tr>
+<li><p><a href="https://www.topbots.com/semantic-segmentation-guide/" target="_blank">A simple guide to semantic Segmentation</a> and <a href="https://heartbeat.fritz.ai/a-2019-guide-to-semantic-segmentation-ca8242f5a7fc" target="_blank">A 2019 guide to semantic segmentation</a></p></li>
 
-<tr>
-<td>214636</td>
-<td>FRANCESCA</td>
-<td>SENATORE</td>
-<td>0,9</td>
-</tr>
+<li><p><a href="https://arxiv.org/abs/1605.06211" target="_blank">Fully Convolutional Networks for Semantic Segmentation</a></p></li>
 
-<tr>
-<td>214808</td>
-<td>SILVIA</td>
-<td>PLUTINO</td>
-<td>1,4</td>
-</tr>
+<li><p><a href="https://towardsdatascience.com/review-fcn-semantic-segmentation-eb8c9b50d2d1" target="_blank">Review - FCN</a></p></li>
 
-<tr>
-<td>216635</td>
-<td>IVAN</td>
-<td>SCUDERI</td>
-<td>4</td>
-</tr>
+<li><p><a href="https://medium.com/activating-robotic-minds/up-sampling-with-transposed-convolution-9ae4f2df52d0" target="_blank">Upsampling with Transposed Convolution</a>; <a href="https://towardsdatascience.com/transposed-convolution-demystified-84ca81b4baba" target="_blank">Transposed Convolution demystified</a>; <a href="https://medium.com/apache-mxnet/transposed-convolutions-explained-with-ms-excel-52d13030c7e8" target="_blank">Transposed convolutions explained with Excel</a></p></li>
 
-<tr>
-<td>216640</td>
-<td>ANDREA</td>
-<td>ZOFREA</td>
-<td>4,8</td>
-</tr>
+<li><p><a href="https://distill.pub/2016/deconv-checkerboard/" target="_blank">Deconvolution and checkerboard artifacts</a></p></li>
 
-<tr>
-<td>216648</td>
-<td>FRANCESCO MARIA</td>
-<td>GRANATA</td>
-<td>6,8</td>
-</tr>
+<li><p><a href="http://cvlab.postech.ac.kr/research/deconvnet/" target="_blank">Learning Deconvolution Network for Semantic Segmentation</a></p></li>
 
-<tr>
-<td>216649</td>
-<td>MATTIA</td>
-<td>GATTO</td>
-<td>3,3</td>
-</tr>
+<li><p><a href="http://arxiv.org/abs/1511.00561" target="_blank">SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation</a>]</p></li>
 
-<tr>
-<td>216652</td>
-<td>DOMENICO</td>
-<td>FRONTERA</td>
-<td>4,6</td>
-</tr>
+<li><p><a href="https://arxiv.org/pdf/1505.04597.pdf" target="_blank">U-Net: Convolutional Networks for Biomedical Image Segmentation</a></p></li>
 
-<tr>
-<td>216662</td>
-<td>ARIANNA</td>
-<td>RUSSO</td>
-<td>1,9</td>
-</tr>
+<li><p><a href="https://arxiv.org/abs/1611.09326" target="_blank">The One Hundred Layers Tiramisu</a></p></li>
 
-<tr>
-<td>216694</td>
-<td>LUCIA</td>
-<td>GENTILE</td>
-<td>3,9</td>
-</tr>
+<li><p><a href="https://arxiv.org/pdf/1612.01105.pdf" target="_blank">Pyramid scene parsing Networks</a></p></li>
 
-<tr>
-<td>216701</td>
-<td>GAETANO</td>
-<td>PALMIERI</td>
-<td>3,5</td>
-</tr>
+<li><p><a href="https://arxiv.org/pdf/1606.00915.pdf" target="_blank">DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs</a></p></li>
 
-<tr>
-<td>216759</td>
-<td>LOPEZ</td>
-<td>SIMONPAOLO</td>
-<td>4,7</td>
-</tr>
+<li><p><a href="https://arxiv.org/abs/1511.07122" target="_blank">Multiscale Context aggregation by dilated convolutions</a></p></li>
 
-<tr>
-<td>224431</td>
-<td>SALVATORE</td>
-<td>PETROLO</td>
-<td>7,5</td>
-</tr>
-</tbody>
-</table>
+<li><p><a href="https://arxiv.org/pdf/1706.05587.pdf" target="_blank">Rethinking Atrous Convolution for Semantic Image Segmentation</a></p></li>
 
-<p>Le bozze di soluzione della prova d&rsquo;esonero sono disponibili su <a href="https://github.com/gmanco/cv_notebooks/tree/master/test/Esonero1/soluzioni_esonero1" target="_blank">GitHub</a>.</p>
+<li><p>Review: <a href="https://towardsdatascience.com/review-deeplabv1-deeplabv2-atrous-convolution-semantic-segmentation-b51c5fbde92d" target="_blank">DeepLabv2</a> e <a href="https://towardsdatascience.com/review-deeplabv3-atrous-convolution-semantic-segmentation-6d818bfd1d74" target="_blank">DeepLabv3</a></p></li>
+
+<li><p><a href="https://openreview.net/pdf?id=S1uHiFyyg" target="_blank">Speeding up Semantic segmentation for autonomous driving</a></p></li>
+
+<li><p><a href="https://arxiv.org/pdf/1606.02147.pdf" target="_blank">ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation</a></p></li>
+
+<li><p><a href="ICNet for Real-Time Semantic Segmentation on High-Resolution Images" target="_blank">ICNet for Real-Time Semantic Segmentation on High-Resolution Images</a></p></li>
+
+<li><p><a href="https://arxiv.org/abs/1902.04502" target="_blank">Fast-SCNN: Fast Semantic Segmentation Network</a></p></li>
+
+<li><p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Li_DFANet_Deep_Feature_Aggregation_for_Real-Time_Semantic_Segmentation_CVPR_2019_paper.html" target="_blank">DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation</a></p></li>
+
+<li><p><a href="https://arxiv.org/abs/1703.06870" target="_blank">Mask R-CNN</a></p></li>
+
+<li><p><a href="https://medium.com/@jonathan_hui/image-segmentation-with-mask-r-cnn-ebe6d793272" target="_blank">Image Segmentation with Mask R-CNN</a></p></li>
+
+<li><p><a href="https://arxiv.org/pdf/1611.07709.pdf" target="_blank">Fully Convolutional Instance-aware Semantic Segmentation</a></p></li>
+
+<li><p><a href="https://arxiv.org/pdf/1904.02689.pdf" target="_blank">YOLACT</a> and <a href="https://arxiv.org/abs/1912.06218" target="_blank">YOLOACT++</a></p></li>
+
+<li><p><a href="https://arxiv.org/pdf/1801.00868.pdf" target="_blank">Pantropic Segmentation</a></p></li>
+</ul>
 
           </div>
 
@@ -689,13 +560,6 @@
 <div class="post-nav">
   
   
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture8/" rel="next">Object Detection</a>
-  </div>
-  
-  
 </div>
 
           </div>
@@ -703,7 +567,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Apr 28, 2020</p>
+          <p>Last updated on May 12, 2020</p>
 
           
 

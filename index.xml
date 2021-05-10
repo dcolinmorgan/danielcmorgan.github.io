@@ -1257,6 +1257,8 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b&#34; target=&#34;_blank&#34;&gt;What&amp;rsquo;s new in YOLOv3?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Grir6TZbc1M&#34; target=&#34;_blank&#34;&gt;YOLOv3 from Scratch&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@jonathan_hui/object-detection-speed-and-accuracy-comparison-faster-r-cnn-r-fcn-ssd-and-yolo-5425656ae359&#34; target=&#34;_blank&#34;&gt;Speed and accuracy comparison in object detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.10934&#34; target=&#34;_blank&#34;&gt;YOLOv4&lt;/a&gt; paper (with &lt;a href=&#34;https://github.com/AlexeyAB/darknet&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
@@ -1276,6 +1278,8 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@lekorotkov/5-tools-to-create-a-custom-object-detection-dataset-27ca37f91e05&#34; target=&#34;_blank&#34;&gt;5 tools to create a custom object detection dataset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;NEW&lt;/strong&gt; &lt;a href=&#34;https://ai.facebook.com/blog/end-to-end-object-detection-with-transformers/&#34; target=&#34;_blank&#34;&gt;DETR: End-to-end object detection with Transformers&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;NEW&lt;/strong&gt; &lt;a href=&#34;https://analyticsindiamag.com/efficientdet/&#34; target=&#34;_blank&#34;&gt;EfficientDet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -1372,6 +1376,45 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
     </item>
     
     <item>
+      <title>Object Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab6/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab6/</guid>
+      <description>
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Anchor box&lt;/li&gt;
+&lt;li&gt;SSD&lt;/li&gt;
+&lt;li&gt;YOLOv3&lt;/li&gt;
+&lt;li&gt;RetinaNet&lt;/li&gt;
+&lt;li&gt;Pytorch Network from scratch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab06&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, ch. 7.&lt;/li&gt;
+&lt;li&gt;Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.-Y.,  &amp;amp; Berg, A. C. (2016). Ssd: single shot multibox detector. &lt;em&gt;European conference on computer vision&lt;/em&gt; (pp. 21–37).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection&#34; target=&#34;_blank&#34;&gt;SSD tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/andreaazzini/retinanet.pytorch&#34; target=&#34;_blank&#34;&gt;RetinaNet in pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1708.02002&#34; target=&#34;_blank&#34;&gt;Retinanet Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.10934&#34; target=&#34;_blank&#34;&gt;YOLOv4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/retinanet-how-focal-loss-fixes-single-shot-detection-cb320e3bb0de&#34; target=&#34;_blank&#34;&gt;FocalLoss tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/&#34; target=&#34;_blank&#34;&gt;YOLOv3 example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Action Recognition</title>
       <link>https://gmanco.github.io/courses/computervision/2020/lecture9/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0100</pubDate>
@@ -1421,6 +1464,101 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1406.2199.pdf&#34; target=&#34;_blank&#34;&gt;Two-Stream Convolutional Networks for Action Recognition in Videos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;•https://medium.com/swlh/what-is-optical-flow-and-why-does-it-matter-in-deep-learning-b3278bb205b5&#34; target=&#34;_blank&#34;&gt;What is optical flow and why does it matter in deep learning&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=tIwpDuqJqcE&#34; target=&#34;_blank&#34;&gt;Michael Black&amp;rsquo;s lecture on Optical Flow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Segmentation</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture9/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture9/</guid>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Segmentation.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Approcci classici. Conditional Random Fields. &lt;a href=&#34;../pdf/9a.Segmentation_part1.pdf&#34;&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Approcci Neurali. Semantic Segmentation. Instance Segmentation. &lt;a href=&#34;../pdf/9b.Segmentation_part2.pdf&#34;&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/9.Segmentation.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, Ch. 5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch.11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch.10&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf&#34; target=&#34;_blank&#34;&gt;An Introduction to Conditional Random Fields&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.nowozin.net/sebastian/papers/nowozin2011structured-tutorial.pdf&#34; target=&#34;_blank&#34;&gt;Structured Learning and Prediction in Computer Vision&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.csd.uwo.ca/~yboykov/Papers/pami04.pdf&#34; target=&#34;_blank&#34;&gt;An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1210.5644.pdf&#34; target=&#34;_blank&#34;&gt;Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials&lt;/a&gt; (with &lt;a href=&#34;http://vladlen.info/papers/densecrf-supplementary.pdf&#34; target=&#34;_blank&#34;&gt;Supplemental Material&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776&#34; target=&#34;_blank&#34;&gt;Conditional Random Fields explained&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.echen.me/2012/01/03/introduction-to-conditional-random-fields/&#34; target=&#34;_blank&#34;&gt;Introduction to Conditional Random Fields&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.topbots.com/semantic-segmentation-guide/&#34; target=&#34;_blank&#34;&gt;A simple guide to semantic Segmentation&lt;/a&gt; and &lt;a href=&#34;https://heartbeat.fritz.ai/a-2019-guide-to-semantic-segmentation-ca8242f5a7fc&#34; target=&#34;_blank&#34;&gt;A 2019 guide to semantic segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1605.06211&#34; target=&#34;_blank&#34;&gt;Fully Convolutional Networks for Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/review-fcn-semantic-segmentation-eb8c9b50d2d1&#34; target=&#34;_blank&#34;&gt;Review - FCN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/activating-robotic-minds/up-sampling-with-transposed-convolution-9ae4f2df52d0&#34; target=&#34;_blank&#34;&gt;Upsampling with Transposed Convolution&lt;/a&gt;; &lt;a href=&#34;https://towardsdatascience.com/transposed-convolution-demystified-84ca81b4baba&#34; target=&#34;_blank&#34;&gt;Transposed Convolution demystified&lt;/a&gt;; &lt;a href=&#34;https://medium.com/apache-mxnet/transposed-convolutions-explained-with-ms-excel-52d13030c7e8&#34; target=&#34;_blank&#34;&gt;Transposed convolutions explained with Excel&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://distill.pub/2016/deconv-checkerboard/&#34; target=&#34;_blank&#34;&gt;Deconvolution and checkerboard artifacts&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/understanding-2d-dilated-convolution-operation-with-examples-in-numpy-and-tensorflow-with-d376b3972b25&#34; target=&#34;_blank&#34;&gt;Understanding 2D Dilated Convolution&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://cvlab.postech.ac.kr/research/deconvnet/&#34; target=&#34;_blank&#34;&gt;Learning Deconvolution Network for Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://arxiv.org/abs/1511.00561&#34; target=&#34;_blank&#34;&gt;SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1505.04597.pdf&#34; target=&#34;_blank&#34;&gt;U-Net: Convolutional Networks for Biomedical Image Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1611.09326&#34; target=&#34;_blank&#34;&gt;The One Hundred Layers Tiramisu&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1612.01105.pdf&#34; target=&#34;_blank&#34;&gt;Pyramid scene parsing Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1606.00915.pdf&#34; target=&#34;_blank&#34;&gt;DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1511.07122&#34; target=&#34;_blank&#34;&gt;Multiscale Context aggregation by dilated convolutions&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1706.05587.pdf&#34; target=&#34;_blank&#34;&gt;Rethinking Atrous Convolution for Semantic Image Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Review: &lt;a href=&#34;https://towardsdatascience.com/review-deeplabv1-deeplabv2-atrous-convolution-semantic-segmentation-b51c5fbde92d&#34; target=&#34;_blank&#34;&gt;DeepLabv2&lt;/a&gt; e &lt;a href=&#34;https://towardsdatascience.com/review-deeplabv3-atrous-convolution-semantic-segmentation-6d818bfd1d74&#34; target=&#34;_blank&#34;&gt;DeepLabv3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://openreview.net/pdf?id=S1uHiFyyg&#34; target=&#34;_blank&#34;&gt;Speeding up Semantic segmentation for autonomous driving&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1606.02147.pdf&#34; target=&#34;_blank&#34;&gt;ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;ICNet for Real-Time Semantic Segmentation on High-Resolution Images&#34; target=&#34;_blank&#34;&gt;ICNet for Real-Time Semantic Segmentation on High-Resolution Images&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1902.04502&#34; target=&#34;_blank&#34;&gt;Fast-SCNN: Fast Semantic Segmentation Network&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://openaccess.thecvf.com/content_CVPR_2019/html/Li_DFANet_Deep_Feature_Aggregation_for_Real-Time_Semantic_Segmentation_CVPR_2019_paper.html&#34; target=&#34;_blank&#34;&gt;DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1703.06870&#34; target=&#34;_blank&#34;&gt;Mask R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@jonathan_hui/image-segmentation-with-mask-r-cnn-ebe6d793272&#34; target=&#34;_blank&#34;&gt;Image Segmentation with Mask R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1611.07709.pdf&#34; target=&#34;_blank&#34;&gt;Fully Convolutional Instance-aware Semantic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1904.02689.pdf&#34; target=&#34;_blank&#34;&gt;YOLACT&lt;/a&gt; and &lt;a href=&#34;https://arxiv.org/abs/1912.06218&#34; target=&#34;_blank&#34;&gt;YOLOACT++&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1801.00868.pdf&#34; target=&#34;_blank&#34;&gt;Pantropic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/mrgloom/awesome-semantic-segmentation/blob/master/README.md&#34; target=&#34;_blank&#34;&gt;Awesome Semantic Segmentation Collection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

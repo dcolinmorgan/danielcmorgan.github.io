@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gmanco.github.io/courses/computervision/2021/</loc>
+    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gmanco.github.io/courses/computervision/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url>
@@ -18,17 +23,27 @@
   </url>
   
   <url>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture1/</loc>
+    <lastmod>2020-03-26T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gmanco.github.io/courses/computervision/lecture1/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture_lab1/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab1/</loc>
     <lastmod>2021-03-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://gmanco.github.io/courses/computervision/2020/lecture2/</loc>
+    <lastmod>2020-03-26T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture2/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
@@ -43,12 +58,12 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture3/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture3/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture_lab2/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab2/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
@@ -63,12 +78,12 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture4/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture4/</loc>
     <lastmod>2020-04-02T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture5/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture5/</loc>
     <lastmod>2020-04-02T00:00:00+01:00</lastmod>
   </url>
   
@@ -78,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture_lab3/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab3/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
@@ -88,7 +103,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture6/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture6/</loc>
     <lastmod>2020-04-02T00:00:00+01:00</lastmod>
   </url>
   
@@ -98,7 +113,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture7/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture7/</loc>
     <lastmod>2020-04-18T00:00:00+01:00</lastmod>
   </url>
   
@@ -113,12 +128,12 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture_lab5/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab5/</loc>
     <lastmod>2020-04-23T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture_lab4/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab4/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
@@ -128,7 +143,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture8/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture8/</loc>
     <lastmod>2020-04-28T00:00:00+01:00</lastmod>
   </url>
   
@@ -138,7 +153,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture_lab6/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab6/</loc>
     <lastmod>2020-04-23T00:00:00+01:00</lastmod>
   </url>
   
@@ -148,7 +163,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture9/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture9/</loc>
     <lastmod>2020-05-12T00:00:00+01:00</lastmod>
   </url>
   
@@ -158,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture10/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture10/</loc>
     <lastmod>2020-05-19T00:00:00+01:00</lastmod>
   </url>
   
@@ -168,7 +183,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture11/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture11/</loc>
     <lastmod>2020-05-25T00:00:00+01:00</lastmod>
   </url>
   
@@ -178,12 +193,17 @@
   </url>
   
   <url>
+    <loc>https://gmanco.github.io/courses/computervision/2021/applications/</loc>
+    <lastmod>2021-09-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gmanco.github.io/courses/computervision/2020/esoneri/listoffeaturedescriptors/</loc>
     <lastmod>2020-04-02T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/esoneri/esonero1/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/esoneri/esonero1/</loc>
     <lastmod>2020-04-28T00:00:00+01:00</lastmod>
   </url>
   
@@ -197,7 +217,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/esoneri/esonero2/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/esoneri/esonero2/</loc>
     <lastmod>2020-05-22T00:00:00+01:00</lastmod>
   </url>
   
@@ -210,18 +230,283 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/</loc>
-    <lastmod>2021-03-05T00:00:00+01:00</lastmod>
+    <loc>https://gmanco.github.io/publication_types/1/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gmanco.github.io/publication_types/2/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/manco-2021/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/liguori-2021/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/angelica-liguori/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gmanco.github.io/tags/anomaly-detection/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/anomaly-generation/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/community-detection/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/embedding/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/ettore-ritacco/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/francesco-sergio-pisani/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/generative-adversarial-networks/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/generative-models/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/giuseppe-manco/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/information-diffusion/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/nicola-barbieri/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/outlier-detection/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/outlier-generation/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication_types/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/social-influence/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/social-network-analysis/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/temporal-point-processes/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/variational-autoencoders/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/talk/integ-feb22/</loc>
+    <lastmod>2022-02-25T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/embeddings/</loc>
+    <lastmod>2022-02-25T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/information-propagation/</loc>
+    <lastmod>2022-02-25T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/network-science/</loc>
+    <lastmod>2022-02-25T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/talk/</loc>
+    <lastmod>2022-02-25T18:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/manco-2022/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/antonino-rullo/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/constraints-based-models/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/data-generation/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/domenico-sacca/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/edoardo-serra/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/inverse-frequent-itemset-mining/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/synthetic-dataset/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/cybersecurity/</loc>
+    <lastmod>2022-01-20T08:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/threat-intelligence/</loc>
+    <lastmod>2022-01-20T08:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/talk/trento-gen22/</loc>
+    <lastmod>2022-01-20T08:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication_types/6/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/automl/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/bruno-veloso/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/holger-h.-hoos/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/hyper-parameter-optimization/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/veloso-2021/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/joao-gama/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/latent-variable-modeling/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/luciano-caroprese/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/matrix-factorization/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/matthias-konig/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/recommender-systems/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/sonia-teixeira/</loc>
+    <lastmod>2021-09-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -235,17 +520,17 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/authors/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/tags/autoencoder/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/authors/ettore-ritacco/</loc>
+    <loc>https://gmanco.github.io/authors/cigdem-aslay/</loc>
+    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/corrado-monti/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -255,12 +540,12 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/authors/gigliola-vaglini/</loc>
+    <loc>https://gmanco.github.io/authors/francesco-bonchi/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/authors/giuseppe-manco/</loc>
+    <loc>https://gmanco.github.io/authors/gigliola-vaglini/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -270,22 +555,22 @@
   </url>
   
   <url>
+    <loc>https://gmanco.github.io/publication/monti-2021/</loc>
+    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gmanco.github.io/authors/mario-g.c.a.-cimino/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://gmanco.github.io/tags/polarization/</loc>
+    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gmanco.github.io/tags/predictive-maintenance/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/publication_types/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/publication/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -300,11 +585,6 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/tags/</loc>
-    <lastmod>2020-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/publication/alfeo-2020/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
   </url>
@@ -315,17 +595,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/tags/generative-models/</loc>
-    <lastmod>2020-02-18T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/tags/point-processes/</loc>
-    <lastmod>2020-02-18T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/talk/</loc>
     <lastmod>2020-02-18T11:00:00+00:00</lastmod>
   </url>
   
@@ -345,11 +615,6 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/tags/variational-autoencoders/</loc>
-    <lastmod>2019-09-10T18:10:09+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
@@ -360,22 +625,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/publication_types/1/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/publication/manco-2019/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/tags/collaborative-filtering/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/tags/community-detection/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -385,27 +635,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/tags/embedding/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/tags/information-diffusion/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/authors/nicola-barbieri/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/authors/noveen-sachdeva/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/tags/recommender-systems/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -425,28 +655,8 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/tags/social-influence/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/tags/social-network-analysis/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/tags/temporal-point-processes/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/authors/vikram-pudi/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/publication_types/6/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -521,11 +731,6 @@
   
   <url>
     <loc>https://gmanco.github.io/publication/barbieri-2016/</loc>
-    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/authors/francesco-bonchi/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -621,11 +826,6 @@
   
   <url>
     <loc>https://gmanco.github.io/publication_types/5/</loc>
-    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/tags/matrix-factorization/</loc>
     <lastmod>2014-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -851,11 +1051,6 @@
   
   <url>
     <loc>https://gmanco.github.io/authors/antonella-guzzo/</loc>
-    <lastmod>2007-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/authors/domenico-sacca/</loc>
     <lastmod>2007-07-01T00:00:00+00:00</lastmod>
   </url>
   

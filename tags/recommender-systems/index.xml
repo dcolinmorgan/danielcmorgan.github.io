@@ -5,12 +5,20 @@
     <link>https://gmanco.github.io/tags/recommender-systems/</link>
       <atom:link href="https://gmanco.github.io/tags/recommender-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Recommender Systems</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Giuseppe Manco</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Giuseppe Manco</copyright><lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Recommender Systems</title>
       <link>https://gmanco.github.io/tags/recommender-systems/</link>
     </image>
+    
+    <item>
+      <title>Hyper-Parameter Optimization for Latent Spaces in Dynamic Recommender Systems</title>
+      <link>https://gmanco.github.io/publication/veloso-2021/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/veloso-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sequential Variational Autoencoders for Collaborative Filtering</title>

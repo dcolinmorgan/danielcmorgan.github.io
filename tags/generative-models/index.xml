@@ -5,12 +5,28 @@
     <link>https://gmanco.github.io/tags/generative-models/</link>
       <atom:link href="https://gmanco.github.io/tags/generative-models/index.xml" rel="self" type="application/rss+xml" />
     <description>Generative Models</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Giuseppe Manco</copyright><lastBuildDate>Tue, 18 Feb 2020 11:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Giuseppe Manco</copyright><lastBuildDate>Fri, 04 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Generative Models</title>
       <link>https://gmanco.github.io/tags/generative-models/</link>
     </image>
+    
+    <item>
+      <title>A Factorization Approach for Survival Analysis on Diffusion Networks</title>
+      <link>https://gmanco.github.io/publication/manco-2021/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Factorization Approach for Survival Analysis on Diffusion Networks</title>
+      <link>https://gmanco.github.io/publication/manco-2022/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adversarial Games for generative modeling of Temporally-Marked Event Sequences</title>
@@ -321,14 +337,6 @@ where &lt;span  class=&#34;math&#34;&gt;\(\mathbf{z}(\boldsymbol\epsilon, \mathb
 
 &lt;p&gt;[1]  &lt;a name=&#34;ref&#34;&gt;&lt;/a&gt;Diederik P. Kingma, Danilo J. Rezende, Shakir Mohamed, Max Welling. &lt;a href=&#34;https://arxiv.org/abs/1406.5298&#34;&gt;Semi-supervised Learning with Deep Generative Models&lt;/a&gt;. Advances in Neural Information Processing Systems 27 (&lt;strong&gt;NIPS 2014&lt;/strong&gt;), Montreal&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>A Factorization Approach for Survival Analysis on Diffusion Networks</title>
-      <link>https://gmanco.github.io/publication/manco-2019/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/publication/manco-2019/</guid>
-      <description></description>
     </item>
     
     <item>

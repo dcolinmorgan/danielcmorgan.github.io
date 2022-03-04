@@ -5,12 +5,20 @@
     <link>https://gmanco.github.io/authors/francesco-bonchi/</link>
       <atom:link href="https://gmanco.github.io/authors/francesco-bonchi/index.xml" rel="self" type="application/rss+xml" />
     <description>Francesco Bonchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Giuseppe Manco</copyright><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Giuseppe Manco</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Francesco Bonchi</title>
       <link>https://gmanco.github.io/authors/francesco-bonchi/</link>
     </image>
+    
+    <item>
+      <title>Learning Ideological Embeddings from Information Cascades</title>
+      <link>https://gmanco.github.io/publication/monti-2021/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/monti-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Efficient Methods for Influence-Based Network-Oblivious Community Detection</title>

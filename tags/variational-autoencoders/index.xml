@@ -5,12 +5,28 @@
     <link>https://gmanco.github.io/tags/variational-autoencoders/</link>
       <atom:link href="https://gmanco.github.io/tags/variational-autoencoders/index.xml" rel="self" type="application/rss+xml" />
     <description>Variational Autoencoders</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Giuseppe Manco</copyright><lastBuildDate>Tue, 10 Sep 2019 18:10:09 +0200</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Giuseppe Manco</copyright><lastBuildDate>Fri, 04 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Variational Autoencoders</title>
       <link>https://gmanco.github.io/tags/variational-autoencoders/</link>
     </image>
+    
+    <item>
+      <title>Adversarial Regularized Reconstruction forAnomaly Detection and Generation</title>
+      <link>https://gmanco.github.io/publication/liguori-2021/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/liguori-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Factorization Approach for Survival Analysis on Diffusion Networks</title>
+      <link>https://gmanco.github.io/publication/manco-2022/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/publication/manco-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Some notes on the Semi-Supervised Learning of Variational Autoencoders</title>

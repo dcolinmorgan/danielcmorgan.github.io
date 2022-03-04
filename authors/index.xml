@@ -5,12 +5,124 @@
     <link>https://gmanco.github.io/authors/</link>
       <atom:link href="https://gmanco.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Giuseppe Manco</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Giuseppe Manco</copyright><lastBuildDate>Fri, 04 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Authors</title>
       <link>https://gmanco.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Angelica Liguori</title>
+      <link>https://gmanco.github.io/authors/angelica-liguori/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/angelica-liguori/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ettore Ritacco</title>
+      <link>https://gmanco.github.io/authors/ettore-ritacco/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/ettore-ritacco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Francesco Sergio Pisani</title>
+      <link>https://gmanco.github.io/authors/francesco-sergio-pisani/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/francesco-sergio-pisani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giuseppe Manco</title>
+      <link>https://gmanco.github.io/authors/giuseppe-manco/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/giuseppe-manco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nicola Barbieri</title>
+      <link>https://gmanco.github.io/authors/nicola-barbieri/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/nicola-barbieri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antonino Rullo</title>
+      <link>https://gmanco.github.io/authors/antonino-rullo/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/antonino-rullo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domenico Saccà</title>
+      <link>https://gmanco.github.io/authors/domenico-sacca/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/domenico-sacca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edoardo Serra</title>
+      <link>https://gmanco.github.io/authors/edoardo-serra/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/edoardo-serra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bruno Veloso</title>
+      <link>https://gmanco.github.io/authors/bruno-veloso/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/bruno-veloso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Holger H. Hoos</title>
+      <link>https://gmanco.github.io/authors/holger-h.-hoos/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/holger-h.-hoos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>João Gama</title>
+      <link>https://gmanco.github.io/authors/joao-gama/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/joao-gama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luciano Caroprese</title>
+      <link>https://gmanco.github.io/authors/luciano-caroprese/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/luciano-caroprese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matthias König</title>
+      <link>https://gmanco.github.io/authors/matthias-konig/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/matthias-konig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sònia Teixeira</title>
+      <link>https://gmanco.github.io/authors/sonia-teixeira/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/sonia-teixeira/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Antonio L. Alfeo</title>
@@ -21,10 +133,26 @@
     </item>
     
     <item>
-      <title>Ettore Ritacco</title>
-      <link>https://gmanco.github.io/authors/ettore-ritacco/</link>
+      <title>Cigdem Aslay</title>
+      <link>https://gmanco.github.io/authors/cigdem-aslay/</link>
       <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/authors/ettore-ritacco/</guid>
+      <guid>https://gmanco.github.io/authors/cigdem-aslay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Corrado Monti</title>
+      <link>https://gmanco.github.io/authors/corrado-monti/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/corrado-monti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Francesco Bonchi</title>
+      <link>https://gmanco.github.io/authors/francesco-bonchi/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/francesco-bonchi/</guid>
       <description></description>
     </item>
     
@@ -37,26 +165,10 @@
     </item>
     
     <item>
-      <title>Giuseppe Manco</title>
-      <link>https://gmanco.github.io/authors/giuseppe-manco/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/authors/giuseppe-manco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Mario G.C.A. Cimino</title>
       <link>https://gmanco.github.io/authors/mario-g.c.a.-cimino/</link>
       <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/authors/mario-g.c.a.-cimino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nicola Barbieri</title>
-      <link>https://gmanco.github.io/authors/nicola-barbieri/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/authors/nicola-barbieri/</guid>
       <description></description>
     </item>
     
@@ -121,14 +233,6 @@
       <link>https://gmanco.github.io/authors/will-astill/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/authors/will-astill/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Francesco Bonchi</title>
-      <link>https://gmanco.github.io/authors/francesco-bonchi/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/authors/francesco-bonchi/</guid>
       <description></description>
     </item>
     
@@ -273,14 +377,6 @@
       <link>https://gmanco.github.io/authors/antonella-guzzo/</link>
       <pubDate>Sun, 01 Jul 2007 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/authors/antonella-guzzo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Domenico Saccà</title>
-      <link>https://gmanco.github.io/authors/domenico-sacca/</link>
-      <pubDate>Sun, 01 Jul 2007 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/authors/domenico-sacca/</guid>
       <description></description>
     </item>
     

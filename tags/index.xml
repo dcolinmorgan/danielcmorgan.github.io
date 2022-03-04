@@ -5,7 +5,7 @@
     <link>https://gmanco.github.io/tags/</link>
       <atom:link href="https://gmanco.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Giuseppe Manco</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Giuseppe Manco</copyright><lastBuildDate>Fri, 04 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Tags</title>
@@ -15,8 +15,216 @@
     <item>
       <title>Anomaly Detection</title>
       <link>https://gmanco.github.io/tags/anomaly-detection/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/tags/anomaly-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anomaly Generation</title>
+      <link>https://gmanco.github.io/tags/anomaly-generation/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/anomaly-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community Detection</title>
+      <link>https://gmanco.github.io/tags/community-detection/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/community-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embedding</title>
+      <link>https://gmanco.github.io/tags/embedding/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/embedding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Adversarial Networks</title>
+      <link>https://gmanco.github.io/tags/generative-adversarial-networks/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/generative-adversarial-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Models</title>
+      <link>https://gmanco.github.io/tags/generative-models/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/generative-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Diffusion</title>
+      <link>https://gmanco.github.io/tags/information-diffusion/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/information-diffusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outlier Detection</title>
+      <link>https://gmanco.github.io/tags/outlier-detection/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/outlier-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outlier Generation</title>
+      <link>https://gmanco.github.io/tags/outlier-generation/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/outlier-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Influence</title>
+      <link>https://gmanco.github.io/tags/social-influence/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/social-influence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Network Analysis</title>
+      <link>https://gmanco.github.io/tags/social-network-analysis/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/social-network-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Point Processes</title>
+      <link>https://gmanco.github.io/tags/temporal-point-processes/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/temporal-point-processes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variational Autoencoders</title>
+      <link>https://gmanco.github.io/tags/variational-autoencoders/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/variational-autoencoders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embeddings</title>
+      <link>https://gmanco.github.io/tags/embeddings/</link>
+      <pubDate>Fri, 25 Feb 2022 18:30:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/embeddings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Propagation</title>
+      <link>https://gmanco.github.io/tags/information-propagation/</link>
+      <pubDate>Fri, 25 Feb 2022 18:30:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/information-propagation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network Science</title>
+      <link>https://gmanco.github.io/tags/network-science/</link>
+      <pubDate>Fri, 25 Feb 2022 18:30:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/network-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraints-based Models</title>
+      <link>https://gmanco.github.io/tags/constraints-based-models/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/constraints-based-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Generation</title>
+      <link>https://gmanco.github.io/tags/data-generation/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/data-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inverse Frequent Itemset Mining</title>
+      <link>https://gmanco.github.io/tags/inverse-frequent-itemset-mining/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/inverse-frequent-itemset-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthetic Dataset</title>
+      <link>https://gmanco.github.io/tags/synthetic-dataset/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/synthetic-dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cybersecurity</title>
+      <link>https://gmanco.github.io/tags/cybersecurity/</link>
+      <pubDate>Thu, 20 Jan 2022 08:30:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Threat Intelligence</title>
+      <link>https://gmanco.github.io/tags/threat-intelligence/</link>
+      <pubDate>Thu, 20 Jan 2022 08:30:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/threat-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AutoML</title>
+      <link>https://gmanco.github.io/tags/automl/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/automl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hyper-Parameter Optimization</title>
+      <link>https://gmanco.github.io/tags/hyper-parameter-optimization/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/hyper-parameter-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Latent variable modeling</title>
+      <link>https://gmanco.github.io/tags/latent-variable-modeling/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/latent-variable-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matrix Factorization</title>
+      <link>https://gmanco.github.io/tags/matrix-factorization/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/matrix-factorization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommender Systems</title>
+      <link>https://gmanco.github.io/tags/recommender-systems/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/recommender-systems/</guid>
       <description></description>
     </item>
     
@@ -53,6 +261,14 @@
     </item>
     
     <item>
+      <title>polarization</title>
+      <link>https://gmanco.github.io/tags/polarization/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/tags/polarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Predictive Maintenance</title>
       <link>https://gmanco.github.io/tags/predictive-maintenance/</link>
       <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
@@ -77,14 +293,6 @@
     </item>
     
     <item>
-      <title>Generative Models</title>
-      <link>https://gmanco.github.io/tags/generative-models/</link>
-      <pubDate>Tue, 18 Feb 2020 11:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/tags/generative-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Point Processes</title>
       <link>https://gmanco.github.io/tags/point-processes/</link>
       <pubDate>Tue, 18 Feb 2020 11:00:00 +0000</pubDate>
@@ -101,14 +309,6 @@
     </item>
     
     <item>
-      <title>Variational Autoencoders</title>
-      <link>https://gmanco.github.io/tags/variational-autoencoders/</link>
-      <pubDate>Tue, 10 Sep 2019 18:10:09 +0200</pubDate>
-      <guid>https://gmanco.github.io/tags/variational-autoencoders/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Collaborative Filtering</title>
       <link>https://gmanco.github.io/tags/collaborative-filtering/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -117,42 +317,10 @@
     </item>
     
     <item>
-      <title>Community Detection</title>
-      <link>https://gmanco.github.io/tags/community-detection/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/tags/community-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Deep Learning</title>
       <link>https://gmanco.github.io/tags/deep-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Embedding</title>
-      <link>https://gmanco.github.io/tags/embedding/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/tags/embedding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Information Diffusion</title>
-      <link>https://gmanco.github.io/tags/information-diffusion/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/tags/information-diffusion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recommender Systems</title>
-      <link>https://gmanco.github.io/tags/recommender-systems/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/tags/recommender-systems/</guid>
       <description></description>
     </item>
     
@@ -169,30 +337,6 @@
       <link>https://gmanco.github.io/tags/sequence-modeling/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/tags/sequence-modeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social Influence</title>
-      <link>https://gmanco.github.io/tags/social-influence/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/tags/social-influence/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social Network Analysis</title>
-      <link>https://gmanco.github.io/tags/social-network-analysis/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/tags/social-network-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Temporal Point Processes</title>
-      <link>https://gmanco.github.io/tags/temporal-point-processes/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/tags/temporal-point-processes/</guid>
       <description></description>
     </item>
     
@@ -273,14 +417,6 @@
       <link>https://gmanco.github.io/tags/probabilistic-modeling/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/tags/probabilistic-modeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Matrix Factorization</title>
-      <link>https://gmanco.github.io/tags/matrix-factorization/</link>
-      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/tags/matrix-factorization/</guid>
       <description></description>
     </item>
     

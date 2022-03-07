@@ -390,11 +390,6 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/publication/manco-2022/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/authors/antonino-rullo/</loc>
     <lastmod>2022-02-18T00:00:00+00:00</lastmod>
   </url>
@@ -421,6 +416,11 @@
   
   <url>
     <loc>https://gmanco.github.io/tags/inverse-frequent-itemset-mining/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/manco-2022/</loc>
     <lastmod>2022-02-18T00:00:00+00:00</lastmod>
   </url>
   

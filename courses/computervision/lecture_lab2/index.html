@@ -30,8 +30,8 @@
   
   <meta name="description" content="Python &amp; image processing.
 Principali argomenti trattati:
- Operazioni di base  Traslazioni Rotazioni Resizing Scaling Cropping  Trasformazioni  Slicing Masking Blurring Sharpening  OpenCV  Operazioni di base Linee e punti ROI Trasformazioni geometriche Prospettiva Operazioni aritmetiche e booleane  SKimage  Operazioni di base Trasformazioni geometriche Edge detection   La lezione è corredata di un notebook disponibile qui
-Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch.">
+ Trasformata di Fourier Operazioni di base  Traslazioni Rotazioni Resizing Scaling Cropping  Trasformazioni  Slicing Masking Blurring Sharpening  OpenCV  Operazioni di base Linee e punti ROI Trasformazioni geometriche Prospettiva Operazioni aritmetiche e booleane  SKimage  Operazioni di base Trasformazioni geometriche Edge detection   La lezione è corredata di un notebook disponibile qui
+Riferimenti bibliografici  [Davies18], ch.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture_lab2/">
@@ -132,8 +132,8 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch.">
   <meta property="og:title" content="Python and image processing | Giuseppe Manco">
   <meta property="og:description" content="Python &amp; image processing.
 Principali argomenti trattati:
- Operazioni di base  Traslazioni Rotazioni Resizing Scaling Cropping  Trasformazioni  Slicing Masking Blurring Sharpening  OpenCV  Operazioni di base Linee e punti ROI Trasformazioni geometriche Prospettiva Operazioni aritmetiche e booleane  SKimage  Operazioni di base Trasformazioni geometriche Edge detection   La lezione è corredata di un notebook disponibile qui
-Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch."><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+ Trasformata di Fourier Operazioni di base  Traslazioni Rotazioni Resizing Scaling Cropping  Trasformazioni  Slicing Masking Blurring Sharpening  OpenCV  Operazioni di base Linee e punti ROI Trasformazioni geometriche Prospettiva Operazioni aritmetiche e booleane  SKimage  Operazioni di base Trasformazioni geometriche Edge detection   La lezione è corredata di un notebook disponibile qui
+Riferimenti bibliografici  [Davies18], ch."><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -443,67 +443,15 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch."><meta property="og:i
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
-      </li>
-      
-      <li >
         <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture3/">Filtri</a>
-      </li>
-      
-      <li class="active">
-        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
+        <a href="/courses/computervision/2021/lecture3/">Filtri</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture4/">Derivate - Edge Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture6/">Feature descriptors - Classificazione</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture7/">Modelli non lineari. CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 3, Image Classification</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture8/">Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab6/">Esercitazione 5, Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture9/">Segmentation</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture10/">Action Recognition</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture11/">Generative Adversarial Networks</a>
+        <a href="/courses/computervision/lecture_lab1/">lab_imageprocessing</a>
       </li>
       
     </ul>
@@ -551,6 +499,7 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch."><meta property="og:i
 <p>Principali argomenti trattati:</p>
 
 <ul>
+<li>Trasformata di Fourier</li>
 <li>Operazioni di base
 
 <ul>
@@ -595,7 +544,7 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch."><meta property="og:i
 <li><strong>[Davies18]</strong>, ch. 5.</li>
 <li><strong>[Gon18]</strong>, Ch. 3.</li>
 <li><strong>[Solem12]</strong>, Ch. 1.</li>
-<li><strong>[Sze11]</strong>, sect. 4.2.</li>
+<li><strong>[Sze22]</strong>, sect. 3.</li>
 <li><strong>[Kin19]</strong>, Ch. 13.</li>
 </ul>
 
@@ -606,6 +555,7 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch."><meta property="og:i
 <li><a href="https://scikit-image.org/docs/stable/api/api.html" target="_blank">Scikit Image</a></li>
 <li><a href="https://pillow.readthedocs.io/en/stable/handbook/tutorial.html" target="_blank">PIL tutorial</a></li>
 <li><a href="https://github.com/scikit-image/skimage-tutorials" target="_blank">Scikit Image Tutorial</a></li>
+<li><a href="https://www.youtube.com/watch?v=spUNpyF58BY" target="_blank">FFT Intro</a></li>
 </ul>
 
           </div>
@@ -623,15 +573,9 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch."><meta property="og:i
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture3/" rel="next">Filtri</a>
+    <a href="/courses/computervision/lecture_lab1/" rel="next">Python and image processing</a>
   </div>
   
-  
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture4/" rel="prev">Derivate. Edge Detection</a>
-  </div>
   
 </div>
 
@@ -655,7 +599,7 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch."><meta property="og:i
   
 
   <p class="powered-by">
-    &copy; 2021 Giuseppe Manco &middot; 
+    &copy; 2022 Giuseppe Manco &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

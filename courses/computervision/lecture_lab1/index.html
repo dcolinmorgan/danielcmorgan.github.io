@@ -30,9 +30,9 @@
   
   <meta name="description" content=" Python &amp; image processing.
 Principali argomenti trattati:
- Color models Introduzione ai Jupyter notebooks Caricamento di immagini con PIL  Slides disponibili qui e qui
+ Convolution Introduzione ai Jupyter notebooks Caricamento di immagini con PIL  Slides disponibili qui
 La lezione è corredata di un notebook disponibile qui
-Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3. [Solem12], Ch. 1. [Sze11], sect. 4.2. [Kin19], Ch. 13.  Link utili  PIL tutorial Scikit Image Tutorial Color models jupyterlab.readthedocs.io  ">
+Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3. [Solem12], Ch. 1. [Sze22], sect. 3. [Kin19], Ch. 13.  Link utili  PIL tutorial Scikit Image Tutorial Color models jupyterlab.readthedocs.io  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture_lab1/">
@@ -133,9 +133,9 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3. [Solem12], Ch. 1. 
   <meta property="og:title" content="Python and image processing | Giuseppe Manco">
   <meta property="og:description" content=" Python &amp; image processing.
 Principali argomenti trattati:
- Color models Introduzione ai Jupyter notebooks Caricamento di immagini con PIL  Slides disponibili qui e qui
+ Convolution Introduzione ai Jupyter notebooks Caricamento di immagini con PIL  Slides disponibili qui
 La lezione è corredata di un notebook disponibile qui
-Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3. [Solem12], Ch. 1. [Sze11], sect. 4.2. [Kin19], Ch. 13.  Link utili  PIL tutorial Scikit Image Tutorial Color models jupyterlab.readthedocs.io  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3. [Solem12], Ch. 1. [Sze22], sect. 3. [Kin19], Ch. 13.  Link utili  PIL tutorial Scikit Image Tutorial Color models jupyterlab.readthedocs.io  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -444,68 +444,16 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3. [Solem12], Ch. 1. 
         <a href="/courses/computervision/lecture1/">Introduzione al corso</a>
       </li>
       
-      <li class="active">
-        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
-      </li>
-      
       <li >
         <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture3/">Filtri</a>
+        <a href="/courses/computervision/2021/lecture3/">Filtri</a>
       </li>
       
-      <li >
-        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture4/">Derivate - Edge Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture6/">Feature descriptors - Classificazione</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture7/">Modelli non lineari. CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 3, Image Classification</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture8/">Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab6/">Esercitazione 5, Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture9/">Segmentation</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture10/">Action Recognition</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture11/">Generative Adversarial Networks</a>
+      <li class="active">
+        <a href="/courses/computervision/lecture_lab1/">lab_imageprocessing</a>
       </li>
       
     </ul>
@@ -553,12 +501,12 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3. [Solem12], Ch. 1. 
 <p>Principali argomenti trattati:</p>
 
 <ul>
-<li>Color models</li>
+<li>Convolution</li>
 <li>Introduzione ai Jupyter notebooks</li>
 <li>Caricamento di immagini con PIL</li>
 </ul>
 
-<p>Slides disponibili <a href="https://github.com/gmanco/cv_notebooks/blob/a400017b616115ba0be8667028c74589c8583e1f/labs_lecture/lab01/color_models.pdf" target="_blank">qui</a> e <a href="https://github.com/gmanco/cv_notebooks/blob/a400017b616115ba0be8667028c74589c8583e1f/labs_lecture/lab01/esercitazione01.pdf" target="_blank">qui</a></p>
+<p>Slides disponibili <a href="https://github.com/gmanco/cv_notebooks/blob/a400017b616115ba0be8667028c74589c8583e1f/labs_lecture/lab01/esercitazione01.pdf" target="_blank">qui</a></p>
 
 <p>La lezione è corredata di un notebook disponibile <a href="https://github.com/gmanco/cv_notebooks/tree/master/labs_lecture/lab01" target="_blank">qui</a></p>
 
@@ -568,7 +516,7 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3. [Solem12], Ch. 1. 
 <li><strong>[Davies18]</strong>, ch. 5.</li>
 <li><strong>[Gon18]</strong>, Ch. 3.</li>
 <li><strong>[Solem12]</strong>, Ch. 1.</li>
-<li><strong>[Sze11]</strong>, sect. 4.2.</li>
+<li><strong>[Sze22]</strong>, sect. 3.</li>
 <li><strong>[Kin19]</strong>, Ch. 13.</li>
 </ul>
 
@@ -596,14 +544,14 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3. [Solem12], Ch. 1. 
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture1/" rel="next">Introduzione al corso</a>
+    <a href="/courses/computervision/lecture2/" rel="next">Concetti fondamentali su Image processing e analysis</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture2/" rel="prev">Concetti fondamentali su Image processing e analysis</a>
+    <a href="/courses/computervision/lecture_lab2/" rel="prev">Python and image processing</a>
   </div>
   
 </div>
@@ -628,7 +576,7 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3. [Solem12], Ch. 1. 
   
 
   <p class="powered-by">
-    &copy; 2021 Giuseppe Manco &middot; 
+    &copy; 2022 Giuseppe Manco &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

@@ -525,6 +525,48 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
     
     <item>
       <title>Python and image processing</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab1/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab1/</guid>
+      <description>
+
+&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Convolution&lt;/li&gt;
+&lt;li&gt;Introduzione ai Jupyter notebooks&lt;/li&gt;
+&lt;li&gt;Caricamento di immagini con PIL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/a400017b616115ba0be8667028c74589c8583e1f/labs_lecture/lab01/esercitazione01.pdf&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/tree/master/labs_lecture/lab01&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs.brown.edu/courses/cs092/VA10/HTML/ColorModels.html&#34; target=&#34;_blank&#34;&gt;Color models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jupyterlab.readthedocs.io/en/stable/&#34; target=&#34;_blank&#34;&gt;jupyterlab.readthedocs.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python and image processing</title>
       <link>https://gmanco.github.io/courses/computervision/2021/lecture_lab2/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
       <guid>https://gmanco.github.io/courses/computervision/2021/lecture_lab2/</guid>
@@ -590,6 +632,79 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 &lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/api/api.html&#34; target=&#34;_blank&#34;&gt;Scikit Image&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python and image processing</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab2/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab2/</guid>
+      <description>
+
+&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Trasformata di Fourier&lt;/li&gt;
+&lt;li&gt;Operazioni di base
+
+&lt;ul&gt;
+&lt;li&gt;Traslazioni&lt;/li&gt;
+&lt;li&gt;Rotazioni&lt;/li&gt;
+&lt;li&gt;Resizing&lt;/li&gt;
+&lt;li&gt;Scaling&lt;/li&gt;
+&lt;li&gt;Cropping&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Trasformazioni
+
+&lt;ul&gt;
+&lt;li&gt;Slicing&lt;/li&gt;
+&lt;li&gt;Masking&lt;/li&gt;
+&lt;li&gt;Blurring&lt;/li&gt;
+&lt;li&gt;Sharpening&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;OpenCV
+
+&lt;ul&gt;
+&lt;li&gt;Operazioni di base&lt;/li&gt;
+&lt;li&gt;Linee e punti&lt;/li&gt;
+&lt;li&gt;ROI&lt;/li&gt;
+&lt;li&gt;Trasformazioni geometriche&lt;/li&gt;
+&lt;li&gt;Prospettiva&lt;/li&gt;
+&lt;li&gt;Operazioni aritmetiche e booleane&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;SKimage
+
+&lt;ul&gt;
+&lt;li&gt;Operazioni di base&lt;/li&gt;
+&lt;li&gt;Trasformazioni geometriche&lt;/li&gt;
+&lt;li&gt;Edge detection&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab02&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/master/index.html&#34; target=&#34;_blank&#34;&gt;OpenCV&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/api/api.html&#34; target=&#34;_blank&#34;&gt;Scikit Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=spUNpyF58BY&#34; target=&#34;_blank&#34;&gt;FFT Intro&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

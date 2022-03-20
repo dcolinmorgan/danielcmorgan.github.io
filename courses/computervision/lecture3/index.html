@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Manipolazione spaziale. Filtri. Convoluzione.
-Slides disponibili qui con video di riferimento e appunti.
-La lezione è corredata di un notebook disponibile qui
-Riferimenti bibliografici  [Davies18], Ch. 3. [Gon18], Ch. 3. [Solem12], Ch. 1. [Sze11], sect. 3.2, 3.3. [Kin19], Ch. 2, 10-12.  Link utili  Adaptive filters for color image processing: A survey Image filters in Python Image manipulation using Numpy and SciPy How to build an image filter in Python Instagram filters in 15 lines of code.">
+  <meta name="description" content=" Derivate di immagini. Gradient-based filtering. Canny edge Detection.
+Slides disponibili:
+ Edge Detection. Canny Edge Detection.  La lezione è corredata di un notebook:
+ Edge detection Canny Edge Detection.  Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 1. [Sze22], sect. 7.2. [Kin19], Ch. 10, 11, 13.  Link utili  Andrew Ng on Edge Detection: youtube lectures (1) e (2). Introduction to Edge Detection Concept of Image detection OpenCV Python Tutorial: Image Gradients Canny Edge Detection step by step OpenCV Python Tutorial: Canny Edge Detection  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture3/">
@@ -129,17 +129,17 @@ Riferimenti bibliografici  [Davies18], Ch. 3. [Gon18], Ch. 3. [Solem12], Ch. 1. 
   
   <meta property="og:site_name" content="Giuseppe Manco">
   <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture3/">
-  <meta property="og:title" content="Filtri | Giuseppe Manco">
-  <meta property="og:description" content="Manipolazione spaziale. Filtri. Convoluzione.
-Slides disponibili qui con video di riferimento e appunti.
-La lezione è corredata di un notebook disponibile qui
-Riferimenti bibliografici  [Davies18], Ch. 3. [Gon18], Ch. 3. [Solem12], Ch. 1. [Sze11], sect. 3.2, 3.3. [Kin19], Ch. 2, 10-12.  Link utili  Adaptive filters for color image processing: A survey Image filters in Python Image manipulation using Numpy and SciPy How to build an image filter in Python Instagram filters in 15 lines of code."><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+  <meta property="og:title" content="Derivate. Edge Detection | Giuseppe Manco">
+  <meta property="og:description" content=" Derivate di immagini. Gradient-based filtering. Canny edge Detection.
+Slides disponibili:
+ Edge Detection. Canny Edge Detection.  La lezione è corredata di un notebook:
+ Edge detection Canny Edge Detection.  Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 1. [Sze22], sect. 7.2. [Kin19], Ch. 10, 11, 13.  Link utili  Andrew Ng on Edge Detection: youtube lectures (1) e (2). Introduction to Edge Detection Concept of Image detection OpenCV Python Tutorial: Image Gradients Canny Edge Detection step by step OpenCV Python Tutorial: Canny Edge Detection  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-03-26T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2020-04-02T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-03-26T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2020-04-02T00:00:00&#43;01:00">
   
 
   
@@ -151,7 +151,7 @@ Riferimenti bibliografici  [Davies18], Ch. 3. [Gon18], Ch. 3. [Solem12], Ch. 1. 
 
 
 
-  <title>Filtri | Giuseppe Manco</title>
+  <title>Derivate. Edge Detection | Giuseppe Manco</title>
 
 </head>
 
@@ -443,67 +443,27 @@ Riferimenti bibliografici  [Davies18], Ch. 3. [Gon18], Ch. 3. [Solem12], Ch. 1. 
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
-      </li>
-      
-      <li >
         <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
       </li>
       
+      <li >
+        <a href="/courses/computervision/2021/lecture3/">Filtri</a>
+      </li>
+      
+      <li >
+        <a href="/courses/computervision/lecture_lab2/">frequency_filtering</a>
+      </li>
+      
+      <li >
+        <a href="/courses/computervision/lecture_lab1/">lab_imageprocessing</a>
+      </li>
+      
       <li class="active">
-        <a href="/courses/computervision/lecture3/">Filtri</a>
+        <a href="/courses/computervision/lecture3/">Derivate - Edge Detection</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture4/">Derivate - Edge Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture6/">Feature descriptors - Classificazione</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture7/">Modelli non lineari. CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 3, Image Classification</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture8/">Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab6/">Esercitazione 5, Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture9/">Segmentation</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture10/">Action Recognition</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture11/">Generative Adversarial Networks</a>
+        <a href="/courses/computervision/lecture4/">Feature descriptors - Classificazione</a>
       </li>
       
     </ul>
@@ -541,35 +501,46 @@ Riferimenti bibliografici  [Davies18], Ch. 3. [Gon18], Ch. 3. [Solem12], Ch. 1. 
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Filtri</h1>
+          <h1 itemprop="name">Derivate. Edge Detection</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<p>Manipolazione spaziale. Filtri. Convoluzione.</p>
+<p>Derivate di immagini. Gradient-based filtering. Canny edge Detection.</p>
 
-<p>Slides disponibili <a href="../pdf/3.Filters.pdf">qui</a> con <a href="https://web.microsoftstream.com/video/93ece5f0-126e-4cca-922d-551ba5e74998" target="_blank">video</a> di riferimento e <a href="../pdf/l3_appunti.pdf">appunti</a>.</p>
+<p>Slides disponibili:</p>
 
-<p>La lezione è corredata di un notebook disponibile <a href="https://github.com/gmanco/cv_notebooks/blob/master/2.Filters.ipynb" target="_blank">qui</a></p>
+<ul>
+<li><a href="../pdf/3a.Edge_Detection.pdf">Edge Detection</a>.</li>
+<li><a href="../pdf/3b.Canny.pdf">Canny Edge Detection</a>.</li>
+</ul>
+
+<p>La lezione è corredata di un notebook:</p>
+
+<ul>
+<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb" target="_blank">Edge detection</a></li>
+<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/4.Edges_lines_circles.ipynb" target="_blank">Canny Edge Detection</a>.</li>
+</ul>
 
 <h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
 
 <ul>
-<li><strong>[Davies18]</strong>, Ch. 3.</li>
-<li><strong>[Gon18]</strong>, Ch. 3.</li>
+<li><strong>[Davies18]</strong>, ch. 5.</li>
+<li><strong>[Gon18]</strong>, Ch. 3, 4.</li>
 <li><strong>[Solem12]</strong>, Ch. 1.</li>
-<li><strong>[Sze11]</strong>, sect. 3.2, 3.3.</li>
-<li><strong>[Kin19]</strong>, Ch. 2, 10-12.</li>
+<li><strong>[Sze22]</strong>, sect. 7.2.</li>
+<li><strong>[Kin19]</strong>, Ch. 10, 11, 13.</li>
 </ul>
 
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li><a href="https://ieeexplore.ieee.org/document/7075360" target="_blank">Adaptive filters for color image processing: A survey</a></li>
-<li><a href="https://towardsdatascience.com/image-filters-in-python-26ee938e57d2" target="_blank">Image filters in Python</a></li>
-<li><a href="https://scipy-lectures.org/advanced/image_processing/" target="_blank">Image manipulation using Numpy and SciPy</a></li>
-<li><a href="https://medium.com/@enzoftware/how-to-build-amazing-images-filters-with-python-median-filter-sobel-filter-%EF%B8%8F-%EF%B8%8F-22aeb8e2f540" target="_blank">How to build an image filter in Python</a></li>
-<li><a href="https://www.youtube.com/watch?v=otLGDpBglEA&amp;feature=player_embedded" target="_blank">Instagram filters in 15 lines of code</a>. Il codice è disponibile <a href="https://github.com/lukexyz/CV-Instagram-Filters/blob/master/gotham.py" target="_blank">qui</a>.<br /></li>
+<li>Andrew Ng on Edge Detection: youtube lectures <a href="https://www.youtube.com/watch?v=XuD4C8vJzEQ" target="_blank">(1)</a> e <a href="https://www.youtube.com/watch?v=am36dePheDc" target="_blank">(2)</a>.</li>
+<li><a href="https://datacarpentry.org/image-processing/08-edge-detection/" target="_blank">Introduction to Edge Detection</a></li>
+<li><a href="https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm" target="_blank">Concept of Image detection</a></li>
+<li><a href="https://www.youtube.com/watch?v=aDY4aBLFOIg" target="_blank">OpenCV Python Tutorial: Image Gradients</a></li>
+<li><a href="https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123" target="_blank">Canny Edge Detection step by step</a></li>
+<li><a href="https://docs.opencv.org/master/da/d22/tutorial_py_canny.html" target="_blank">OpenCV Python Tutorial: Canny Edge Detection</a></li>
 </ul>
 
           </div>
@@ -587,14 +558,14 @@ Riferimenti bibliografici  [Davies18], Ch. 3. [Gon18], Ch. 3. [Solem12], Ch. 1. 
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture2/" rel="next">Concetti fondamentali su Image processing e analysis</a>
+    <a href="/courses/computervision/lecture_lab2/" rel="next">Frequency Filtering</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture_lab2/" rel="prev">Python and image processing</a>
+    <a href="/courses/computervision/lecture4/" rel="prev">Feature descriptors. Classificazione</a>
   </div>
   
 </div>
@@ -604,7 +575,7 @@ Riferimenti bibliografici  [Davies18], Ch. 3. [Gon18], Ch. 3. [Solem12], Ch. 1. 
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Mar 26, 2020</p>
+          <p>Last updated on Apr 2, 2020</p>
 
           
 
@@ -619,7 +590,7 @@ Riferimenti bibliografici  [Davies18], Ch. 3. [Gon18], Ch. 3. [Solem12], Ch. 1. 
   
 
   <p class="powered-by">
-    &copy; 2021 Giuseppe Manco &middot; 
+    &copy; 2022 Giuseppe Manco &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

@@ -28,12 +28,10 @@
   
     
   
-  <meta name="description" content="Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.
+  <meta name="description" content=" Introduzione al supervised learning. Regressione logistica. Feature descriptors. Harris Corner Detection.
 Slides disponibili:
- Edge Detection. Frequency Filtering.
-  La lezione è corredata di due notebook:
- Edge detection Fourier Transform  Il video di riferimento della lezione è disponibile qui
-Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 1. [Sze11], sect. 4.2. [Kin19], Ch. 10, 11, 13.  Link utili  Andrew Ng on Edge Detection: youtube lectures (1) e (2).">
+ Introduzione alla classificatione. Keypoint detection and Descritpors.  Notebooks di studio:
+ Harris corner detector  Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze22], Ch. 5.1, 7.1. [Kin19], Ch. 17.  Link utili  Introduction to Neural Networks Tutorial on Logistic Regression Course Notes on Optimization for Machine Learning and Mathematical Foundations of Data Science An Introduction to Machine Learning with scikit-learn Introduction to Feature Detection and Matching Harris Corner Detection SIFT: Theory and Practice OpenCV Tutorials on Feature Descriptors Distinctive image features from scale invariant Keypoints The laplacian pyramid as a compact image SIFT: a detailed description  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture4/">
@@ -131,13 +129,11 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 
   
   <meta property="og:site_name" content="Giuseppe Manco">
   <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture4/">
-  <meta property="og:title" content="Derivate. Edge Detection | Giuseppe Manco">
-  <meta property="og:description" content="Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.
+  <meta property="og:title" content="Feature descriptors. Classificazione | Giuseppe Manco">
+  <meta property="og:description" content=" Introduzione al supervised learning. Regressione logistica. Feature descriptors. Harris Corner Detection.
 Slides disponibili:
- Edge Detection. Frequency Filtering.
-  La lezione è corredata di due notebook:
- Edge detection Fourier Transform  Il video di riferimento della lezione è disponibile qui
-Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 1. [Sze11], sect. 4.2. [Kin19], Ch. 10, 11, 13.  Link utili  Andrew Ng on Edge Detection: youtube lectures (1) e (2)."><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+ Introduzione alla classificatione. Keypoint detection and Descritpors.  Notebooks di studio:
+ Harris corner detector  Riferimenti bibliografici  [Davies18], Ch. 6, 13. [Solem12], Ch. 2, 8. [Sze22], Ch. 5.1, 7.1. [Kin19], Ch. 17.  Link utili  Introduction to Neural Networks Tutorial on Logistic Regression Course Notes on Optimization for Machine Learning and Mathematical Foundations of Data Science An Introduction to Machine Learning with scikit-learn Introduction to Feature Detection and Matching Harris Corner Detection SIFT: Theory and Practice OpenCV Tutorials on Feature Descriptors Distinctive image features from scale invariant Keypoints The laplacian pyramid as a compact image SIFT: a detailed description  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -155,7 +151,7 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 
 
 
 
-  <title>Derivate. Edge Detection | Giuseppe Manco</title>
+  <title>Feature descriptors. Classificazione | Giuseppe Manco</title>
 
 </head>
 
@@ -447,67 +443,27 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
-      </li>
-      
-      <li >
         <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture3/">Filtri</a>
+        <a href="/courses/computervision/2021/lecture3/">Filtri</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
+        <a href="/courses/computervision/lecture_lab2/">frequency_filtering</a>
+      </li>
+      
+      <li >
+        <a href="/courses/computervision/lecture_lab1/">lab_imageprocessing</a>
+      </li>
+      
+      <li >
+        <a href="/courses/computervision/lecture3/">Derivate - Edge Detection</a>
       </li>
       
       <li class="active">
-        <a href="/courses/computervision/lecture4/">Derivate - Edge Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture6/">Feature descriptors - Classificazione</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture7/">Modelli non lineari. CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 3, Image Classification</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture8/">Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab6/">Esercitazione 5, Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture9/">Segmentation</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture10/">Action Recognition</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture11/">Generative Adversarial Networks</a>
+        <a href="/courses/computervision/lecture4/">Feature descriptors - Classificazione</a>
       </li>
       
     </ul>
@@ -545,47 +501,49 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Derivate. Edge Detection</h1>
+          <h1 itemprop="name">Feature descriptors. Classificazione</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
-<p>Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.</p>
+<p>Introduzione al supervised learning. Regressione logistica. Feature descriptors. Harris Corner Detection.</p>
 
 <p>Slides disponibili:</p>
 
 <ul>
-<li><a href="../pdf/4a.Edge_Detection.pdf">Edge Detection</a>.</li>
-<li><a href="../pdf/4b.FFT.pdf">Frequency Filtering</a>.<br /></li>
+<li><a href="../pdf/4a.Classificazione.pdf">Introduzione alla classificatione</a>.</li>
+<li><a href="../pdf/4b.Features.pdf">Keypoint detection and Descritpors</a>.</li>
 </ul>
 
-<p>La lezione è corredata di due notebook:</p>
+<p>Notebooks di studio:</p>
 
 <ul>
-<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb" target="_blank">Edge detection</a></li>
-<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/4.Fourier_transform.ipynb" target="_blank">Fourier Transform</a></li>
+<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/6a.Features_Harris.ipynb" target="_blank">Harris corner detector</a></li>
 </ul>
-
-<p>Il video di riferimento della lezione è disponibile <a href="https://web.microsoftstream.com/video/07df3bb6-5d74-47c2-8070-33d6cdacd2b4" target="_blank">qui</a></p>
 
 <h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
 
 <ul>
-<li><strong>[Davies18]</strong>, ch. 5.</li>
-<li><strong>[Gon18]</strong>, Ch. 3, 4.</li>
-<li><strong>[Solem12]</strong>, Ch. 1.</li>
-<li><strong>[Sze11]</strong>, sect. 4.2.</li>
-<li><strong>[Kin19]</strong>, Ch. 10, 11, 13.</li>
+<li><strong>[Davies18]</strong>, Ch. 6, 13.</li>
+<li><strong>[Solem12]</strong>, Ch. 2, 8.</li>
+<li><strong>[Sze22]</strong>, Ch. 5.1, 7.1.</li>
+<li><strong>[Kin19]</strong>, Ch. 17.</li>
 </ul>
 
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li>Andrew Ng on Edge Detection: youtube lectures <a href="https://www.youtube.com/watch?v=XuD4C8vJzEQ" target="_blank">(1)</a> e <a href="https://www.youtube.com/watch?v=am36dePheDc" target="_blank">(2)</a>.</li>
-<li><a href="https://datacarpentry.org/image-processing/08-edge-detection/" target="_blank">Introduction to Edge Detection</a></li>
-<li><a href="https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm" target="_blank">Concept of Image detection</a></li>
-<li><a href="https://www.youtube.com/watch?v=aDY4aBLFOIg" target="_blank">OpenCV Python Tutorial: Image Gradients</a></li>
-<li><a href="https://medium.com/@hicraigchen/digital-image-processing-using-fourier-transform-in-python-bcb49424fd82" target="_blank">Filtraggio con la trasformata</a></li>
+<li><a href="https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9" target="_blank">Introduction to Neural Networks</a></li>
+<li><a href="https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/" target="_blank">Tutorial on Logistic Regression</a></li>
+<li><a href="https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf" target="_blank">Course Notes on Optimization for Machine Learning</a> and <a href="https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf" target="_blank">Mathematical Foundations of Data Science</a></li>
+<li><a href="https://scikit-learn.org/stable/tutorial/basic/tutorial.html" target="_blank">An Introduction to Machine Learning with scikit-learn</a></li>
+<li><a href="https://medium.com/analytics-vidhya/introduction-to-feature-detection-and-matching-65e27179885d" target="_blank">Introduction to Feature Detection and Matching</a></li>
+<li><a href="https://medium.com/data-breach/introduction-to-harris-corner-detector-32a88850b3f6" target="_blank">Harris Corner Detection</a></li>
+<li><a href="https://aishack.in/tutorials/sift-scale-invariant-feature-transform-features/" target="_blank">SIFT: Theory and Practice</a></li>
+<li><a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_table_of_contents_feature2d/py_table_of_contents_feature2d.html" target="_blank">OpenCV Tutorials on Feature Descriptors</a></li>
+<li><a href="https://people.eecs.berkeley.edu/~malik/cs294/lowe-ijcv04.pdf" target="_blank">Distinctive image features from scale invariant Keypoints</a></li>
+<li><a href="http://persci.mit.edu/pub_pdfs/pyramid83.pdf" target="_blank">The laplacian pyramid as a compact image</a></li>
+<li><a href="https://towardsdatascience.com/sift-scale-invariant-feature-transform-c7233dc60f37" target="_blank">SIFT: a detailed description</a></li>
 </ul>
 
           </div>
@@ -603,15 +561,9 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture_lab2/" rel="next">Python and image processing</a>
+    <a href="/courses/computervision/lecture3/" rel="next">Derivate. Edge Detection</a>
   </div>
   
-  
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture5/" rel="prev">Edges, Lines, Shapes</a>
-  </div>
   
 </div>
 
@@ -635,7 +587,7 @@ Riferimenti bibliografici  [Davies18], ch. 5. [Gon18], Ch. 3, 4. [Solem12], Ch. 
   
 
   <p class="powered-by">
-    &copy; 2021 Giuseppe Manco &middot; 
+    &copy; 2022 Giuseppe Manco &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

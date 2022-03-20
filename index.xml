@@ -842,6 +842,52 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
     </item>
     
     <item>
+      <title>Derivate. Edge Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture3/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture3/</guid>
+      <description>
+
+&lt;p&gt;Derivate di immagini. Gradient-based filtering. Canny edge Detection.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/3a.Edge_Detection.pdf&#34;&gt;Edge Detection&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/3b.Canny.pdf&#34;&gt;Canny Edge Detection&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb&#34; target=&#34;_blank&#34;&gt;Edge detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/4.Edges_lines_circles.ipynb&#34; target=&#34;_blank&#34;&gt;Canny Edge Detection&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3, 4.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 7.2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 10, 11, 13.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Andrew Ng on Edge Detection: youtube lectures &lt;a href=&#34;https://www.youtube.com/watch?v=XuD4C8vJzEQ&#34; target=&#34;_blank&#34;&gt;(1)&lt;/a&gt; e &lt;a href=&#34;https://www.youtube.com/watch?v=am36dePheDc&#34; target=&#34;_blank&#34;&gt;(2)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://datacarpentry.org/image-processing/08-edge-detection/&#34; target=&#34;_blank&#34;&gt;Introduction to Edge Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm&#34; target=&#34;_blank&#34;&gt;Concept of Image detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aDY4aBLFOIg&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Image Gradients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123&#34; target=&#34;_blank&#34;&gt;Canny Edge Detection step by step&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/master/da/d22/tutorial_py_canny.html&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Canny Edge Detection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Edges, Lines, Shapes</title>
       <link>https://gmanco.github.io/courses/computervision/2021/lecture5/</link>
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
@@ -1012,6 +1058,55 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
 &lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 6, 13.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 2, 8.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, Ch. 4.1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 17.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9&#34; target=&#34;_blank&#34;&gt;Introduction to Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/&#34; target=&#34;_blank&#34;&gt;Tutorial on Logistic Regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf&#34; target=&#34;_blank&#34;&gt;Course Notes on Optimization for Machine Learning&lt;/a&gt; and &lt;a href=&#34;https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf&#34; target=&#34;_blank&#34;&gt;Mathematical Foundations of Data Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/tutorial/basic/tutorial.html&#34; target=&#34;_blank&#34;&gt;An Introduction to Machine Learning with scikit-learn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/analytics-vidhya/introduction-to-feature-detection-and-matching-65e27179885d&#34; target=&#34;_blank&#34;&gt;Introduction to Feature Detection and Matching&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/data-breach/introduction-to-harris-corner-detector-32a88850b3f6&#34; target=&#34;_blank&#34;&gt;Harris Corner Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aishack.in/tutorials/sift-scale-invariant-feature-transform-features/&#34; target=&#34;_blank&#34;&gt;SIFT: Theory and Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_table_of_contents_feature2d/py_table_of_contents_feature2d.html&#34; target=&#34;_blank&#34;&gt;OpenCV Tutorials on Feature Descriptors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://people.eecs.berkeley.edu/~malik/cs294/lowe-ijcv04.pdf&#34; target=&#34;_blank&#34;&gt;Distinctive image features from scale invariant Keypoints&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://persci.mit.edu/pub_pdfs/pyramid83.pdf&#34; target=&#34;_blank&#34;&gt;The laplacian pyramid as a compact image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/sift-scale-invariant-feature-transform-c7233dc60f37&#34; target=&#34;_blank&#34;&gt;SIFT: a detailed description&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feature descriptors. Classificazione</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture4/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture4/</guid>
+      <description>
+
+&lt;p&gt;Introduzione al supervised learning. Regressione logistica. Feature descriptors. Harris Corner Detection.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/4a.Classificazione.pdf&#34;&gt;Introduzione alla classificatione&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/4b.Features.pdf&#34;&gt;Keypoint detection and Descritpors&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Notebooks di studio:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/6a.Features_Harris.ipynb&#34; target=&#34;_blank&#34;&gt;Harris corner detector&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 6, 13.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 2, 8.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 5.1, 7.1.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 17.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -3031,7 +3126,7 @@ Bonus (p – Baseline-2)/(BESTMODEL - Baseline-2) * 5 pt
     </item>
     
     <item>
-      <title>Adversarial Regularized Reconstruction forAnomaly Detection and Generation</title>
+      <title>Adversarial Regularized Reconstruction for Anomaly Detection and Generation</title>
       <link>https://gmanco.github.io/publication/liguori-2021/</link>
       <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/publication/liguori-2021/</guid>

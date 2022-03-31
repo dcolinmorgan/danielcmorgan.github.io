@@ -30,8 +30,8 @@
   
   <meta name="description" content=" Esercitazione 4
 Principali argomenti trattati:
- Pytorch basic operations Convoluzioni e DNN Applicazione pratica di SIFT  Il materiale didattico è disponibile qui
-Riferimenti bibliografici  [Davies18], sect. 15  Link utili  Pytorch Basic Tutorial Gradiente e Computational Graph Convolutions Convolutions: padding, stride, dilation animation SIFT Paper  ">
+ Applicazione pratica di SIFT  Il materiale didattico è disponibile qui
+Riferimenti bibliografici  [Davies18], sect. 15 [Szse22], 7.1.2  Link utili  SIFT Paper  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture_lab4/">
@@ -129,11 +129,11 @@ Riferimenti bibliografici  [Davies18], sect. 15  Link utili  Pytorch Basic Tutor
   
   <meta property="og:site_name" content="Giuseppe Manco">
   <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture_lab4/">
-  <meta property="og:title" content="Introduzione a Pytorch | Giuseppe Manco">
+  <meta property="og:title" content="Feature Detection SIFT | Giuseppe Manco">
   <meta property="og:description" content=" Esercitazione 4
 Principali argomenti trattati:
- Pytorch basic operations Convoluzioni e DNN Applicazione pratica di SIFT  Il materiale didattico è disponibile qui
-Riferimenti bibliografici  [Davies18], sect. 15  Link utili  Pytorch Basic Tutorial Gradiente e Computational Graph Convolutions Convolutions: padding, stride, dilation animation SIFT Paper  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+ Applicazione pratica di SIFT  Il materiale didattico è disponibile qui
+Riferimenti bibliografici  [Davies18], sect. 15 [Szse22], 7.1.2  Link utili  SIFT Paper  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -151,7 +151,7 @@ Riferimenti bibliografici  [Davies18], sect. 15  Link utili  Pytorch Basic Tutor
 
 
 
-  <title>Introduzione a Pytorch | Giuseppe Manco</title>
+  <title>Feature Detection SIFT | Giuseppe Manco</title>
 
 </head>
 
@@ -443,67 +443,39 @@ Riferimenti bibliografici  [Davies18], sect. 15  Link utili  Pytorch Basic Tutor
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
-      </li>
-      
-      <li >
         <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture3/">Filtri</a>
+        <a href="/courses/computervision/2021/lecture3/">Filtri</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
+        <a href="/courses/computervision/lecture_lab2/">frequency_filtering</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture4/">Derivate - Edge Detection</a>
+        <a href="/courses/computervision/lecture_lab1/">lab_imageprocessing</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
+        <a href="/courses/computervision/lecture3/">Derivate - Edge Detection</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3</a>
+        <a href="/courses/computervision/lecture4/">Feature descriptors - Classificazione</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture6/">Feature descriptors - Classificazione</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture7/">Modelli non lineari. CNN</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 3, Image Classification</a>
+        <a href="/courses/computervision/lecture_lab3/">lab_hough</a>
       </li>
       
       <li class="active">
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4</a>
+        <a href="/courses/computervision/lecture_lab4/">lab_sift</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture8/">Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture_lab6/">Esercitazione 5, Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture9/">Segmentation</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture10/">Action Recognition</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture11/">Generative Adversarial Networks</a>
+        <a href="/courses/computervision/lecture5/">Modelli non lineari. CNN</a>
       </li>
       
     </ul>
@@ -541,7 +513,7 @@ Riferimenti bibliografici  [Davies18], sect. 15  Link utili  Pytorch Basic Tutor
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Introduzione a Pytorch</h1>
+          <h1 itemprop="name">Feature Detection SIFT</h1>
 
           <div class="article-style" itemprop="articleBody">
             
@@ -551,8 +523,6 @@ Riferimenti bibliografici  [Davies18], sect. 15  Link utili  Pytorch Basic Tutor
 <p>Principali argomenti trattati:</p>
 
 <ul>
-<li>Pytorch basic operations</li>
-<li>Convoluzioni e DNN</li>
 <li>Applicazione pratica di SIFT</li>
 </ul>
 
@@ -562,15 +532,12 @@ Riferimenti bibliografici  [Davies18], sect. 15  Link utili  Pytorch Basic Tutor
 
 <ul>
 <li><strong>[Davies18]</strong>, sect. 15</li>
+<li><strong>[Szse22]</strong>, 7.1.2</li>
 </ul>
 
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li><a href="https://pytorch.org/tutorials/beginner/basics/intro.html" target="_blank">Pytorch Basic Tutorial</a></li>
-<li><a href="https://towardsdatascience.com/computational-graphs-in-pytorch-and-tensorflow-c25cc40bdcd1" target="_blank">Gradiente e Computational Graph</a></li>
-<li><a href="https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53" target="_blank">Convolutions</a></li>
-<li><a href="https://github.com/vdumoulin/conv_arithmetic" target="_blank">Convolutions: padding, stride, dilation animation</a></li>
 <li><a href="http://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf" target="_blank">SIFT Paper</a></li>
 </ul>
 
@@ -589,15 +556,9 @@ Riferimenti bibliografici  [Davies18], sect. 15  Link utili  Pytorch Basic Tutor
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture_lab5/" rel="next">Image Classification</a>
+    <a href="/courses/computervision/lecture_lab3/" rel="next">Edge Detection. Hough Transform</a>
   </div>
   
-  
-  
-  <div class="post-nav-item">
-    <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture8/" rel="prev">Object Detection</a>
-  </div>
   
 </div>
 
@@ -621,7 +582,7 @@ Riferimenti bibliografici  [Davies18], sect. 15  Link utili  Pytorch Basic Tutor
   
 
   <p class="powered-by">
-    &copy; 2021 Giuseppe Manco &middot; 
+    &copy; 2022 Giuseppe Manco &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

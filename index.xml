@@ -1237,6 +1237,97 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
     </item>
     
     <item>
+      <title>Neural Networks</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture5/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture5/</guid>
+      <description>
+
+&lt;p&gt;Grafi di computazione e modelli non lineari. Reti Convoluzionali. LeNet-5.&lt;/p&gt;
+
+&lt;p&gt;Materiale didattico:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Modelli non lineari (&lt;a href=&#34;../pdf/7.Reti neurali_parte1.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Reti convoluzionali (&lt;a href=&#34;../pdf/7.Reti neurali_parte2.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/7.Neural_networks.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 15.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 2,3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 5.3, 5.4, 6.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9&#34; target=&#34;_blank&#34;&gt;Introduction to Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://d2l.ai/index.html&#34; target=&#34;_blank&#34;&gt;Dive into Deep Learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf&#34; target=&#34;_blank&#34;&gt;Course Notes on Optimization for Machine Learning&lt;/a&gt; and &lt;a href=&#34;https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf&#34; target=&#34;_blank&#34;&gt;Mathematical Foundations of Data Science&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.paperspace.com/pytorch-101-understanding-graphs-and-automatic-differentiation/&#34; target=&#34;_blank&#34;&gt;Understanding graphs and automatic differentiation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/pytorch-autograd-understanding-the-heart-of-pytorchs-magic-2686cd94ec95&#34; target=&#34;_blank&#34;&gt;Pytorch autograd: Understanding the heart of Pytorch&amp;rsquo;s magic&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b&#34; target=&#34;_blank&#34;&gt;Yes you should understand backpropagation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf&#34; target=&#34;_blank&#34;&gt;Visualizing and understanding convolutional Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Vincent Dumoulin, Francesco Visin - &lt;a href=&#34;https://arxiv.org/abs/1603.07285&#34; target=&#34;_blank&#34;&gt;A guide to convolution arithmetic for deep learning&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@_init_/an-illustrated-explanation-of-performing-2d-convolutions-using-matrix-multiplications-1e8de8cd2544&#34; target=&#34;_blank&#34;&gt;An illustrated explanation of performing 2D convolution using matrix multiplication&lt;/a&gt;. Un esempio illustrativo anche su &lt;a href=&#34;https://www.slideshare.net/EdwinEfranJimnezLepe/convolution-as-matrix-multiplication?from_action=save&#34; target=&#34;_blank&#34;&gt;slideshare&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/datadriveninvestor/visualizing-neural-networks-using-saliency-maps-in-pytorch-289d8e244ab4&#34; target=&#34;_blank&#34;&gt;Visualizing neural networks using saliency maps&lt;/a&gt;. Reference paper su &lt;a href=&#34;https://arxiv.org/abs/1312.6034&#34; target=&#34;_blank&#34;&gt;arxiv&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Saliency maps in &lt;a href=&#34;[https://mc.ai/feature-visualisation-in-pytorch%E2%80%8A-%E2%80%8Asaliency-maps/](https://mc.ai/feature-visualisation-in-pytorch - saliency-maps/)&#34; target=&#34;_blank&#34;&gt;Flashtorch&lt;/a&gt;. Medium &lt;a href=&#34;https://towardsdatascience.com/feature-visualisation-in-pytorch-saliency-maps-a3f99d08f78a&#34; target=&#34;_blank&#34;&gt;description&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A collection of &lt;a href=&#34;https://github.com/utkuozbulak/pytorch-cnn-visualizations&#34; target=&#34;_blank&#34;&gt;Deep network visualization techniques&lt;/a&gt; in Pytorch&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Edge Detection. Hough Transform</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab3/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab3/</guid>
+      <description>
+
+&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Trasformata di Hough&lt;/li&gt;
+&lt;li&gt;Edge detection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab03&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 7.4.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html&#34; target=&#34;_blank&#34;&gt;Hough with OpenCV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/dev/auto_examples/edges/plot_line_hough_transform.html&#34; target=&#34;_blank&#34;&gt;Straight line Hough transform with skimage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://homepages.inf.ed.ac.uk/rbf/HIPR2/hough.htm&#34; target=&#34;_blank&#34;&gt;Hough introduction and excercise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549&#34; target=&#34;_blank&#34;&gt;Line detection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Object Detection</title>
       <link>https://gmanco.github.io/courses/computervision/2020/lecture7/</link>
       <pubDate>Tue, 28 Apr 2020 00:00:00 +0100</pubDate>
@@ -1442,6 +1533,38 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/computational-graphs-in-pytorch-and-tensorflow-c25cc40bdcd1&#34; target=&#34;_blank&#34;&gt;Gradiente e Computational Graph&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53&#34; target=&#34;_blank&#34;&gt;Convolutions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/vdumoulin/conv_arithmetic&#34; target=&#34;_blank&#34;&gt;Convolutions: padding, stride, dilation animation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf&#34; target=&#34;_blank&#34;&gt;SIFT Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feature Detection SIFT</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab4/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab4/</guid>
+      <description>
+
+&lt;p&gt;Esercitazione 4&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Applicazione pratica di SIFT&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il materiale didattico è disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab04&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, sect. 15&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Szse22]&lt;/strong&gt;, 7.1.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf&#34; target=&#34;_blank&#34;&gt;SIFT Paper&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>

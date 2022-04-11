@@ -237,6 +237,42 @@
     </item>
     
     <item>
+      <title>Introduzione al corso</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture1/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture1/</guid>
+      <description>
+
+&lt;p&gt;Introduzione al corso. Image Processing, Analysis e Computer Vision. Concetti fondamentali su Image processing e analysis: Image Basics, Manipolazione di immagini. Introduzione alle librerie Python per Image Processing.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/1.Intro.pdf&#34;&gt;qui&lt;/a&gt; e &lt;a href=&#34;../pdf/2.Image_fundamentals.pdf&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/1.Image_fundamentals.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, sect. 1.1-1.3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 1,2.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://algorithmia.com/blog/introduction-to-computer-vision&#34; target=&#34;_blank&#34;&gt;Introduction to Computer Vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/what-is-computer-vision/&#34; target=&#34;_blank&#34;&gt;A gentle introduction to Computer Vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/readers-writers-digest/beginners-guide-to-computer-vision-23606224b720&#34; target=&#34;_blank&#34;&gt;A Beginner&amp;rsquo;s guide to Computer Vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/everything-you-ever-wanted-to-know-about-computer-vision-heres-a-look-why-it-s-so-awesome-e8a58dfb641e&#34; target=&#34;_blank&#34;&gt;Everything you wanted to know about Computer Vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thecvf.com/&#34; target=&#34;_blank&#34;&gt;The Computer Vision Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.forbes.com/sites/forbestechcouncil/2020/04/03/three-ways-computer-vision-is-transforming-marketing/#1d6346d0214b&#34; target=&#34;_blank&#34;&gt;Three ways Computer Vision is transforming Marketing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0168169902001011)&#34; target=&#34;_blank&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0168169902001011)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Analisi di Immagini e Video - A.A. 2019-2020</title>
       <link>https://gmanco.github.io/courses/computervision/2020/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
@@ -450,42 +486,6 @@
     </item>
     
     <item>
-      <title>Introduzione al corso</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture1/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture1/</guid>
-      <description>
-
-&lt;p&gt;Introduzione al corso. Image Processing, Analysis e Computer Vision. Concetti fondamentali su Image processing e analysis: Image Basics, Manipolazione di immagini. Introduzione alle librerie Python per Image Processing.&lt;/p&gt;
-
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/1.Intro.pdf&#34;&gt;qui&lt;/a&gt; e &lt;a href=&#34;../pdf/2.Image_fundamentals.pdf&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/1.Image_fundamentals.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, sect. 1.1-1.3.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 1,2.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://algorithmia.com/blog/introduction-to-computer-vision&#34; target=&#34;_blank&#34;&gt;Introduction to Computer Vision&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/what-is-computer-vision/&#34; target=&#34;_blank&#34;&gt;A gentle introduction to Computer Vision&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/readers-writers-digest/beginners-guide-to-computer-vision-23606224b720&#34; target=&#34;_blank&#34;&gt;A Beginner&amp;rsquo;s guide to Computer Vision&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/everything-you-ever-wanted-to-know-about-computer-vision-heres-a-look-why-it-s-so-awesome-e8a58dfb641e&#34; target=&#34;_blank&#34;&gt;Everything you wanted to know about Computer Vision&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.thecvf.com/&#34; target=&#34;_blank&#34;&gt;The Computer Vision Foundation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.forbes.com/sites/forbestechcouncil/2020/04/03/three-ways-computer-vision-is-transforming-marketing/#1d6346d0214b&#34; target=&#34;_blank&#34;&gt;Three ways Computer Vision is transforming Marketing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0168169902001011)&#34; target=&#34;_blank&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0168169902001011)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Concetti fondamentali su Image processing e analysis</title>
       <link>https://gmanco.github.io/courses/computervision/lecture2/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
@@ -684,6 +684,41 @@
     </item>
     
     <item>
+      <title>Edge Detection. Hough Transform</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab3/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab3/</guid>
+      <description>
+
+&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Trasformata di Hough&lt;/li&gt;
+&lt;li&gt;Edge detection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab03&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 7.4.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html&#34; target=&#34;_blank&#34;&gt;Hough with OpenCV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/dev/auto_examples/edges/plot_line_hough_transform.html&#34; target=&#34;_blank&#34;&gt;Straight line Hough transform with skimage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://homepages.inf.ed.ac.uk/rbf/HIPR2/hough.htm&#34; target=&#34;_blank&#34;&gt;Hough introduction and excercise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549&#34; target=&#34;_blank&#34;&gt;Line detection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Feature descriptors. Classificazione</title>
       <link>https://gmanco.github.io/courses/computervision/lecture4/</link>
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
@@ -733,6 +768,38 @@
     </item>
     
     <item>
+      <title>Feature Detection SIFT</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab4/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab4/</guid>
+      <description>
+
+&lt;p&gt;Esercitazione 4&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Applicazione pratica di SIFT&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il materiale didattico è disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab04&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, sect. 15&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Szse22]&lt;/strong&gt;, 7.1.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf&#34; target=&#34;_blank&#34;&gt;SIFT Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Neural Networks</title>
       <link>https://gmanco.github.io/courses/computervision/lecture5/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0100</pubDate>
@@ -746,6 +813,7 @@
 &lt;ul&gt;
 &lt;li&gt;Modelli non lineari (&lt;a href=&#34;../pdf/7.Reti neurali_parte1.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Reti convoluzionali (&lt;a href=&#34;../pdf/7.Reti neurali_parte2.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Architetture convoluzionali&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/7.Neural_networks.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -789,68 +857,132 @@
     </item>
     
     <item>
-      <title>Edge Detection. Hough Transform</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture_lab3/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture_lab3/</guid>
+      <title>CNN Architectures</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture6/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture6/</guid>
       <description>
 
-&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+&lt;p&gt;Architetture CNN per image classification: LeNet, AlexNet, VGG, GoogLeNet, ResNet.&lt;/p&gt;
 
-&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+&lt;p&gt;Materiale didattico:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Trasformata di Hough&lt;/li&gt;
-&lt;li&gt;Edge detection&lt;/li&gt;
+&lt;li&gt;Modelli non lineari (&lt;a href=&#34;../pdf/6.Reti neurali_parte3.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/7.Network_architectures.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab03&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 7.4.2&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 15.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 5.4.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 4.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html&#34; target=&#34;_blank&#34;&gt;Hough with OpenCV&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/dev/auto_examples/edges/plot_line_hough_transform.html&#34; target=&#34;_blank&#34;&gt;Straight line Hough transform with skimage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://homepages.inf.ed.ac.uk/rbf/HIPR2/hough.htm&#34; target=&#34;_blank&#34;&gt;Hough introduction and excercise&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549&#34; target=&#34;_blank&#34;&gt;Line detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Yann LeCun&amp;rsquo;s page on &lt;a href=&#34;http://yann.lecun.com/exdb/lenet/&#34; target=&#34;_blank&#34;&gt;LeNet&lt;/a&gt; (with papers and description).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf&#34; target=&#34;_blank&#34;&gt;ImageNet Classification with Deep Convolutional Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/difference-between-local-response-normalization-and-batch-normalization-272308c034ac&#34; target=&#34;_blank&#34;&gt;Local Response Norm vs. Bach Norm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1409.1556v6.pdf&#34; target=&#34;_blank&#34;&gt;Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43022.pdf&#34; target=&#34;_blank&#34;&gt;Going Deeper with Convolutions&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202&#34; target=&#34;_blank&#34;&gt;A simple guide to the versions of Inception Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1502.03167&#34; target=&#34;_blank&#34;&gt;Batch normalization: accelerating deep network training by reducing internal covariate shift&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1512.03385.pdf&#34; target=&#34;_blank&#34;&gt;Residual Learning for image Recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1411.1792.pdf&#34; target=&#34;_blank&#34;&gt;How transferable are features in deep neural networks?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Feature Detection SIFT</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture_lab4/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture_lab4/</guid>
+      <title>Object Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture7/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture7/</guid>
       <description>
 
-&lt;p&gt;Esercitazione 4&lt;/p&gt;
-
-&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+&lt;p&gt;Object detection.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Applicazione pratica di SIFT&lt;/li&gt;
+&lt;li&gt;Region Proposal Networks: R-CNN, Fast R-CNN, Faster R-CNN.&lt;/li&gt;
+&lt;li&gt;Single Shot Detectors: SSD, RetinaNet, YOLO.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Il materiale didattico è disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab04&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Materiale didattico:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/7.Object_detection.pdf&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/8a.Object_Detection.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/8b.YOLO_demo.ipynb&#34; target=&#34;_blank&#34;&gt;Demo YOLO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, sect. 15&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Szse22]&lt;/strong&gt;, 7.1.2&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 6.3&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf&#34; target=&#34;_blank&#34;&gt;SIFT Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@fractaldle/brief-overview-on-object-detection-algorithms-ec516929be93&#34; target=&#34;_blank&#34;&gt;An overview of Deep-Learning based Object Detection algorithms&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1807.05511.pdf&#34; target=&#34;_blank&#34;&gt;Object detection with Deep Learning: A review&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1311.2524.pdf&#34; target=&#34;_blank&#34;&gt;Rich Feature-Based hierarchies for accurate object detection and semantic segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1504.08083.pdf&#34; target=&#34;_blank&#34;&gt;Fast R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1506.01497&#34; target=&#34;_blank&#34;&gt;Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Faster R-CNN tutorials: &lt;a href=&#34;https://medium.com/@fractaldle/guide-to-build-faster-rcnn-in-pytorch-95b10c273439&#34; target=&#34;_blank&#34;&gt;A guide to building Faster R-CNN in Pytorch&lt;/a&gt; e &lt;a href=&#34;https://towardsdatascience.com/fasterrcnn-explained-part-1-with-code-599c16568cff&#34; target=&#34;_blank&#34;&gt;Detecting objects in (almost) Real time&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1512.02325&#34; target=&#34;_blank&#34;&gt;SSD: Single Shot MultiBox Detector&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection&#34; target=&#34;_blank&#34;&gt;SSD Tutorial&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/detectron&#34; target=&#34;_blank&#34;&gt;Detectron&lt;/a&gt; and &lt;a href=&#34;https://github.com/facebookresearch/detectron2&#34; target=&#34;_blank&#34;&gt;Detectron2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You Only Look Once: &lt;a href=&#34;https://arxiv.org/pdf/1506.02640.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/1612.08242.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv2&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/1804.02767.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://christopher5106.github.io/object/detectors/2017/08/10/bounding-box-object-detectors-understanding-yolo.html&#34; target=&#34;_blank&#34;&gt;Understanding YOLO&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b&#34; target=&#34;_blank&#34;&gt;What&amp;rsquo;s new in YOLOv3?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Grir6TZbc1M&#34; target=&#34;_blank&#34;&gt;YOLOv3 from Scratch&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@jonathan_hui/object-detection-speed-and-accuracy-comparison-faster-r-cnn-r-fcn-ssd-and-yolo-5425656ae359&#34; target=&#34;_blank&#34;&gt;Speed and accuracy comparison in object detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.10934&#34; target=&#34;_blank&#34;&gt;YOLOv4&lt;/a&gt; paper (with &lt;a href=&#34;https://github.com/AlexeyAB/darknet&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@riteshkanjee/yolov4-superior-faster-more-accurate-object-detection-7e8194bf1872&#34; target=&#34;_blank&#34;&gt;YOLOv4 -  Superior, faster and more accurate&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@michaelchan_2146/faster-real-time-object-detection-yolov4-in-pytorch-6eef8436ba75&#34; target=&#34;_blank&#34;&gt;YOLOv4 in Pytorch&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/axinc-ai/yolov5-the-latest-model-for-object-detection-b13320ec516b&#34; target=&#34;_blank&#34;&gt;YOLOv5: The Latest Model for Object Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1708.02002&#34; target=&#34;_blank&#34;&gt;Focal Loss for Dense Object Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4&#34; target=&#34;_blank&#34;&gt;Review - RetinaNet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.zenggyu.com/en/post/2018-12-05/retinanet-explained-and-demystified/#fn3&#34; target=&#34;_blank&#34;&gt;RetinaNet explained and demystified&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@lekorotkov/5-tools-to-create-a-custom-object-detection-dataset-27ca37f91e05&#34; target=&#34;_blank&#34;&gt;5 tools to create a custom object detection dataset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;NEW&lt;/strong&gt; &lt;a href=&#34;https://ai.facebook.com/blog/end-to-end-object-detection-with-transformers/&#34; target=&#34;_blank&#34;&gt;DETR: End-to-end object detection with Transformers&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;NEW&lt;/strong&gt; &lt;a href=&#34;https://analyticsindiamag.com/efficientdet/&#34; target=&#34;_blank&#34;&gt;EfficientDet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

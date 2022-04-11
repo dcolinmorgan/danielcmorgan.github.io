@@ -13,8 +13,18 @@
   </url>
   
   <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture1/</loc>
+    <lastmod>2020-03-26T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gmanco.github.io/courses/computervision/2020/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture2/</loc>
+    <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -28,12 +38,12 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture1/</loc>
-    <lastmod>2020-03-26T00:00:00+01:00</lastmod>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab1/</loc>
+    <lastmod>2021-03-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab1/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/lecture_lab1/</loc>
     <lastmod>2021-03-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -48,11 +58,6 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture2/</loc>
-    <lastmod>2020-03-26T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/courses/computervision/2020/lecture3/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
@@ -63,17 +68,12 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture_lab1/</loc>
-    <lastmod>2021-03-05T00:00:00+01:00</lastmod>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture4/</loc>
+    <lastmod>2020-04-02T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab2/</loc>
-    <lastmod>2020-03-26T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture_lab2/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
@@ -83,12 +83,12 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/2020/lecture4/</loc>
-    <lastmod>2020-04-02T00:00:00+01:00</lastmod>
+    <loc>https://gmanco.github.io/courses/computervision/lecture_lab2/</loc>
+    <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/2021/lecture4/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2020/lecture4/</loc>
     <lastmod>2020-04-02T00:00:00+01:00</lastmod>
   </url>
   
@@ -109,6 +109,11 @@
   
   <url>
     <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab3/</loc>
+    <lastmod>2020-03-26T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture_lab3/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
@@ -138,12 +143,7 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture5/</loc>
-    <lastmod>2020-04-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture_lab3/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/lecture_lab4/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
@@ -163,12 +163,12 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab4/</loc>
-    <lastmod>2020-03-26T00:00:00+01:00</lastmod>
+    <loc>https://gmanco.github.io/courses/computervision/lecture5/</loc>
+    <lastmod>2020-04-18T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/courses/computervision/lecture_lab4/</loc>
+    <loc>https://gmanco.github.io/courses/computervision/2021/lecture_lab4/</loc>
     <lastmod>2020-03-26T00:00:00+01:00</lastmod>
   </url>
   
@@ -183,8 +183,18 @@
   </url>
   
   <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture6/</loc>
+    <lastmod>2020-04-18T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gmanco.github.io/courses/computervision/2020/lecture8/</loc>
     <lastmod>2020-05-12T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture7/</loc>
+    <lastmod>2020-04-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>

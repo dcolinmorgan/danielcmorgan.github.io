@@ -311,6 +311,53 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
     </item>
     
     <item>
+      <title>Derivate. Edge Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/2021/lecture4/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/2021/lecture4/</guid>
+      <description>
+
+&lt;p&gt;Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/4a.Edge_Detection.pdf&#34;&gt;Edge Detection&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/4b.FFT.pdf&#34;&gt;Frequency Filtering&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di due notebook:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb&#34; target=&#34;_blank&#34;&gt;Edge detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/4.Fourier_transform.ipynb&#34; target=&#34;_blank&#34;&gt;Fourier Transform&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il video di riferimento della lezione è disponibile &lt;a href=&#34;https://web.microsoftstream.com/video/07df3bb6-5d74-47c2-8070-33d6cdacd2b4&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3, 4.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 10, 11, 13.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Andrew Ng on Edge Detection: youtube lectures &lt;a href=&#34;https://www.youtube.com/watch?v=XuD4C8vJzEQ&#34; target=&#34;_blank&#34;&gt;(1)&lt;/a&gt; e &lt;a href=&#34;https://www.youtube.com/watch?v=am36dePheDc&#34; target=&#34;_blank&#34;&gt;(2)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://datacarpentry.org/image-processing/08-edge-detection/&#34; target=&#34;_blank&#34;&gt;Introduction to Edge Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm&#34; target=&#34;_blank&#34;&gt;Concept of Image detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aDY4aBLFOIg&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Image Gradients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@hicraigchen/digital-image-processing-using-fourier-transform-in-python-bcb49424fd82&#34; target=&#34;_blank&#34;&gt;Filtraggio con la trasformata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Python and image processing</title>
       <link>https://gmanco.github.io/courses/computervision/2021/lecture_lab2/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
@@ -377,53 +424,6 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 &lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/api/api.html&#34; target=&#34;_blank&#34;&gt;Scikit Image&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Derivate. Edge Detection</title>
-      <link>https://gmanco.github.io/courses/computervision/2021/lecture4/</link>
-      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/2021/lecture4/</guid>
-      <description>
-
-&lt;p&gt;Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.&lt;/p&gt;
-
-&lt;p&gt;Slides disponibili:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../pdf/4a.Edge_Detection.pdf&#34;&gt;Edge Detection&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../pdf/4b.FFT.pdf&#34;&gt;Frequency Filtering&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;La lezione è corredata di due notebook:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb&#34; target=&#34;_blank&#34;&gt;Edge detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/4.Fourier_transform.ipynb&#34; target=&#34;_blank&#34;&gt;Fourier Transform&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Il video di riferimento della lezione è disponibile &lt;a href=&#34;https://web.microsoftstream.com/video/07df3bb6-5d74-47c2-8070-33d6cdacd2b4&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3, 4.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 10, 11, 13.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Andrew Ng on Edge Detection: youtube lectures &lt;a href=&#34;https://www.youtube.com/watch?v=XuD4C8vJzEQ&#34; target=&#34;_blank&#34;&gt;(1)&lt;/a&gt; e &lt;a href=&#34;https://www.youtube.com/watch?v=am36dePheDc&#34; target=&#34;_blank&#34;&gt;(2)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://datacarpentry.org/image-processing/08-edge-detection/&#34; target=&#34;_blank&#34;&gt;Introduction to Edge Detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm&#34; target=&#34;_blank&#34;&gt;Concept of Image detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aDY4aBLFOIg&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Image Gradients&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/@hicraigchen/digital-image-processing-using-fourier-transform-in-python-bcb49424fd82&#34; target=&#34;_blank&#34;&gt;Filtraggio con la trasformata&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

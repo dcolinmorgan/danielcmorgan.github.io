@@ -14,6 +14,79 @@
     
     <item>
       <title>Introduzione al corso</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture1/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture1/</guid>
+      <description>
+
+&lt;p&gt;Introduzione al corso. Image Processing, Analysis e Computer Vision. Concetti fondamentali su Image processing e analysis: Image Basics, Manipolazione di immagini. Introduzione alle librerie Python per Image Processing.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/1.Intro.pdf&#34;&gt;qui&lt;/a&gt; e &lt;a href=&#34;../pdf/2.Image_fundamentals.pdf&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/1.Image_fundamentals.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, sect. 1.1-1.3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 1,2.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://algorithmia.com/blog/introduction-to-computer-vision&#34; target=&#34;_blank&#34;&gt;Introduction to Computer Vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/what-is-computer-vision/&#34; target=&#34;_blank&#34;&gt;A gentle introduction to Computer Vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/readers-writers-digest/beginners-guide-to-computer-vision-23606224b720&#34; target=&#34;_blank&#34;&gt;A Beginner&amp;rsquo;s guide to Computer Vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/everything-you-ever-wanted-to-know-about-computer-vision-heres-a-look-why-it-s-so-awesome-e8a58dfb641e&#34; target=&#34;_blank&#34;&gt;Everything you wanted to know about Computer Vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thecvf.com/&#34; target=&#34;_blank&#34;&gt;The Computer Vision Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.forbes.com/sites/forbestechcouncil/2020/04/03/three-ways-computer-vision-is-transforming-marketing/#1d6346d0214b&#34; target=&#34;_blank&#34;&gt;Three ways Computer Vision is transforming Marketing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0168169902001011)&#34; target=&#34;_blank&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0168169902001011)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Concetti fondamentali su Image processing e analysis</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture2/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture2/</guid>
+      <description>
+
+&lt;p&gt;Manipolazione di immagini. Manipolazione spaziale. Filtri.&lt;/p&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/2.Image_fundamentals.pdf&#34;&gt;qui&lt;/a&gt; e &lt;a href=&#34;../pdf/3.Filters.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/2.Filters.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, sect. 1.4-1.5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 2-3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 3.1,3.2, 3.6.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch.1-6.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs231n.github.io/python-numpy-tutorial/&#34; target=&#34;_blank&#34;&gt;Stanford cs231n Python tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs231n.github.io/ipython-tutorial/&#34; target=&#34;_blank&#34;&gt;Stanford cs231n Jupyter tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.anaconda.com/&#34; target=&#34;_blank&#34;&gt;Anaconda, la piattaforma di riferimento per installare Python e Jupyter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://notebooks.azure.com/&#34; target=&#34;_blank&#34;&gt;Piattaforma azure di Microsoft per l&amp;rsquo;esecuzione di notebooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/notebooks/intro.ipynb&#34; target=&#34;_blank&#34;&gt;Google Colab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://missing.csail.mit.edu/?fbclid=IwAR0N3s-DbRLrSWW3tB1L5iu_thdiEtFuL7cGUwxyOL-yc7skytSDGdT9ZAo&#34; target=&#34;_blank&#34;&gt;The missing semester, un mini-corso del MIT sui tool di base che tutti i data scientist dovrebbero conoscere&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduzione al corso</title>
       <link>https://gmanco.github.io/courses/computervision/2020/lecture1/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
       <guid>https://gmanco.github.io/courses/computervision/2020/lecture1/</guid>
@@ -265,42 +338,6 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
     </item>
     
     <item>
-      <title>Introduzione al corso</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture1/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture1/</guid>
-      <description>
-
-&lt;p&gt;Introduzione al corso. Image Processing, Analysis e Computer Vision. Concetti fondamentali su Image processing e analysis: Image Basics, Manipolazione di immagini. Introduzione alle librerie Python per Image Processing.&lt;/p&gt;
-
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/1.Intro.pdf&#34;&gt;qui&lt;/a&gt; e &lt;a href=&#34;../pdf/2.Image_fundamentals.pdf&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/1.Image_fundamentals.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, sect. 1.1-1.3.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 1,2.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://algorithmia.com/blog/introduction-to-computer-vision&#34; target=&#34;_blank&#34;&gt;Introduction to Computer Vision&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://machinelearningmastery.com/what-is-computer-vision/&#34; target=&#34;_blank&#34;&gt;A gentle introduction to Computer Vision&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/readers-writers-digest/beginners-guide-to-computer-vision-23606224b720&#34; target=&#34;_blank&#34;&gt;A Beginner&amp;rsquo;s guide to Computer Vision&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/everything-you-ever-wanted-to-know-about-computer-vision-heres-a-look-why-it-s-so-awesome-e8a58dfb641e&#34; target=&#34;_blank&#34;&gt;Everything you wanted to know about Computer Vision&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.thecvf.com/&#34; target=&#34;_blank&#34;&gt;The Computer Vision Foundation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.forbes.com/sites/forbestechcouncil/2020/04/03/three-ways-computer-vision-is-transforming-marketing/#1d6346d0214b&#34; target=&#34;_blank&#34;&gt;Three ways Computer Vision is transforming Marketing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0168169902001011)&#34; target=&#34;_blank&#34;&gt;https://www.sciencedirect.com/science/article/pii/S0168169902001011)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Python and image processing</title>
       <link>https://gmanco.github.io/courses/computervision/2021/lecture_lab1/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0100</pubDate>
@@ -328,6 +365,48 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 &lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs.brown.edu/courses/cs092/VA10/HTML/ColorModels.html&#34; target=&#34;_blank&#34;&gt;Color models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jupyterlab.readthedocs.io/en/stable/&#34; target=&#34;_blank&#34;&gt;jupyterlab.readthedocs.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python and image processing</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab1/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab1/</guid>
+      <description>
+
+&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Convolution&lt;/li&gt;
+&lt;li&gt;Introduzione ai Jupyter notebooks&lt;/li&gt;
+&lt;li&gt;Caricamento di immagini con PIL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/a400017b616115ba0be8667028c74589c8583e1f/labs_lecture/lab01/esercitazione01.pdf&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/tree/master/labs_lecture/lab01&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 3.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -417,43 +496,6 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
     </item>
     
     <item>
-      <title>Concetti fondamentali su Image processing e analysis</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture2/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture2/</guid>
-      <description>
-
-&lt;p&gt;Manipolazione di immagini. Manipolazione spaziale. Filtri.&lt;/p&gt;
-
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/2.Image_fundamentals.pdf&#34;&gt;qui&lt;/a&gt; e &lt;a href=&#34;../pdf/3.Filters.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/2.Filters.ipynb&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 2.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, sect. 1.4-1.5.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 2-3.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 3.1,3.2, 3.6.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch.1-6.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://cs231n.github.io/python-numpy-tutorial/&#34; target=&#34;_blank&#34;&gt;Stanford cs231n Python tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cs231n.github.io/ipython-tutorial/&#34; target=&#34;_blank&#34;&gt;Stanford cs231n Jupyter tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.anaconda.com/&#34; target=&#34;_blank&#34;&gt;Anaconda, la piattaforma di riferimento per installare Python e Jupyter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://notebooks.azure.com/&#34; target=&#34;_blank&#34;&gt;Piattaforma azure di Microsoft per l&amp;rsquo;esecuzione di notebooks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://colab.research.google.com/notebooks/intro.ipynb&#34; target=&#34;_blank&#34;&gt;Google Colab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://missing.csail.mit.edu/?fbclid=IwAR0N3s-DbRLrSWW3tB1L5iu_thdiEtFuL7cGUwxyOL-yc7skytSDGdT9ZAo&#34; target=&#34;_blank&#34;&gt;The missing semester, un mini-corso del MIT sui tool di base che tutti i data scientist dovrebbero conoscere&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Filtri</title>
       <link>https://gmanco.github.io/courses/computervision/2020/lecture3/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
@@ -524,43 +566,48 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
     </item>
     
     <item>
-      <title>Python and image processing</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture_lab1/</link>
-      <pubDate>Fri, 05 Mar 2021 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture_lab1/</guid>
+      <title>Derivate. Edge Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/2021/lecture4/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/2021/lecture4/</guid>
       <description>
 
-&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+&lt;p&gt;Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.&lt;/p&gt;
 
-&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+&lt;p&gt;Slides disponibili:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Convolution&lt;/li&gt;
-&lt;li&gt;Introduzione ai Jupyter notebooks&lt;/li&gt;
-&lt;li&gt;Caricamento di immagini con PIL&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/4a.Edge_Detection.pdf&#34;&gt;Edge Detection&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/4b.FFT.pdf&#34;&gt;Frequency Filtering&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Slides disponibili &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/a400017b616115ba0be8667028c74589c8583e1f/labs_lecture/lab01/esercitazione01.pdf&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La lezione è corredata di due notebook:&lt;/p&gt;
 
-&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/tree/master/labs_lecture/lab01&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb&#34; target=&#34;_blank&#34;&gt;Edge detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/4.Fourier_transform.ipynb&#34; target=&#34;_blank&#34;&gt;Fourier Transform&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il video di riferimento della lezione è disponibile &lt;a href=&#34;https://web.microsoftstream.com/video/07df3bb6-5d74-47c2-8070-33d6cdacd2b4&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3, 4.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 3.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 10, 11, 13.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cs.brown.edu/courses/cs092/VA10/HTML/ColorModels.html&#34; target=&#34;_blank&#34;&gt;Color models&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jupyterlab.readthedocs.io/en/stable/&#34; target=&#34;_blank&#34;&gt;jupyterlab.readthedocs.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Andrew Ng on Edge Detection: youtube lectures &lt;a href=&#34;https://www.youtube.com/watch?v=XuD4C8vJzEQ&#34; target=&#34;_blank&#34;&gt;(1)&lt;/a&gt; e &lt;a href=&#34;https://www.youtube.com/watch?v=am36dePheDc&#34; target=&#34;_blank&#34;&gt;(2)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://datacarpentry.org/image-processing/08-edge-detection/&#34; target=&#34;_blank&#34;&gt;Introduction to Edge Detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm&#34; target=&#34;_blank&#34;&gt;Concept of Image detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aDY4aBLFOIg&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Image Gradients&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@hicraigchen/digital-image-processing-using-fourier-transform-in-python-bcb49424fd82&#34; target=&#34;_blank&#34;&gt;Filtraggio con la trasformata&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -629,6 +676,46 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/master/index.html&#34; target=&#34;_blank&#34;&gt;OpenCV&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/api/api.html&#34; target=&#34;_blank&#34;&gt;Scikit Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python &amp; image processing</title>
+      <link>https://gmanco.github.io/courses/computervision/2020/lecture_lab1/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/2020/lecture_lab1/</guid>
+      <description>
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introduzione ai Jupyter notebooks&lt;/li&gt;
+&lt;li&gt;Caricamento di immagini con PIL&lt;/li&gt;
+&lt;li&gt;Panoramica delle librerie e delle principali funzioni per effettuare trasformazioni geometriche, operazioni aritmetiche, edge detection.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/es01_imageloading.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab01&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/master/index.html&#34; target=&#34;_blank&#34;&gt;OpenCV&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/api/api.html&#34; target=&#34;_blank&#34;&gt;Scikit Image&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
@@ -710,46 +797,6 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
     </item>
     
     <item>
-      <title>Python &amp; image processing</title>
-      <link>https://gmanco.github.io/courses/computervision/2020/lecture_lab1/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/2020/lecture_lab1/</guid>
-      <description>
-
-&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Introduzione ai Jupyter notebooks&lt;/li&gt;
-&lt;li&gt;Caricamento di immagini con PIL&lt;/li&gt;
-&lt;li&gt;Panoramica delle librerie e delle principali funzioni per effettuare trasformazioni geometriche, operazioni aritmetiche, edge detection.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Slides disponibili &lt;a href=&#34;../pdf/es01_imageloading.pdf&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab01&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/master/index.html&#34; target=&#34;_blank&#34;&gt;OpenCV&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/stable/api/api.html&#34; target=&#34;_blank&#34;&gt;Scikit Image&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pillow.readthedocs.io/en/stable/handbook/tutorial.html&#34; target=&#34;_blank&#34;&gt;PIL tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/scikit-image/skimage-tutorials&#34; target=&#34;_blank&#34;&gt;Scikit Image Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Derivate. Edge Detection</title>
       <link>https://gmanco.github.io/courses/computervision/2020/lecture4/</link>
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
@@ -771,53 +818,6 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 &lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb&#34; target=&#34;_blank&#34;&gt;Edge detection&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/4.Fourier_transform.ipynb&#34; target=&#34;_blank&#34;&gt;Fourier Transform&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, ch. 5.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 3, 4.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Solem12]&lt;/strong&gt;, Ch. 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.2.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Kin19]&lt;/strong&gt;, Ch. 10, 11, 13.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Andrew Ng on Edge Detection: youtube lectures &lt;a href=&#34;https://www.youtube.com/watch?v=XuD4C8vJzEQ&#34; target=&#34;_blank&#34;&gt;(1)&lt;/a&gt; e &lt;a href=&#34;https://www.youtube.com/watch?v=am36dePheDc&#34; target=&#34;_blank&#34;&gt;(2)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://datacarpentry.org/image-processing/08-edge-detection/&#34; target=&#34;_blank&#34;&gt;Introduction to Edge Detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tutorialspoint.com/dip/concept_of_edge_detection.htm&#34; target=&#34;_blank&#34;&gt;Concept of Image detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=aDY4aBLFOIg&#34; target=&#34;_blank&#34;&gt;OpenCV Python Tutorial: Image Gradients&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/@hicraigchen/digital-image-processing-using-fourier-transform-in-python-bcb49424fd82&#34; target=&#34;_blank&#34;&gt;Filtraggio con la trasformata&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Derivate. Edge Detection</title>
-      <link>https://gmanco.github.io/courses/computervision/2021/lecture4/</link>
-      <pubDate>Thu, 02 Apr 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/2021/lecture4/</guid>
-      <description>
-
-&lt;p&gt;Derivate di immagini. Gradient-based filtering. trasformata di Fourier e Filtraggio.&lt;/p&gt;
-
-&lt;p&gt;Slides disponibili:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../pdf/4a.Edge_Detection.pdf&#34;&gt;Edge Detection&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../pdf/4b.FFT.pdf&#34;&gt;Frequency Filtering&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;La lezione è corredata di due notebook:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/3.Edge_detection.ipynb&#34; target=&#34;_blank&#34;&gt;Edge detection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/4.Fourier_transform.ipynb&#34; target=&#34;_blank&#34;&gt;Fourier Transform&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Il video di riferimento della lezione è disponibile &lt;a href=&#34;https://web.microsoftstream.com/video/07df3bb6-5d74-47c2-8070-33d6cdacd2b4&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
@@ -979,6 +979,41 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;[Sze11]&lt;/strong&gt;, sect. 4.3.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html&#34; target=&#34;_blank&#34;&gt;Hough with OpenCV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/dev/auto_examples/edges/plot_line_hough_transform.html&#34; target=&#34;_blank&#34;&gt;Straight line Hough transform with skimage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://homepages.inf.ed.ac.uk/rbf/HIPR2/hough.htm&#34; target=&#34;_blank&#34;&gt;Hough introduction and excercise&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549&#34; target=&#34;_blank&#34;&gt;Line detection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Edge Detection. Hough Transform</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab3/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab3/</guid>
+      <description>
+
+&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Trasformata di Hough&lt;/li&gt;
+&lt;li&gt;Edge detection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab03&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 7.4.2&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
@@ -1237,92 +1272,33 @@ La parte relativa allo studio dei feature descriptors riguarderà anche il primo
     </item>
     
     <item>
-      <title>Neural Networks</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture5/</link>
-      <pubDate>Sat, 18 Apr 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture5/</guid>
-      <description>
-
-&lt;p&gt;Grafi di computazione e modelli non lineari. Reti Convoluzionali. LeNet-5.&lt;/p&gt;
-
-&lt;p&gt;Materiale didattico:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Modelli non lineari (&lt;a href=&#34;../pdf/7.Reti neurali_parte1.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Reti convoluzionali (&lt;a href=&#34;../pdf/7.Reti neurali_parte2.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/7.Neural_networks.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 15.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 2,3&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 5.3, 5.4, 6.2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9&#34; target=&#34;_blank&#34;&gt;Introduction to Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://d2l.ai/index.html&#34; target=&#34;_blank&#34;&gt;Dive into Deep Learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf&#34; target=&#34;_blank&#34;&gt;Course Notes on Optimization for Machine Learning&lt;/a&gt; and &lt;a href=&#34;https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf&#34; target=&#34;_blank&#34;&gt;Mathematical Foundations of Data Science&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.paperspace.com/pytorch-101-understanding-graphs-and-automatic-differentiation/&#34; target=&#34;_blank&#34;&gt;Understanding graphs and automatic differentiation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/pytorch-autograd-understanding-the-heart-of-pytorchs-magic-2686cd94ec95&#34; target=&#34;_blank&#34;&gt;Pytorch autograd: Understanding the heart of Pytorch&amp;rsquo;s magic&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b&#34; target=&#34;_blank&#34;&gt;Yes you should understand backpropagation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf&#34; target=&#34;_blank&#34;&gt;Visualizing and understanding convolutional Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Vincent Dumoulin, Francesco Visin - &lt;a href=&#34;https://arxiv.org/abs/1603.07285&#34; target=&#34;_blank&#34;&gt;A guide to convolution arithmetic for deep learning&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@_init_/an-illustrated-explanation-of-performing-2d-convolutions-using-matrix-multiplications-1e8de8cd2544&#34; target=&#34;_blank&#34;&gt;An illustrated explanation of performing 2D convolution using matrix multiplication&lt;/a&gt;. Un esempio illustrativo anche su &lt;a href=&#34;https://www.slideshare.net/EdwinEfranJimnezLepe/convolution-as-matrix-multiplication?from_action=save&#34; target=&#34;_blank&#34;&gt;slideshare&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/datadriveninvestor/visualizing-neural-networks-using-saliency-maps-in-pytorch-289d8e244ab4&#34; target=&#34;_blank&#34;&gt;Visualizing neural networks using saliency maps&lt;/a&gt;. Reference paper su &lt;a href=&#34;https://arxiv.org/abs/1312.6034&#34; target=&#34;_blank&#34;&gt;arxiv&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Saliency maps in &lt;a href=&#34;[https://mc.ai/feature-visualisation-in-pytorch%E2%80%8A-%E2%80%8Asaliency-maps/](https://mc.ai/feature-visualisation-in-pytorch - saliency-maps/)&#34; target=&#34;_blank&#34;&gt;Flashtorch&lt;/a&gt;. Medium &lt;a href=&#34;https://towardsdatascience.com/feature-visualisation-in-pytorch-saliency-maps-a3f99d08f78a&#34; target=&#34;_blank&#34;&gt;description&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;A collection of &lt;a href=&#34;https://github.com/utkuozbulak/pytorch-cnn-visualizations&#34; target=&#34;_blank&#34;&gt;Deep network visualization techniques&lt;/a&gt; in Pytorch&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Edge Detection. Hough Transform</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture_lab3/</link>
+      <title>Feature Detection SIFT</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab4/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture_lab3/</guid>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab4/</guid>
       <description>
 
-&lt;p&gt;Python &amp;amp; image processing.&lt;/p&gt;
+&lt;p&gt;Esercitazione 4&lt;/p&gt;
 
 &lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Trasformata di Hough&lt;/li&gt;
-&lt;li&gt;Edge detection&lt;/li&gt;
+&lt;li&gt;Applicazione pratica di SIFT&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab03&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Il materiale didattico è disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab04&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, sect. 7.4.2&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, sect. 15&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Szse22]&lt;/strong&gt;, 7.1.2&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html&#34; target=&#34;_blank&#34;&gt;Hough with OpenCV&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://scikit-image.org/docs/dev/auto_examples/edges/plot_line_hough_transform.html&#34; target=&#34;_blank&#34;&gt;Straight line Hough transform with skimage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://homepages.inf.ed.ac.uk/rbf/HIPR2/hough.htm&#34; target=&#34;_blank&#34;&gt;Hough introduction and excercise&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549&#34; target=&#34;_blank&#34;&gt;Line detection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf&#34; target=&#34;_blank&#34;&gt;SIFT Paper&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -1502,6 +1478,63 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
     </item>
     
     <item>
+      <title>Neural Networks</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture5/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture5/</guid>
+      <description>
+
+&lt;p&gt;Grafi di computazione e modelli non lineari. Reti Convoluzionali. LeNet-5.&lt;/p&gt;
+
+&lt;p&gt;Materiale didattico:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Modelli non lineari (&lt;a href=&#34;../pdf/7.Reti neurali_parte1.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Reti convoluzionali (&lt;a href=&#34;../pdf/7.Reti neurali_parte2.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Architetture convoluzionali&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/7.Neural_networks.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 15.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Gon18]&lt;/strong&gt;, Ch. 13.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 2,3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 5.3, 5.4, 6.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/machine-learning-for-beginners-an-introduction-to-neural-networks-d49f22d238f9&#34; target=&#34;_blank&#34;&gt;Introduction to Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://d2l.ai/index.html&#34; target=&#34;_blank&#34;&gt;Dive into Deep Learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://mathematical-tours.github.io/book-sources/optim-ml/OptimML.pdf&#34; target=&#34;_blank&#34;&gt;Course Notes on Optimization for Machine Learning&lt;/a&gt; and &lt;a href=&#34;https://mathematical-tours.github.io/book-sources/FundationsDataScience.pdf&#34; target=&#34;_blank&#34;&gt;Mathematical Foundations of Data Science&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.paperspace.com/pytorch-101-understanding-graphs-and-automatic-differentiation/&#34; target=&#34;_blank&#34;&gt;Understanding graphs and automatic differentiation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/pytorch-autograd-understanding-the-heart-of-pytorchs-magic-2686cd94ec95&#34; target=&#34;_blank&#34;&gt;Pytorch autograd: Understanding the heart of Pytorch&amp;rsquo;s magic&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b&#34; target=&#34;_blank&#34;&gt;Yes you should understand backpropagation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf&#34; target=&#34;_blank&#34;&gt;Visualizing and understanding convolutional Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Vincent Dumoulin, Francesco Visin - &lt;a href=&#34;https://arxiv.org/abs/1603.07285&#34; target=&#34;_blank&#34;&gt;A guide to convolution arithmetic for deep learning&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@_init_/an-illustrated-explanation-of-performing-2d-convolutions-using-matrix-multiplications-1e8de8cd2544&#34; target=&#34;_blank&#34;&gt;An illustrated explanation of performing 2D convolution using matrix multiplication&lt;/a&gt;. Un esempio illustrativo anche su &lt;a href=&#34;https://www.slideshare.net/EdwinEfranJimnezLepe/convolution-as-matrix-multiplication?from_action=save&#34; target=&#34;_blank&#34;&gt;slideshare&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/datadriveninvestor/visualizing-neural-networks-using-saliency-maps-in-pytorch-289d8e244ab4&#34; target=&#34;_blank&#34;&gt;Visualizing neural networks using saliency maps&lt;/a&gt;. Reference paper su &lt;a href=&#34;https://arxiv.org/abs/1312.6034&#34; target=&#34;_blank&#34;&gt;arxiv&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Saliency maps in &lt;a href=&#34;[https://mc.ai/feature-visualisation-in-pytorch%E2%80%8A-%E2%80%8Asaliency-maps/](https://mc.ai/feature-visualisation-in-pytorch - saliency-maps/)&#34; target=&#34;_blank&#34;&gt;Flashtorch&lt;/a&gt;. Medium &lt;a href=&#34;https://towardsdatascience.com/feature-visualisation-in-pytorch-saliency-maps-a3f99d08f78a&#34; target=&#34;_blank&#34;&gt;description&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A collection of &lt;a href=&#34;https://github.com/utkuozbulak/pytorch-cnn-visualizations&#34; target=&#34;_blank&#34;&gt;Deep network visualization techniques&lt;/a&gt; in Pytorch&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Introduzione a Pytorch</title>
       <link>https://gmanco.github.io/courses/computervision/2021/lecture_lab4/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
@@ -1533,38 +1566,6 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/computational-graphs-in-pytorch-and-tensorflow-c25cc40bdcd1&#34; target=&#34;_blank&#34;&gt;Gradiente e Computational Graph&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53&#34; target=&#34;_blank&#34;&gt;Convolutions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/vdumoulin/conv_arithmetic&#34; target=&#34;_blank&#34;&gt;Convolutions: padding, stride, dilation animation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf&#34; target=&#34;_blank&#34;&gt;SIFT Paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Feature Detection SIFT</title>
-      <link>https://gmanco.github.io/courses/computervision/lecture_lab4/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0100</pubDate>
-      <guid>https://gmanco.github.io/courses/computervision/lecture_lab4/</guid>
-      <description>
-
-&lt;p&gt;Esercitazione 4&lt;/p&gt;
-
-&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Applicazione pratica di SIFT&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Il materiale didattico è disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab04&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, sect. 15&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Szse22]&lt;/strong&gt;, 7.1.2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
-
-&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf&#34; target=&#34;_blank&#34;&gt;SIFT Paper&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -1691,6 +1692,54 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
     </item>
     
     <item>
+      <title>CNN Architectures</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture6/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture6/</guid>
+      <description>
+
+&lt;p&gt;Architetture CNN per image classification: LeNet, AlexNet, VGG, GoogLeNet, ResNet.&lt;/p&gt;
+
+&lt;p&gt;Materiale didattico:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Modelli non lineari (&lt;a href=&#34;../pdf/6.Reti neurali_parte3.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/7.Network_architectures.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Davies18]&lt;/strong&gt;, Ch. 15.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 5.4.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 4.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Yann LeCun&amp;rsquo;s page on &lt;a href=&#34;http://yann.lecun.com/exdb/lenet/&#34; target=&#34;_blank&#34;&gt;LeNet&lt;/a&gt; (with papers and description).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf&#34; target=&#34;_blank&#34;&gt;ImageNet Classification with Deep Convolutional Neural Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/difference-between-local-response-normalization-and-batch-normalization-272308c034ac&#34; target=&#34;_blank&#34;&gt;Local Response Norm vs. Bach Norm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1409.1556v6.pdf&#34; target=&#34;_blank&#34;&gt;Very Deep Convolutional Networks for Large Scale Image Recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43022.pdf&#34; target=&#34;_blank&#34;&gt;Going Deeper with Convolutions&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202&#34; target=&#34;_blank&#34;&gt;A simple guide to the versions of Inception Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1502.03167&#34; target=&#34;_blank&#34;&gt;Batch normalization: accelerating deep network training by reducing internal covariate shift&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1512.03385.pdf&#34; target=&#34;_blank&#34;&gt;Residual Learning for image Recognition&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1411.1792.pdf&#34; target=&#34;_blank&#34;&gt;How transferable are features in deep neural networks?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Segmentation</title>
       <link>https://gmanco.github.io/courses/computervision/2020/lecture8/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0100</pubDate>
@@ -1777,6 +1826,89 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1904.02689.pdf&#34; target=&#34;_blank&#34;&gt;YOLACT&lt;/a&gt; and &lt;a href=&#34;https://arxiv.org/abs/1912.06218&#34; target=&#34;_blank&#34;&gt;YOLOACT++&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1801.00868.pdf&#34; target=&#34;_blank&#34;&gt;Pantropic Segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture7/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture7/</guid>
+      <description>
+
+&lt;p&gt;Object detection.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Region Proposal Networks: R-CNN, Fast R-CNN, Faster R-CNN.&lt;/li&gt;
+&lt;li&gt;Single Shot Detectors: SSD, RetinaNet, YOLO.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Materiale didattico:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../pdf/7.Object_detection.pdf&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/8a.Object_Detection.ipynb&#34; target=&#34;_blank&#34;&gt;Notebook&lt;/a&gt; di accompagnamento&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/8b.YOLO_demo.ipynb&#34; target=&#34;_blank&#34;&gt;Demo YOLO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, Ch. 6.3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@fractaldle/brief-overview-on-object-detection-algorithms-ec516929be93&#34; target=&#34;_blank&#34;&gt;An overview of Deep-Learning based Object Detection algorithms&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1807.05511.pdf&#34; target=&#34;_blank&#34;&gt;Object detection with Deep Learning: A review&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1311.2524.pdf&#34; target=&#34;_blank&#34;&gt;Rich Feature-Based hierarchies for accurate object detection and semantic segmentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1504.08083.pdf&#34; target=&#34;_blank&#34;&gt;Fast R-CNN&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1506.01497&#34; target=&#34;_blank&#34;&gt;Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Faster R-CNN tutorials: &lt;a href=&#34;https://medium.com/@fractaldle/guide-to-build-faster-rcnn-in-pytorch-95b10c273439&#34; target=&#34;_blank&#34;&gt;A guide to building Faster R-CNN in Pytorch&lt;/a&gt; e &lt;a href=&#34;https://towardsdatascience.com/fasterrcnn-explained-part-1-with-code-599c16568cff&#34; target=&#34;_blank&#34;&gt;Detecting objects in (almost) Real time&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1512.02325&#34; target=&#34;_blank&#34;&gt;SSD: Single Shot MultiBox Detector&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection&#34; target=&#34;_blank&#34;&gt;SSD Tutorial&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/facebookresearch/detectron&#34; target=&#34;_blank&#34;&gt;Detectron&lt;/a&gt; and &lt;a href=&#34;https://github.com/facebookresearch/detectron2&#34; target=&#34;_blank&#34;&gt;Detectron2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You Only Look Once: &lt;a href=&#34;https://arxiv.org/pdf/1506.02640.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/1612.08242.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv2&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/pdf/1804.02767.pdf&#34; target=&#34;_blank&#34;&gt;YOLOv3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://christopher5106.github.io/object/detectors/2017/08/10/bounding-box-object-detectors-understanding-yolo.html&#34; target=&#34;_blank&#34;&gt;Understanding YOLO&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b&#34; target=&#34;_blank&#34;&gt;What&amp;rsquo;s new in YOLOv3?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Grir6TZbc1M&#34; target=&#34;_blank&#34;&gt;YOLOv3 from Scratch&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@jonathan_hui/object-detection-speed-and-accuracy-comparison-faster-r-cnn-r-fcn-ssd-and-yolo-5425656ae359&#34; target=&#34;_blank&#34;&gt;Speed and accuracy comparison in object detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.10934&#34; target=&#34;_blank&#34;&gt;YOLOv4&lt;/a&gt; paper (with &lt;a href=&#34;https://github.com/AlexeyAB/darknet&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@riteshkanjee/yolov4-superior-faster-more-accurate-object-detection-7e8194bf1872&#34; target=&#34;_blank&#34;&gt;YOLOv4 -  Superior, faster and more accurate&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@michaelchan_2146/faster-real-time-object-detection-yolov4-in-pytorch-6eef8436ba75&#34; target=&#34;_blank&#34;&gt;YOLOv4 in Pytorch&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/axinc-ai/yolov5-the-latest-model-for-object-detection-b13320ec516b&#34; target=&#34;_blank&#34;&gt;YOLOv5: The Latest Model for Object Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1708.02002&#34; target=&#34;_blank&#34;&gt;Focal Loss for Dense Object Detection&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/review-retinanet-focal-loss-object-detection-38fba6afabe4&#34; target=&#34;_blank&#34;&gt;Review - RetinaNet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.zenggyu.com/en/post/2018-12-05/retinanet-explained-and-demystified/#fn3&#34; target=&#34;_blank&#34;&gt;RetinaNet explained and demystified&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@lekorotkov/5-tools-to-create-a-custom-object-detection-dataset-27ca37f91e05&#34; target=&#34;_blank&#34;&gt;5 tools to create a custom object detection dataset&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;NEW&lt;/strong&gt; &lt;a href=&#34;https://ai.facebook.com/blog/end-to-end-object-detection-with-transformers/&#34; target=&#34;_blank&#34;&gt;DETR: End-to-end object detection with Transformers&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;NEW&lt;/strong&gt; &lt;a href=&#34;https://analyticsindiamag.com/efficientdet/&#34; target=&#34;_blank&#34;&gt;EfficientDet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

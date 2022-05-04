@@ -203,6 +203,11 @@
   </url>
   
   <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture_lab5/</loc>
+    <lastmod>2022-04-13T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gmanco.github.io/courses/computervision/2020/lecture9/</loc>
     <lastmod>2020-05-19T00:00:00+01:00</lastmod>
   </url>
@@ -210,6 +215,11 @@
   <url>
     <loc>https://gmanco.github.io/courses/computervision/2021/lecture9/</loc>
     <lastmod>2020-05-12T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture_lab6/</loc>
+    <lastmod>2022-04-20T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -223,6 +233,11 @@
   </url>
   
   <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture_lab7/</loc>
+    <lastmod>2022-04-21T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gmanco.github.io/courses/computervision/2020/lecture11/</loc>
     <lastmod>2020-05-25T00:00:00+01:00</lastmod>
   </url>
@@ -230,6 +245,11 @@
   <url>
     <loc>https://gmanco.github.io/courses/computervision/2021/lecture11/</loc>
     <lastmod>2020-05-25T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/courses/computervision/lecture8/</loc>
+    <lastmod>2020-05-12T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -275,12 +295,92 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/publication_types/1/</loc>
-    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+    <loc>https://gmanco.github.io/publication_types/2/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/publication_types/2/</loc>
+    <loc>https://gmanco.github.io/tags/active-learning/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/guarascio-2022/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/cyber-threat-intelligence-architecture/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/francesco-sergio-pisani/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/giuseppe-manco/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/intrusion-detection-system/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/massimo-guarascio/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/authors/nunziato-cassavia/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication_types/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/security-data-enrichment/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/siem/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/tags/threat-analytics/</loc>
+    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gmanco.github.io/publication_types/1/</loc>
     <lastmod>2022-03-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -310,11 +410,6 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/authors/</loc>
-    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/tags/community-detection/</loc>
     <lastmod>2022-03-04T00:00:00+00:00</lastmod>
   </url>
@@ -330,27 +425,12 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/authors/francesco-sergio-pisani/</loc>
-    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/tags/generative-adversarial-networks/</loc>
     <lastmod>2022-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gmanco.github.io/tags/generative-models/</loc>
-    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/</loc>
-    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/authors/giuseppe-manco/</loc>
     <lastmod>2022-03-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -375,27 +455,12 @@
   </url>
   
   <url>
-    <loc>https://gmanco.github.io/publication_types/</loc>
-    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/publication/</loc>
-    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gmanco.github.io/tags/social-influence/</loc>
     <lastmod>2022-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gmanco.github.io/tags/social-network-analysis/</loc>
-    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gmanco.github.io/tags/</loc>
     <lastmod>2022-03-04T00:00:00+00:00</lastmod>
   </url>
   

@@ -29,8 +29,8 @@
     
   
   <meta name="description" content=" Principali argomenti trattati:
- AlexNet VGG Residual Network Inception Network Data Augmentation Transfer Learning  Il materiale didattico (lucidi e notebooks) è disponibile qui
-Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link utili  Torch pretrained models TorchHUB Caltech101 dataset Survey on data augmentation technique  ">
+ LeNet CNN e Matrix Multiplication Saliency Map Pytorch models, gradient e back propagation  La lezione è corredata di notebook disponibili qui
+Riferimenti bibliografici  [Sze22], ch. 5.3, 5.4.5 [Elg20], ch 5.2  Link utili  Matrix Multiplication Saliency Maps 1 Saliency Maps 2 Saliency Maps 3  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture_lab5/">
@@ -128,16 +128,16 @@ Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link uti
   
   <meta property="og:site_name" content="Giuseppe Manco">
   <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture_lab5/">
-  <meta property="og:title" content="Image Classification | Giuseppe Manco">
+  <meta property="og:title" content="Saliency maps e backdrop | Giuseppe Manco">
   <meta property="og:description" content=" Principali argomenti trattati:
- AlexNet VGG Residual Network Inception Network Data Augmentation Transfer Learning  Il materiale didattico (lucidi e notebooks) è disponibile qui
-Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link utili  Torch pretrained models TorchHUB Caltech101 dataset Survey on data augmentation technique  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+ LeNet CNN e Matrix Multiplication Saliency Map Pytorch models, gradient e back propagation  La lezione è corredata di notebook disponibili qui
+Riferimenti bibliografici  [Sze22], ch. 5.3, 5.4.5 [Elg20], ch 5.2  Link utili  Matrix Multiplication Saliency Maps 1 Saliency Maps 2 Saliency Maps 3  "><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-04-23T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2022-04-13T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-04-23T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2022-04-13T00:00:00&#43;01:00">
   
 
   
@@ -149,7 +149,7 @@ Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link uti
 
 
 
-  <title>Image Classification | Giuseppe Manco</title>
+  <title>Saliency maps e backdrop | Giuseppe Manco</title>
 
 </head>
 
@@ -441,67 +441,59 @@ Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link uti
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
+        <a href="/courses/computervision/lecture2/">Concetti fondamentali. Filtri</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
+        <a href="/courses/computervision/lecture_lab1/">Laboratorio: Python and image processing</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture3/">Filtri</a>
+        <a href="/courses/computervision/lecture_lab2/">Laboratorio, Frequency Filtering</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
+        <a href="/courses/computervision/lecture3/">Derivate - Edge Detection</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture4/">Derivate - Edge Detection</a>
+        <a href="/courses/computervision/lecture_lab3/">Laboratorio: Edge detection, Hough Tranform</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
+        <a href="/courses/computervision/lecture4/">Feature descriptors - Classificazione</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3</a>
+        <a href="/courses/computervision/lecture_lab4/">Feature Descriptors: SIFT</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture6/">Feature descriptors - Classificazione</a>
+        <a href="/courses/computervision/lecture5/">Modelli non lineari. CNN</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture7/">Modelli non lineari. CNN</a>
+        <a href="/courses/computervision/lecture6/">Architetture CNN</a>
+      </li>
+      
+      <li >
+        <a href="/courses/computervision/lecture7/">Object Detection</a>
       </li>
       
       <li class="active">
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 3, Image Classification</a>
+        <a href="/courses/computervision/lecture_lab5/">Laboratorio: Saliency maps e backdrop</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4</a>
+        <a href="/courses/computervision/lecture_lab6/">Laboratorio: Batch normalization, data augmentation e transfer learning</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture8/">Object Detection</a>
+        <a href="/courses/computervision/lecture_lab7/">Object detection, activity recognition</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab6/">Esercitazione 5, Object Detection</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture9/">Segmentation</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture10/">Action Recognition</a>
-      </li>
-      
-      <li >
-        <a href="/courses/computervision/lecture11/">Generative Adversarial Networks</a>
+        <a href="/courses/computervision/lecture8/">Segmentation</a>
       </li>
       
     </ul>
@@ -539,7 +531,7 @@ Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link uti
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Image Classification</h1>
+          <h1 itemprop="name">Saliency maps e backdrop</h1>
 
           <div class="article-style" itemprop="articleBody">
             
@@ -547,30 +539,28 @@ Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link uti
 <p>Principali argomenti trattati:</p>
 
 <ul>
-<li>AlexNet</li>
-<li>VGG</li>
-<li>Residual Network</li>
-<li>Inception Network</li>
-<li>Data Augmentation</li>
-<li>Transfer Learning</li>
+<li>LeNet</li>
+<li>CNN e Matrix Multiplication</li>
+<li>Saliency Map</li>
+<li>Pytorch models, gradient e back propagation</li>
 </ul>
 
-<p>Il materiale didattico (lucidi e notebooks) è disponibile <a href="https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab05" target="_blank">qui</a></p>
+<p>La lezione è corredata di notebook disponibili <a href="https://github.com/gmanco/cv_notebooks/blob/master/labs_lecture/lab05" target="_blank">qui</a></p>
 
 <h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
 
 <ul>
-<li><strong>[Davies18]</strong>, ch. 15.</li>
-<li><strong>[Elg20]</strong>, ch. 4.6, 5, 6.</li>
+<li><strong>[Sze22]</strong>, ch. 5.3, 5.4.5</li>
+<li>[<strong>Elg20</strong>], ch 5.2</li>
 </ul>
 
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li><a href="https://pytorch.org/docs/stable/torchvision/models.html" target="_blank">Torch pretrained models</a></li>
-<li><a href="https://pytorch.org/hub/" target="_blank">TorchHUB</a></li>
-<li><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/" target="_blank">Caltech101 dataset</a></li>
-<li><a href="https://link.springer.com/article/10.1186/s40537-019-0197-0" target="_blank">Survey on data augmentation technique</a></li>
+<li><a href="https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/" target="_blank">Matrix Multiplication</a></li>
+<li><a href="https://christophm.github.io/interpretable-ml-book/pixel-attribution.html#guided-grad-cam" target="_blank">Saliency Maps 1</a></li>
+<li><a href="https://mrsalehi.medium.com/a-review-of-different-interpretation-methods-in-deep-learning-part-1-saliency-map-cam-grad-cam-3a34476bc24d" target="_blank">Saliency Maps 2</a></li>
+<li><a href="https://github.com/AntonotnaWang/saliency_maps" target="_blank">Saliency Maps 3</a></li>
 </ul>
 
           </div>
@@ -588,14 +578,14 @@ Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link uti
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture7/" rel="next">Neural Networks</a>
+    <a href="/courses/computervision/lecture7/" rel="next">Object Detection</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture_lab4/" rel="prev">Introduzione a Pytorch</a>
+    <a href="/courses/computervision/lecture_lab6/" rel="prev">Batch Normalization, Transfer learning</a>
   </div>
   
 </div>
@@ -605,7 +595,7 @@ Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link uti
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Apr 23, 2020</p>
+          <p>Last updated on Apr 13, 2022</p>
 
           
 
@@ -620,7 +610,7 @@ Riferimenti bibliografici  [Davies18], ch. 15. [Elg20], ch. 4.6, 5, 6.  Link uti
   
 
   <p class="powered-by">
-    &copy; 2021 Giuseppe Manco &middot; 
+    &copy; 2022 Giuseppe Manco &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

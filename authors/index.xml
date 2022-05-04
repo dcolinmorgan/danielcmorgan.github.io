@@ -5,12 +5,44 @@
     <link>https://gmanco.github.io/authors/</link>
       <atom:link href="https://gmanco.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Giuseppe Manco</copyright><lastBuildDate>Fri, 04 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Giuseppe Manco</copyright><lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Authors</title>
       <link>https://gmanco.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Francesco Sergio Pisani</title>
+      <link>https://gmanco.github.io/authors/francesco-sergio-pisani/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/francesco-sergio-pisani/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giuseppe Manco</title>
+      <link>https://gmanco.github.io/authors/giuseppe-manco/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/giuseppe-manco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Massimo Guarascio</title>
+      <link>https://gmanco.github.io/authors/massimo-guarascio/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/massimo-guarascio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nunziato Cassavia</title>
+      <link>https://gmanco.github.io/authors/nunziato-cassavia/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://gmanco.github.io/authors/nunziato-cassavia/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Angelica Liguori</title>
@@ -25,22 +57,6 @@
       <link>https://gmanco.github.io/authors/ettore-ritacco/</link>
       <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://gmanco.github.io/authors/ettore-ritacco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Francesco Sergio Pisani</title>
-      <link>https://gmanco.github.io/authors/francesco-sergio-pisani/</link>
-      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/authors/francesco-sergio-pisani/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Giuseppe Manco</title>
-      <link>https://gmanco.github.io/authors/giuseppe-manco/</link>
-      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://gmanco.github.io/authors/giuseppe-manco/</guid>
       <description></description>
     </item>
     

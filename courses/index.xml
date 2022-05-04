@@ -170,7 +170,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;Architetture Convoluzionalie&lt;/td&gt;
+&lt;td&gt;Architetture Convoluzionali.&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture6/&#34; target=&#34;_blank&#34;&gt;Slides, notebooks&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;06/04/2022&lt;/td&gt;
 &lt;/tr&gt;
@@ -180,6 +180,34 @@
 &lt;td&gt;Object Detection. Multi-shot detection.&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture7/&#34; target=&#34;_blank&#34;&gt;Slides, notebooks&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;07/04/2022&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Backpropagation e architetture convolutionali. Saliency maps e activation maps.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture_lab5/&#34; target=&#34;_blank&#34;&gt;Slides, notebooks&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;13/04/2022&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;Batch normalization e transfer learning&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture_lab6/&#34; target=&#34;_blank&#34;&gt;Slides, notebooks&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;20/04/2022&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Single-Shot Object detection. Activity recognition&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture_lab6/&#34; target=&#34;_blank&#34;&gt;Slides, notebooks&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;21/04/2022&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;Segmentation&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gmanco.github.io/courses/computervision/lecture8/&#34; target=&#34;_blank&#34;&gt;Slides, notebooks&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;27/04/2022, 28/04/2022, 04/05/2022&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

@@ -5,7 +5,7 @@
     <link>https://gmanco.github.io/</link>
       <atom:link href="https://gmanco.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Giuseppe Manco</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Giuseppe Manco</copyright><lastBuildDate>Wed, 04 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022 Giuseppe Manco</copyright><lastBuildDate>Thu, 26 May 2022 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://gmanco.github.io/img/manco.jpg</url>
       <title>Giuseppe Manco</title>
@@ -561,6 +561,99 @@ Il cliente saprà quindi quando deve aspettare o quando potrà accedere e verrà
 &lt;li&gt;&lt;a href=&#34;https://scipy-lectures.org/advanced/image_processing/&#34; target=&#34;_blank&#34;&gt;Image manipulation using Numpy and SciPy&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@enzoftware/how-to-build-amazing-images-filters-with-python-median-filter-sobel-filter-%EF%B8%8F-%EF%B8%8F-22aeb8e2f540&#34; target=&#34;_blank&#34;&gt;How to build an image filter in Python&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=otLGDpBglEA&amp;amp;feature=player_embedded&#34; target=&#34;_blank&#34;&gt;Instagram filters in 15 lines of code&lt;/a&gt;. Il codice è disponibile &lt;a href=&#34;https://github.com/lukexyz/CV-Instagram-Filters/blob/master/gotham.py&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab10/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab10/</guid>
+      <description>
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inception Score e FID&lt;/li&gt;
+&lt;li&gt;Presentazione progetto&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/raw/master/labs_lecture/lab10/&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Specifiche del progetto disponibili &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/raw/master/project&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, ch 8.2&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object Detection</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab8/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab8/</guid>
+      <description>
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Multi scale e dilated convolution&lt;/li&gt;
+&lt;li&gt;Mask R-CNN&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://gmanco.github.io/courses/computervision/pdf/9b.Segmentation_part2.pdf&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, ch. 7.3.3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, ch&lt;/li&gt;
+&lt;li&gt;Multigrid CNN, &lt;a href=&#34;https://arxiv.org/pdf/1611.07661.pdf&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;YOLACT, &lt;a href=&#34;https://abhigoku10.medium.com/cv2019-papersummary-yolact-real-time-instance-segmentation-e62fa721957f&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; &lt;a href=&#34;https://openaccess.thecvf.com/content_ICCV_2019/papers/Bolya_YOLACT_Real-Time_Instance_Segmentation_ICCV_2019_paper.pdf&#34; target=&#34;_blank&#34;&gt;link2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/understanding-2d-dilated-convolution-operation-with-examples-in-numpy-and-tensorflow-with-d376b3972b25&#34; target=&#34;_blank&#34;&gt;Dilated convolution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Optical Flow e Depth estimation</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture_lab9/</link>
+      <pubDate>Wed, 04 May 2022 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture_lab9/</guid>
+      <description>
+
+&lt;p&gt;Principali argomenti trattati:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Optical Flow&lt;/li&gt;
+&lt;li&gt;Depth estimation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La lezione è corredata di un notebook disponibile &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/raw/master/labs_lecture/lab09/lezione_depth_estimation.pdf&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Sze22]&lt;/strong&gt;, ch 9, 12&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/depth-estimation-1-basics-and-intuition-86f2c9538cd1&#34; target=&#34;_blank&#34;&gt;Introduction to Depth Entimation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://web.stanford.edu/class/cs231a/lectures/lecture11_monocular_depth_estimation_2022.pdf&#34; target=&#34;_blank&#34;&gt;From 3D Reconstruction to Recognition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/toyotaresearch/self-supervised-learning-in-depth-part-1-of-2-74825baaaa04&#34; target=&#34;_blank&#34;&gt;Self-supervision learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;3D Packing for Self-Supervised Monocular Depth Estimation&#34; target=&#34;_blank&#34;&gt;PachNet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://vision.disi.unibo.it/~mpoggi/teaching.html&#34; target=&#34;_blank&#34;&gt; Learning-based dense depth estimation from stereo and monocular images&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2381,6 +2474,79 @@ Il secondo esonero riguarderà approfondimenti sulle reti convoluzionali. I dett
 &lt;ul&gt;
 &lt;li&gt;Variational Autoencoders (&lt;a href=&#34;../pdf/11.Generative_models_VAE.pdf&#34;&gt;Slides&lt;/a&gt;, &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/11.Generative_models.ipynb&#34; target=&#34;_blank&#34;&gt;notebook&lt;/a&gt; di accompagnamento).&lt;/li&gt;
 &lt;li&gt;Adversarial Learning ()&lt;a href=&#34;../pdf/12.Generative_models_GAN.pdf&#34;&gt;Slides&lt;/a&gt;, &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/12.GAN.ipynb&#34; target=&#34;_blank&#34;&gt;notebook&lt;/a&gt; di accompagnamento).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riferimenti-bibliografici&#34;&gt;Riferimenti bibliografici&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Elg20]&lt;/strong&gt;, Ch. 8, 9.3.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;link-utili&#34;&gt;Link utili&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1312.6114&#34; target=&#34;_blank&#34;&gt;Autoencoding Variational Bayes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1401.4082&#34; target=&#34;_blank&#34;&gt;Stochastic Backpropagation and Approximate Inference in Deep Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jaan.io/what-is-variational-autoencoder-vae-tutorial/&#34; target=&#34;_blank&#34;&gt;What is a Variational Autoencoder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://papers.nips.cc/paper/6528-variational-autoencoder-for-deep-learning-of-images-labels-and-captions.pdf&#34; target=&#34;_blank&#34;&gt;Variational Autoencoder for Deep Learning of Images, Labels and Captions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1911.07389.pdf&#34; target=&#34;_blank&#34;&gt;Towards Visually Explaining Variational Autoencoders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73&#34; target=&#34;_blank&#34;&gt;Understanding VAEs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1606.04934&#34; target=&#34;_blank&#34;&gt;Improved Variational Inference with Inverse Autoregressive Flow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gmanco.github.io/post/on-semisupervised-vae/&#34; target=&#34;_blank&#34;&gt;Semi-supervised Variational Autoencoders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepgenerativemodels.github.io/&#34; target=&#34;_blank&#34;&gt;Deep Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com/blog/generative-models/&#34; target=&#34;_blank&#34;&gt;Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openreview.net/pdf?id=Sy2fzU9gl&#34; target=&#34;_blank&#34;&gt;$\beta$-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://deepgenerativemodels.github.io/&#34; target=&#34;_blank&#34;&gt;Deep Generative Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1406.2661&#34; target=&#34;_blank&#34;&gt;Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://danieltakeshi.github.io/2017/03/05/understanding-generative-adversarial-networks/&#34; target=&#34;_blank&#34;&gt;Understanding Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1606.03498.pdf&#34; target=&#34;_blank&#34;&gt;Improved Techniques for training GANs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1511.05101&#34; target=&#34;_blank&#34;&gt;How (not) to train your Generative Model: Scheduled Sampling, Likelihood, Adversary?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://arxiv.org/abs/1706.08500&#34; target=&#34;_blank&#34;&gt;GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1706.08224v2.pdf&#34; target=&#34;_blank&#34;&gt;Do GAN actually Learn the Distribution?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1710.10196.pdf&#34; target=&#34;_blank&#34;&gt;Progressive Growing of GANs for Improved Quality, Stability and Variation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1711.10337&#34; target=&#34;_blank&#34;&gt;Are GANs Created Equal? A Large-Scale Study&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1701.07875.pdf&#34; target=&#34;_blank&#34;&gt;Wasserstein GANs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wasserstein GANs: Blog posts &lt;a href=&#34;https://medium.com/@jonathan_hui/gan-wasserstein-gan-wgan-gp-6a1a2aa1b490&#34; target=&#34;_blank&#34;&gt;1&lt;/a&gt;, &lt;a href=&#34;https://www.depthfirstlearning.com/2019/WassersteinGAN&#34; target=&#34;_blank&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html&#34; target=&#34;_blank&#34;&gt;3&lt;/a&gt;, &lt;a href=&#34;http://lernapparat.de/improved-wasserstein-gan/&#34; target=&#34;_blank&#34;&gt;4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans&#34; target=&#34;_blank&#34;&gt;Improved training fo Wasserstein GANs&lt;/a&gt; (with some &lt;a href=&#34;https://github.com/t-vi/pytorch-tvmisc/blob/master/wasserstein-distance/Semi-Improved_Training_of_Wasserstein_GAN.ipynb&#34; target=&#34;_blank&#34;&gt;tricks&lt;/a&gt; on how to implement it in Pytorch)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/znxlwm/pytorch-generative-model-collections&#34; target=&#34;_blank&#34;&gt;A collection of Generative Models in Pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/soumith/ganhacks&#34; target=&#34;_blank&#34;&gt;How to train a GAN?&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=Qc1F3-Rblbw&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1903.06048.pdf&#34; target=&#34;_blank&#34;&gt;MSG-GAN: Multi-Scale Gradients for Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1411.1784&#34; target=&#34;_blank&#34;&gt;Conditional Generative Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1611.07004&#34; target=&#34;_blank&#34;&gt;Image to image translation with Conditional Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/a-gentle-introduction-to-cycle-consistent-adversarial-networks-6731c8424a87&#34; target=&#34;_blank&#34;&gt;A gentle introduction to CycleGAN for Image Translation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/1703.10593&#34; target=&#34;_blank&#34;&gt;Unpaired Image-to-image Translation using Cycle-Consistent Adversarial Networks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1807.00374.pdf&#34; target=&#34;_blank&#34;&gt;Augmented Cyclic Adversarial Learning for Low Resource Domain Adaptation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hardikbansal.github.io/CycleGANBlog/&#34; target=&#34;_blank&#34;&gt;Understanding and Implementing CycleGAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1610.09585.pdf&#34; target=&#34;_blank&#34;&gt;Conditional Image Synthesis with Auxiliary Classifier GANs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1803.04469.pdf&#34; target=&#34;_blank&#34;&gt;An Introduction to Image Synthesis with Generative Adversarial Nets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1809.11096.pdf&#34; target=&#34;_blank&#34;&gt;Large-Scale GAN Training for High-Fidelity Natural Image Synthesis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1809.06222.pdf&#34; target=&#34;_blank&#34;&gt;GANs for Medical Image Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hindupuravinash/the-gan-zoo&#34; target=&#34;_blank&#34;&gt;The GAN Zoo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/c/deepfake-detection-challenge/discussion/121313&#34; target=&#34;_blank&#34;&gt;GAN and Deepfakes resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@jonathan_hui/how-deep-learning-fakes-videos-deepfakes-and-how-to-detect-it-c0b50fbf7cb9&#34; target=&#34;_blank&#34;&gt;How deep learning fakes videos and how to detect it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://towardsdatascience.com/deepfakes-the-ugly-and-the-good-49115643d8dd&#34; target=&#34;_blank&#34;&gt;Deepfakes: The ugly, and the good&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://neurohive.io/en/news/deepfake-videos-gan-sythesizes-a-video-from-a-single-photo/&#34; target=&#34;_blank&#34;&gt;Deepfake Videos: GAN synthesizes a Video from a Single Photo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Neural Style Transfer &lt;a href=&#34;[https://towardsdatascience.com/neural-style-transfer-tutorial-part-1-f5cd3315fa7f&#34; target=&#34;_blank&#34;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1508.06576.pdf&#34; target=&#34;_blank&#34;&gt;A Neural algorithm of Artistic Style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3390462&#34; target=&#34;_blank&#34;&gt;A Deep Journey into Superresolution&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generative Adversarial Networks</title>
+      <link>https://gmanco.github.io/courses/computervision/lecture9/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0100</pubDate>
+      <guid>https://gmanco.github.io/courses/computervision/lecture9/</guid>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;Modelli Generativi:
+
+&lt;ul&gt;
+&lt;li&gt;Variational Autoencoders (&lt;a href=&#34;../pdf/10.Generative_models_VAE.pdf&#34;&gt;Slides&lt;/a&gt;, &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/11.Generative_models.ipynb&#34; target=&#34;_blank&#34;&gt;notebook&lt;/a&gt; di accompagnamento).&lt;/li&gt;
+&lt;li&gt;Adversarial Learning ()&lt;a href=&#34;../pdf/11.Generative_models_GAN.pdf&#34;&gt;Slides&lt;/a&gt;, &lt;a href=&#34;https://github.com/gmanco/cv_notebooks/blob/master/12.GAN.ipynb&#34; target=&#34;_blank&#34;&gt;notebook&lt;/a&gt; di accompagnamento).&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

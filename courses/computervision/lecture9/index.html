@@ -28,11 +28,7 @@
   
     
   
-  <meta name="description" content="Segmentation.
- Approcci classici. Conditional Random Fields. slides. Approcci Neurali. Semantic Segmentation. Instance Segmentation. slides. Notebook di accompagnamento.   Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link utili  An Introduction to Conditional Random Fields
- Structured Learning and Prediction in Computer Vision
- An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision
- Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials (with Supplemental Material)">
+  <meta name="description" content="Modelli Generativi:  Variational Autoencoders (Slides, notebook di accompagnamento). Adversarial Learning ()Slides, notebook di accompagnamento).   Riferimenti bibliografici  [Elg20], Ch. 8, 9.3.  Link utili  Autoencoding Variational Bayes Stochastic Backpropagation and Approximate Inference in Deep Generative Models What is a Variational Autoencoder Variational Autoencoder for Deep Learning of Images, Labels and Captions Towards Visually Explaining Variational Autoencoders Understanding VAEs Improved Variational Inference with Inverse Autoregressive Flow Semi-supervised Variational Autoencoders Deep Generative Models Generative Models $\beta$-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework Deep Generative Models Generative Adversarial Networks Understanding Generative Adversarial Networks Improved Techniques for training GANs How (not) to train your Generative Model: Scheduled Sampling, Likelihood, Adversary?">
 
   
   <link rel="alternate" hreflang="en-us" href="https://gmanco.github.io/courses/computervision/lecture9/">
@@ -130,18 +126,14 @@
   
   <meta property="og:site_name" content="Giuseppe Manco">
   <meta property="og:url" content="https://gmanco.github.io/courses/computervision/lecture9/">
-  <meta property="og:title" content="Segmentation | Giuseppe Manco">
-  <meta property="og:description" content="Segmentation.
- Approcci classici. Conditional Random Fields. slides. Approcci Neurali. Semantic Segmentation. Instance Segmentation. slides. Notebook di accompagnamento.   Riferimenti bibliografici  [Sze11], Ch. 5 [Davies18], Ch.11 [Gon18], Ch.10  Link utili  An Introduction to Conditional Random Fields
- Structured Learning and Prediction in Computer Vision
- An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision
- Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials (with Supplemental Material)"><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
+  <meta property="og:title" content="Generative Adversarial Networks | Giuseppe Manco">
+  <meta property="og:description" content="Modelli Generativi:  Variational Autoencoders (Slides, notebook di accompagnamento). Adversarial Learning ()Slides, notebook di accompagnamento).   Riferimenti bibliografici  [Elg20], Ch. 8, 9.3.  Link utili  Autoencoding Variational Bayes Stochastic Backpropagation and Approximate Inference in Deep Generative Models What is a Variational Autoencoder Variational Autoencoder for Deep Learning of Images, Labels and Captions Towards Visually Explaining Variational Autoencoders Understanding VAEs Improved Variational Inference with Inverse Autoregressive Flow Semi-supervised Variational Autoencoders Deep Generative Models Generative Models $\beta$-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework Deep Generative Models Generative Adversarial Networks Understanding Generative Adversarial Networks Improved Techniques for training GANs How (not) to train your Generative Model: Scheduled Sampling, Likelihood, Adversary?"><meta property="og:image" content="https://gmanco.github.io/img/manco.jpg">
   <meta property="twitter:image" content="https://gmanco.github.io/img/manco.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-05-12T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2020-05-25T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-05-12T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2020-05-25T00:00:00&#43;01:00">
   
 
   
@@ -153,7 +145,7 @@
 
 
 
-  <title>Segmentation | Giuseppe Manco</title>
+  <title>Generative Adversarial Networks | Giuseppe Manco</title>
 
 </head>
 
@@ -445,67 +437,75 @@
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab1/">Esercitazione 1</a>
+        <a href="/courses/computervision/lecture2/">Concetti fondamentali. Filtri</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture2/">Concetti fondamentali</a>
+        <a href="/courses/computervision/lecture_lab1/">Laboratorio: Python and image processing</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture3/">Filtri</a>
+        <a href="/courses/computervision/lecture_lab10/">Esercitazione 10</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab2/">Esercitazione 2</a>
+        <a href="/courses/computervision/lecture_lab8/">Esercitazione 8</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture4/">Derivate - Edge Detection</a>
+        <a href="/courses/computervision/lecture_lab9/">Esercitazione 9</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture5/">Edges, Lines, Shapes</a>
+        <a href="/courses/computervision/lecture_lab2/">Laboratorio, Frequency Filtering</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab3/">Esercitazione 3</a>
+        <a href="/courses/computervision/lecture3/">Derivate - Edge Detection</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture6/">Feature descriptors - Classificazione</a>
+        <a href="/courses/computervision/lecture_lab3/">Laboratorio: Edge detection, Hough Tranform</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture7/">Modelli non lineari. CNN</a>
+        <a href="/courses/computervision/lecture4/">Feature descriptors - Classificazione</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab5/">Esercitazione 3, Image Classification</a>
+        <a href="/courses/computervision/lecture_lab4/">Feature Descriptors: SIFT</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab4/">Esercitazione 4</a>
+        <a href="/courses/computervision/lecture5/">Modelli non lineari. CNN</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture8/">Object Detection</a>
+        <a href="/courses/computervision/lecture6/">Architetture CNN</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture_lab6/">Esercitazione 5, Object Detection</a>
+        <a href="/courses/computervision/lecture7/">Object Detection</a>
+      </li>
+      
+      <li >
+        <a href="/courses/computervision/lecture_lab5/">Laboratorio: Saliency maps e backdrop</a>
+      </li>
+      
+      <li >
+        <a href="/courses/computervision/lecture_lab6/">Laboratorio: Batch normalization, data augmentation e transfer learning</a>
       </li>
       
       <li class="active">
-        <a href="/courses/computervision/lecture9/">Segmentation</a>
+        <a href="/courses/computervision/lecture9/">Generative Adversarial Networks</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture10/">Action Recognition</a>
+        <a href="/courses/computervision/lecture_lab7/">Object detection, activity recognition</a>
       </li>
       
       <li >
-        <a href="/courses/computervision/lecture11/">Generative Adversarial Networks</a>
+        <a href="/courses/computervision/lecture8/">Segmentation</a>
       </li>
       
     </ul>
@@ -543,95 +543,73 @@
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Segmentation</h1>
+          <h1 itemprop="name">Generative Adversarial Networks</h1>
 
           <div class="article-style" itemprop="articleBody">
             
 
 <ul>
-<li><p>Segmentation.</p>
+<li>Modelli Generativi:
 
 <ul>
-<li>Approcci classici. Conditional Random Fields. <a href="../pdf/9a.Segmentation_part1.pdf">slides</a>.</li>
-<li>Approcci Neurali. Semantic Segmentation. Instance Segmentation. <a href="../pdf/9b.Segmentation_part2.pdf">slides</a>.</li>
-<li><a href="https://github.com/gmanco/cv_notebooks/blob/master/9.Segmentation.ipynb" target="_blank">Notebook</a> di accompagnamento.</li>
+<li>Variational Autoencoders (<a href="../pdf/10.Generative_models_VAE.pdf">Slides</a>, <a href="https://github.com/gmanco/cv_notebooks/blob/master/11.Generative_models.ipynb" target="_blank">notebook</a> di accompagnamento).</li>
+<li>Adversarial Learning ()<a href="../pdf/11.Generative_models_GAN.pdf">Slides</a>, <a href="https://github.com/gmanco/cv_notebooks/blob/master/12.GAN.ipynb" target="_blank">notebook</a> di accompagnamento).</li>
 </ul></li>
 </ul>
 
 <h2 id="riferimenti-bibliografici">Riferimenti bibliografici</h2>
 
 <ul>
-<li><strong>[Sze11]</strong>, Ch. 5</li>
-<li><strong>[Davies18]</strong>, Ch.11</li>
-<li><strong>[Gon18]</strong>, Ch.10</li>
+<li><strong>[Elg20]</strong>, Ch. 8, 9.3.</li>
 </ul>
 
 <h2 id="link-utili">Link utili</h2>
 
 <ul>
-<li><p><a href="https://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf" target="_blank">An Introduction to Conditional Random Fields</a></p></li>
-
-<li><p><a href="http://www.nowozin.net/sebastian/papers/nowozin2011structured-tutorial.pdf" target="_blank">Structured Learning and Prediction in Computer Vision</a></p></li>
-
-<li><p><a href="https://www.csd.uwo.ca/~yboykov/Papers/pami04.pdf" target="_blank">An experimental Comparison of Min-cut/Max Flow algorithms for Energy Minimization in Vision</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1210.5644.pdf" target="_blank">Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials</a> (with <a href="http://vladlen.info/papers/densecrf-supplementary.pdf" target="_blank">Supplemental Material</a>)</p></li>
-
-<li><p><a href="https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776" target="_blank">Conditional Random Fields explained</a></p></li>
-
-<li><p><a href="https://blog.echen.me/2012/01/03/introduction-to-conditional-random-fields/" target="_blank">Introduction to Conditional Random Fields</a></p></li>
-
-<li><p><a href="https://www.topbots.com/semantic-segmentation-guide/" target="_blank">A simple guide to semantic Segmentation</a> and <a href="https://heartbeat.fritz.ai/a-2019-guide-to-semantic-segmentation-ca8242f5a7fc" target="_blank">A 2019 guide to semantic segmentation</a></p></li>
-
-<li><p><a href="https://arxiv.org/abs/1605.06211" target="_blank">Fully Convolutional Networks for Semantic Segmentation</a></p></li>
-
-<li><p><a href="https://towardsdatascience.com/review-fcn-semantic-segmentation-eb8c9b50d2d1" target="_blank">Review - FCN</a></p></li>
-
-<li><p><a href="https://medium.com/activating-robotic-minds/up-sampling-with-transposed-convolution-9ae4f2df52d0" target="_blank">Upsampling with Transposed Convolution</a>; <a href="https://towardsdatascience.com/transposed-convolution-demystified-84ca81b4baba" target="_blank">Transposed Convolution demystified</a>; <a href="https://medium.com/apache-mxnet/transposed-convolutions-explained-with-ms-excel-52d13030c7e8" target="_blank">Transposed convolutions explained with Excel</a></p></li>
-
-<li><p><a href="https://distill.pub/2016/deconv-checkerboard/" target="_blank">Deconvolution and checkerboard artifacts</a></p></li>
-
-<li><p><a href="https://towardsdatascience.com/understanding-2d-dilated-convolution-operation-with-examples-in-numpy-and-tensorflow-with-d376b3972b25" target="_blank">Understanding 2D Dilated Convolution</a></p></li>
-
-<li><p><a href="http://cvlab.postech.ac.kr/research/deconvnet/" target="_blank">Learning Deconvolution Network for Semantic Segmentation</a></p></li>
-
-<li><p><a href="http://arxiv.org/abs/1511.00561" target="_blank">SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation</a>]</p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1505.04597.pdf" target="_blank">U-Net: Convolutional Networks for Biomedical Image Segmentation</a></p></li>
-
-<li><p><a href="https://arxiv.org/abs/1611.09326" target="_blank">The One Hundred Layers Tiramisu</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1612.01105.pdf" target="_blank">Pyramid scene parsing Networks</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1606.00915.pdf" target="_blank">DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs</a></p></li>
-
-<li><p><a href="https://arxiv.org/abs/1511.07122" target="_blank">Multiscale Context aggregation by dilated convolutions</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1706.05587.pdf" target="_blank">Rethinking Atrous Convolution for Semantic Image Segmentation</a></p></li>
-
-<li><p>Review: <a href="https://towardsdatascience.com/review-deeplabv1-deeplabv2-atrous-convolution-semantic-segmentation-b51c5fbde92d" target="_blank">DeepLabv2</a> e <a href="https://towardsdatascience.com/review-deeplabv3-atrous-convolution-semantic-segmentation-6d818bfd1d74" target="_blank">DeepLabv3</a></p></li>
-
-<li><p><a href="https://openreview.net/pdf?id=S1uHiFyyg" target="_blank">Speeding up Semantic segmentation for autonomous driving</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1606.02147.pdf" target="_blank">ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation</a></p></li>
-
-<li><p><a href="ICNet for Real-Time Semantic Segmentation on High-Resolution Images" target="_blank">ICNet for Real-Time Semantic Segmentation on High-Resolution Images</a></p></li>
-
-<li><p><a href="https://arxiv.org/abs/1902.04502" target="_blank">Fast-SCNN: Fast Semantic Segmentation Network</a></p></li>
-
-<li><p><a href="http://openaccess.thecvf.com/content_CVPR_2019/html/Li_DFANet_Deep_Feature_Aggregation_for_Real-Time_Semantic_Segmentation_CVPR_2019_paper.html" target="_blank">DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation</a></p></li>
-
-<li><p><a href="https://arxiv.org/abs/1703.06870" target="_blank">Mask R-CNN</a></p></li>
-
-<li><p><a href="https://medium.com/@jonathan_hui/image-segmentation-with-mask-r-cnn-ebe6d793272" target="_blank">Image Segmentation with Mask R-CNN</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1611.07709.pdf" target="_blank">Fully Convolutional Instance-aware Semantic Segmentation</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1904.02689.pdf" target="_blank">YOLACT</a> and <a href="https://arxiv.org/abs/1912.06218" target="_blank">YOLOACT++</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1801.00868.pdf" target="_blank">Pantropic Segmentation</a></p></li>
-
-<li><p><a href="https://github.com/mrgloom/awesome-semantic-segmentation/blob/master/README.md" target="_blank">Awesome Semantic Segmentation Collection</a></p></li>
+<li><a href="https://arxiv.org/abs/1312.6114" target="_blank">Autoencoding Variational Bayes</a></li>
+<li><a href="https://arxiv.org/abs/1401.4082" target="_blank">Stochastic Backpropagation and Approximate Inference in Deep Generative Models</a></li>
+<li><a href="https://jaan.io/what-is-variational-autoencoder-vae-tutorial/" target="_blank">What is a Variational Autoencoder</a></li>
+<li><a href="https://papers.nips.cc/paper/6528-variational-autoencoder-for-deep-learning-of-images-labels-and-captions.pdf" target="_blank">Variational Autoencoder for Deep Learning of Images, Labels and Captions</a></li>
+<li><a href="https://arxiv.org/pdf/1911.07389.pdf" target="_blank">Towards Visually Explaining Variational Autoencoders</a></li>
+<li><a href="https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73" target="_blank">Understanding VAEs</a></li>
+<li><a href="https://arxiv.org/abs/1606.04934" target="_blank">Improved Variational Inference with Inverse Autoregressive Flow</a></li>
+<li><a href="https://gmanco.github.io/post/on-semisupervised-vae/" target="_blank">Semi-supervised Variational Autoencoders</a></li>
+<li><a href="https://deepgenerativemodels.github.io/" target="_blank">Deep Generative Models</a></li>
+<li><a href="https://openai.com/blog/generative-models/" target="_blank">Generative Models</a></li>
+<li><a href="https://openreview.net/pdf?id=Sy2fzU9gl" target="_blank">$\beta$-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework</a></li>
+<li><a href="https://deepgenerativemodels.github.io/" target="_blank">Deep Generative Models</a></li>
+<li><a href="https://arxiv.org/abs/1406.2661" target="_blank">Generative Adversarial Networks</a></li>
+<li><a href="https://danieltakeshi.github.io/2017/03/05/understanding-generative-adversarial-networks/" target="_blank">Understanding Generative Adversarial Networks</a></li>
+<li><a href="https://arxiv.org/pdf/1606.03498.pdf" target="_blank">Improved Techniques for training GANs</a></li>
+<li><a href="https://arxiv.org/abs/1511.05101" target="_blank">How (not) to train your Generative Model: Scheduled Sampling, Likelihood, Adversary?</a></li>
+<li><a href="http://arxiv.org/abs/1706.08500" target="_blank">GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium</a></li>
+<li><a href="https://arxiv.org/pdf/1706.08224v2.pdf" target="_blank">Do GAN actually Learn the Distribution?</a></li>
+<li><a href="https://arxiv.org/pdf/1710.10196.pdf" target="_blank">Progressive Growing of GANs for Improved Quality, Stability and Variation</a></li>
+<li><a href="https://arxiv.org/abs/1711.10337" target="_blank">Are GANs Created Equal? A Large-Scale Study</a></li>
+<li><a href="https://arxiv.org/pdf/1701.07875.pdf" target="_blank">Wasserstein GANs</a></li>
+<li>Wasserstein GANs: Blog posts <a href="https://medium.com/@jonathan_hui/gan-wasserstein-gan-wgan-gp-6a1a2aa1b490" target="_blank">1</a>, <a href="https://www.depthfirstlearning.com/2019/WassersteinGAN" target="_blank">2</a>, <a href="https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html" target="_blank">3</a>, <a href="http://lernapparat.de/improved-wasserstein-gan/" target="_blank">4</a></li>
+<li><a href="http://papers.nips.cc/paper/7159-improved-training-of-wasserstein-gans" target="_blank">Improved training fo Wasserstein GANs</a> (with some <a href="https://github.com/t-vi/pytorch-tvmisc/blob/master/wasserstein-distance/Semi-Improved_Training_of_Wasserstein_GAN.ipynb" target="_blank">tricks</a> on how to implement it in Pytorch)</li>
+<li><a href="https://github.com/znxlwm/pytorch-generative-model-collections" target="_blank">A collection of Generative Models in Pytorch</a></li>
+<li><a href="https://github.com/soumith/ganhacks" target="_blank">How to train a GAN?</a> (<a href="https://www.youtube.com/watch?v=Qc1F3-Rblbw" target="_blank">video</a>)</li>
+<li><a href="https://arxiv.org/pdf/1903.06048.pdf" target="_blank">MSG-GAN: Multi-Scale Gradients for Generative Adversarial Networks</a></li>
+<li><a href="https://arxiv.org/abs/1411.1784" target="_blank">Conditional Generative Adversarial Networks</a></li>
+<li><a href="https://arxiv.org/abs/1611.07004" target="_blank">Image to image translation with Conditional Adversarial Networks</a></li>
+<li><a href="https://towardsdatascience.com/a-gentle-introduction-to-cycle-consistent-adversarial-networks-6731c8424a87" target="_blank">A gentle introduction to CycleGAN for Image Translation</a></li>
+<li><a href="https://arxiv.org/abs/1703.10593" target="_blank">Unpaired Image-to-image Translation using Cycle-Consistent Adversarial Networks</a></li>
+<li><a href="https://arxiv.org/pdf/1807.00374.pdf" target="_blank">Augmented Cyclic Adversarial Learning for Low Resource Domain Adaptation</a></li>
+<li><a href="https://hardikbansal.github.io/CycleGANBlog/" target="_blank">Understanding and Implementing CycleGAN</a></li>
+<li><a href="https://arxiv.org/pdf/1610.09585.pdf" target="_blank">Conditional Image Synthesis with Auxiliary Classifier GANs</a></li>
+<li><a href="https://arxiv.org/pdf/1803.04469.pdf" target="_blank">An Introduction to Image Synthesis with Generative Adversarial Nets</a></li>
+<li><a href="https://arxiv.org/pdf/1809.11096.pdf" target="_blank">Large-Scale GAN Training for High-Fidelity Natural Image Synthesis</a></li>
+<li><a href="https://arxiv.org/pdf/1809.06222.pdf" target="_blank">GANs for Medical Image Analysis</a></li>
+<li><a href="https://github.com/hindupuravinash/the-gan-zoo" target="_blank">The GAN Zoo</a></li>
+<li><a href="https://www.kaggle.com/c/deepfake-detection-challenge/discussion/121313" target="_blank">GAN and Deepfakes resources</a></li>
+<li><a href="https://medium.com/@jonathan_hui/how-deep-learning-fakes-videos-deepfakes-and-how-to-detect-it-c0b50fbf7cb9" target="_blank">How deep learning fakes videos and how to detect it</a></li>
+<li><a href="https://towardsdatascience.com/deepfakes-the-ugly-and-the-good-49115643d8dd" target="_blank">Deepfakes: The ugly, and the good</a></li>
+<li><a href="https://neurohive.io/en/news/deepfake-videos-gan-sythesizes-a-video-from-a-single-photo/" target="_blank">Deepfake Videos: GAN synthesizes a Video from a Single Photo</a></li>
+<li>Neural Style Transfer <a href="[https://towardsdatascience.com/neural-style-transfer-tutorial-part-1-f5cd3315fa7f" target="_blank">Tutorial</a></li>
+<li><a href="https://arxiv.org/pdf/1508.06576.pdf" target="_blank">A Neural algorithm of Artistic Style</a></li>
+<li><a href="https://dl.acm.org/doi/abs/10.1145/3390462" target="_blank">A Deep Journey into Superresolution</a></li>
 </ul>
 
           </div>
@@ -649,14 +627,14 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/computervision/lecture_lab6/" rel="next">Object Detection</a>
+    <a href="/courses/computervision/lecture_lab7/" rel="next">Object Detection, activity recognition</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/courses/computervision/lecture10/" rel="prev">Action Recognition</a>
+    <a href="/courses/computervision/lecture8/" rel="prev">Segmentation</a>
   </div>
   
 </div>
@@ -666,7 +644,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on May 12, 2020</p>
+          <p>Last updated on May 25, 2020</p>
 
           
 
@@ -681,7 +659,7 @@
   
 
   <p class="powered-by">
-    &copy; 2021 Giuseppe Manco &middot; 
+    &copy; 2022 Giuseppe Manco &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
